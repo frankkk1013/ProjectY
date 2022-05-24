@@ -15,10 +15,10 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
                         VStack{
-                            Text("Where do you want to go?")
+                            Text("")
                             
 //                            Text(searchText)
-                            .searchable(text: $searchText, prompt: "Location")
+                            .searchable(text: $searchText, prompt: "Where do you want to go?")
                             
                             DatePicker(
                                     "Start Date",
