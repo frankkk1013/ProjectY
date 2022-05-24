@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C84FF8283C0C1A007B2534 /* HomeView.swift */; };
 		FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B6283B782E00139239 /* ProjectYApp.swift */; };
 		FB8126B9283B782E00139239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B8283B782E00139239 /* ContentView.swift */; };
 		FB8126BB283B783100139239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8126BA283B783000139239 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1C84FF8283C0C1A007B2534 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FB8126B3283B782E00139239 /* ProjectY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8126B6283B782E00139239 /* ProjectYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectYApp.swift; sourceTree = "<group>"; };
 		FB8126B8283B782E00139239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				FB8126B6283B782E00139239 /* ProjectYApp.swift */,
 				FB8126B8283B782E00139239 /* ContentView.swift */,
+				C1C84FF8283C0C1A007B2534 /* HomeView.swift */,
 				FB8126C6283B8C5F00139239 /* Accomodation.swift */,
 				FB8126C8283B8C7900139239 /* UiElements.swift */,
 				FB8126CC283B909900139239 /* Activities.swift */,
@@ -157,6 +160,7 @@
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB8126C9283B8C7900139239 /* UiElements.swift in Sources */,
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
+				C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */,
 				FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */,
 				FB8126CD283B909900139239 /* Activities.swift in Sources */,
 			);
