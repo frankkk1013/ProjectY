@@ -11,7 +11,8 @@ import SwiftUI
 struct ProjectYApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            Activities()
         }
     }
 }
