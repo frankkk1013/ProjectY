@@ -60,7 +60,7 @@ struct Activities: View {
                         
                     }
                 }.background{
-                    NavigationLink("", isActive: $next, destination: { Accomodation()})
+                    NavigationLink("", isActive: $next, destination: { YourTrips()})
                 }
                 
             

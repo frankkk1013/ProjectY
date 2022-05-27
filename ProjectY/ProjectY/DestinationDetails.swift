@@ -11,7 +11,7 @@ struct DestinationDetails: View {
     
     var body: some View {
         
-        NavigationView {
+        
             
             ScrollView(.vertical, showsIndicators: true) {
                 
@@ -22,7 +22,7 @@ struct DestinationDetails: View {
                 //            .navigationBarTitle("Destination details")
             }
             //            .navigationBarItems(trailing:NavigationLink(destination: Text(""),label: {}))
-        }
+        
     }
 }
 

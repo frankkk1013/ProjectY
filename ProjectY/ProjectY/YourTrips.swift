@@ -11,7 +11,7 @@ struct YourTrips: View {
     
     var body: some View {
         
-        NavigationView {
+    
             ScrollView(.vertical, showsIndicators: true) {
                 
                 VStack(spacing: 0){
@@ -26,7 +26,7 @@ struct YourTrips: View {
             .navigationBarItems(leading:NavigationLink(destination: Text(""), label: {
                 EditButton()
             }))
-        }
+        
     }
 }
 
