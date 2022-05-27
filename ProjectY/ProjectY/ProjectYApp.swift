@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct ProjectYApp: App {
+    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+            if(needsAppOnboarding){
+                HomeView()
+                
+            }else{
+                HomeView()
+                
+            }
+            }
+            
+
+            
         }
     }
 }
