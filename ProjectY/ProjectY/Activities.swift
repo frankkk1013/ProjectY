@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct Activities: View {
+    @State var next: Bool = false
     @StateObject var settings = Settings()
     
     private var gridItemLayout  = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
     
-    private var uiData : [UiData] = [UiData(name: "Hotel", icon: "tram.fill"),UiData(name: "Hotel1", icon: "tram.fill"),UiData(name: "Hotel2", icon: "tram.fill"),UiData(name: "Hotel3", icon: "tram.fill"),UiData(name: "Hotel4", icon: "tram.fill"),UiData(name: "Hotel5", icon: "tram.fill")]
-    private var more: [UiData] = [UiData(name: "Hotel", icon: "tram.fill"),UiData(name: "Hotel1", icon: "tram.fill"),UiData(name: "Hotel2", icon: "tram.fill")]
+    private var uiData : [UiData] = [UiData(name: "Relax", icon: "Relax"),UiData(name: "Work", icon: "Work"),UiData(name: "Swimming", icon: "Swimming"),UiData(name: "Photography", icon: "Photography"),UiData(name: "Ski", icon: "Ski"),UiData(name: "Hiking", icon: "Hiking"),UiData(name: "Cycling", icon: "Cycling"),UiData(name: "Concert", icon: "Concert"),UiData(name: "Theatre", icon: "Theatre")]
+    private var more: [UiData] = [UiData(name: "Wheelchair", icon: "Wheelchair"),UiData(name: "Dog", icon: "Dog"),UiData(name: "Baby", icon: "Baby")]
     
     var body: some View {
-        NavigationView{
+        
             ScrollView{
                 LazyVGrid(columns: gridItemLayout, spacing: 20){
                     ForEach(uiData, id: \.self) { element in
@@ -40,12 +41,15 @@ struct Activities: View {
                         
                         Button {
                             print(settings.elements.isEmpty)
+                            if !settings.elements.isEmpty && !settings.second.isEmpty{
+                                next.toggle()
+                            }
                         } label: {
                             Text("Continue                 ")
                                 .font(.title3).bold()
                                 .padding()
                                 .foregroundColor(.white)
-                                .background(Color((settings.elements.isEmpty || settings.second.isEmpty ) ? "Square" : "OrangeSquare")).cornerRadius(12)
+                                .background(Color((settings.elements.isEmpty || settings.second.isEmpty ) ? "Square" : "GreenSquare")).cornerRadius(12)
                             
                         }.frame(width: 197, height: 50)
                             .padding(.top)
@@ -55,6 +59,8 @@ struct Activities: View {
                         
                         
                     }
+                }.background{
+                    NavigationLink("", isActive: $next, destination: { Accomodation()})
                 }
                 
             
@@ -62,9 +68,9 @@ struct Activities: View {
             
             
             
-            .navigationTitle("Luggage")
+            .navigationTitle("Activities")
             .navigationBarBackButtonHidden(false)
-        }
+        
     }
 }
 

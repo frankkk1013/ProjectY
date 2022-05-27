@@ -11,10 +11,11 @@ import SwiftUI
 
 struct Accomodation: View {
     @StateObject var settings = Settings()
+    @State var next: Bool = false
     private var gridItemLayout  = [GridItem(.flexible()),GridItem(.flexible())]
 //    private var uiData
     
-    private var uiData : [UiData] = [UiData(name: "Hotel", icon: "tram.fill"),UiData(name: "Hotel1", icon: "tram.fill"),UiData(name: "Hotel2", icon: "tram.fill"),UiData(name: "Hotel3", icon: "tram.fill"),UiData(name: "Hotel4", icon: "tram.fill"),UiData(name: "Hotel5", icon: "tram.fill")]
+    private var uiData : [UiData] = [UiData(name: "Hotel", icon: "Hotel"),UiData(name: "House", icon: "House"),UiData(name: "Hostel", icon: "Hostel"),UiData(name: "Camper", icon: "Camper"),UiData(name: "Roulotte", icon: "Roulotte"),UiData(name: "B&B", icon: "B&B")]
     
     var body: some View {
         ScrollView{
@@ -28,15 +29,20 @@ struct Accomodation: View {
                 
                 Button {
                     print("Button was tapped")
+                    if !settings.elements.isEmpty{
+                        next.toggle()
+                    }
                 } label: {
                     Text("Continue                 ")
                         .font(.title3).bold()
                         .padding()
                         .foregroundColor(.white)
-                        .background(Color(settings.elements.isEmpty ? "Square" : "OrangeSquare")).cornerRadius(12)
+                        .background(Color(settings.elements.isEmpty ? "Square" : "GreenSquare")).cornerRadius(12)
                     
                 }.frame(width: 197, height: 50)
                     .padding(.top)
+            }.background{
+                NavigationLink("", isActive: $next, destination: { Luggage()})
             }
         }.navigationTitle("Accomodation")
             .navigationBarBackButtonHidden(false)

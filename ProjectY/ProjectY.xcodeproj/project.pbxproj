@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C84FF8283C0C1A007B2534 /* HomeView.swift */; };
+		FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */; };
+		FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB15CFFD2840C51F001F2933 /* MapKit.framework */; };
 		FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B6283B782E00139239 /* ProjectYApp.swift */; };
 		FB8126B9283B782E00139239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B8283B782E00139239 /* ContentView.swift */; };
 		FB8126BB283B783100139239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8126BA283B783000139239 /* Assets.xcassets */; };
@@ -21,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		C1C84FF8283C0C1A007B2534 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
+		FB15CFFB2840C51F001F2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FB15CFFD2840C51F001F2933 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FB8126B3283B782E00139239 /* ProjectY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8126B6283B782E00139239 /* ProjectYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectYApp.swift; sourceTree = "<group>"; };
 		FB8126B8283B782E00139239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,17 +43,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB15CFFC2840C51F001F2933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB15CFFD2840C51F001F2933 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB8126AA283B782E00139239 = {
 			isa = PBXGroup;
 			children = (
 				FB8126B5283B782E00139239 /* ProjectY */,
 				FB8126B4283B782E00139239 /* Products */,
+				FB15CFFC2840C51F001F2933 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +78,7 @@
 		FB8126B5283B782E00139239 /* ProjectY */ = {
 			isa = PBXGroup;
 			children = (
+				FB15CFFB2840C51F001F2933 /* Info.plist */,
 				FB8126B6283B782E00139239 /* ProjectYApp.swift */,
 				FB8126B8283B782E00139239 /* ContentView.swift */,
 				C1C84FF8283C0C1A007B2534 /* HomeView.swift */,
@@ -73,6 +89,7 @@
 				FB8126C4283B78ED00139239 /* Trasportation.swift */,
 				FB8126BA283B783000139239 /* Assets.xcassets */,
 				FB8126BC283B783100139239 /* Preview Content */,
+				FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */,
 			);
 			path = ProjectY;
 			sourceTree = "<group>";
@@ -162,6 +179,7 @@
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
 				C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */,
 				FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */,
+				FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */,
 				FB8126CD283B909900139239 /* Activities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +312,7 @@
 				DEVELOPMENT_TEAM = C598U6DJ3G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjectY/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +342,7 @@
 				DEVELOPMENT_TEAM = C598U6DJ3G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjectY/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -36,11 +36,20 @@ struct SquareElement: View{
        
         
         VStack{
-            Image(systemName: image)
-                .foregroundColor(colorTxt).padding(.bottom)
+            if colorFlag{
+                Image( image)
+                    .foregroundColor(colorTxt).padding(.bottom).foregroundColor(.white)
+                
+            }else{
+                Image( image)
+                    .foregroundColor(colorTxt).padding(.bottom)
+            }
             
-            Text(text).bold()
-                .foregroundColor(colorTxt)
+            
+            Text(text).bold().font(.headline)
+                .foregroundColor(colorTxt).minimumScaleFactor(0.0001)
+               
+                    .lineLimit(1)
             
         }.background(RoundedRectangle(cornerRadius: 10)
             .foregroundColor(Color(colorSq))
@@ -51,7 +60,7 @@ struct SquareElement: View{
             .onTapGesture {
                 colorFlag.toggle()
                 if colorFlag{
-                    colorSq = "OrangeSquare"
+                    colorSq = "GreenSquare"
                     colorTxt = .white
                     if second {
                         settings.second.append(text)
@@ -98,10 +107,17 @@ struct RectangularElement: View{
        
         
         HStack{
+            if colorFlag{
+                Image(text).font(.caption2)
+                    .foregroundColor(colorTxt).foregroundColor(.white)
+                
+            }else{
+                Image(text).font(.caption)
+                    .foregroundColor(colorTxt)
+            }
             
             
-            Text(text).font(.title3).bold()
-                .foregroundColor(colorTxt)
+            
             Text(kg).font(.caption).bold()
                 .foregroundColor(colorTxt)
             
@@ -113,7 +129,7 @@ struct RectangularElement: View{
             .onTapGesture {
                 colorFlag.toggle()
                 if colorFlag{
-                    colorSq = "OrangeSquare"
+                    colorSq = "GreenSquare"
                     colorTxt = .white
                     settings.second.append(text)
             

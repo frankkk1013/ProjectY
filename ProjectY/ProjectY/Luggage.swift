@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct Luggage: View {
-    private var uiData : [UiData] = [UiData(name: "Hotel", icon: "tram.fill"),UiData(name: "Hotel1", icon: "tram.fill"),UiData(name: "Hotel2", icon: "tram.fill"),UiData(name: "Hotel3", icon: "tram.fill"),UiData(name: "Hotel4", icon: "tram.fill"),UiData(name: "Hotel5", icon: "tram.fill")]
+    @State var next: Bool = false
+    private var uiData : [UiData] = [UiData(name: "Suitcase", icon: "Suitcase"),UiData(name: "Backpack", icon: "Backpack"),UiData(name: "Duffle Bag", icon: "Duffle Bag"),UiData(name: "Tote Bag", icon: "Tote Bag"),UiData(name: "Bucket Bag", icon: "Bucket Bag"),UiData(name: "Briefcase", icon: "Briefcase")]
     
-    private var more = ["S","L"]
+    private var more = ["5 - 13","14-110"]
     private var gridItemLayout  = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
     private var secondGridItemLayout  = [GridItem(.flexible()),GridItem(.flexible())]
     
     @StateObject var settings = Settings()
     var body: some View {
         
-        NavigationView{
+        
             ScrollView{
                 VStack{
                     LazyVGrid(columns: gridItemLayout, spacing: 20){
@@ -31,8 +32,8 @@ struct Luggage: View {
                         Spacer()
                     }.padding()
                     LazyVGrid(columns: secondGridItemLayout, spacing: 0){
-                        ForEach(more, id: \.self) { name in
-                            RectangularElement(text: "\(name)", kg: "30 Kg")
+                        ForEach(more, id: \.self) { weight in
+                            RectangularElement(text: "Balance", kg: "\(weight)")
                                 .environmentObject(settings).padding(.top)
                             
                         }
@@ -43,12 +44,15 @@ struct Luggage: View {
                         
                         Button {
                             print(settings.elements.isEmpty)
+                            if !settings.elements.isEmpty && !settings.second.isEmpty{
+                                next.toggle()
+                            }
                         } label: {
                             Text("Continue                 ")
                                 .font(.title3).bold()
                                 .padding()
                                 .foregroundColor(.white)
-                                .background(Color((settings.elements.isEmpty || settings.second.isEmpty ) ? "Square" : "OrangeSquare")).cornerRadius(12)
+                                .background(Color((settings.elements.isEmpty || settings.second.isEmpty ) ? "Square" : "GreenSquare")).cornerRadius(12)
                             
                         }.frame(width: 197, height: 50)
                             .padding(.top)
@@ -61,7 +65,10 @@ struct Luggage: View {
                 }
                 
             }
-        }.navigationTitle("Luggage")
+            .background{
+                NavigationLink("", isActive: $next, destination: { Activities()})
+            }
+        .navigationTitle("Luggage")
             .navigationBarBackButtonHidden(false)
     }
 }
