@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206CA71C283CCC32002B332F /* YourTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CA71B283CCC32002B332F /* YourTrips.swift */; };
+		2091C8BB283CDB8A00BBF477 /* DestinationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091C8BA283CDB8A00BBF477 /* DestinationDetails.swift */; };
+		2091C8BD283CDBC900BBF477 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091C8BC283CDBC900BBF477 /* CardView.swift */; };
 		C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C84FF8283C0C1A007B2534 /* HomeView.swift */; };
 		FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B6283B782E00139239 /* ProjectYApp.swift */; };
 		FB8126B9283B782E00139239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B8283B782E00139239 /* ContentView.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		206CA71B283CCC32002B332F /* YourTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourTrips.swift; sourceTree = "<group>"; };
+		2091C8BA283CDB8A00BBF477 /* DestinationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetails.swift; sourceTree = "<group>"; };
+		2091C8BC283CDBC900BBF477 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C1C84FF8283C0C1A007B2534 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FB8126B3283B782E00139239 /* ProjectY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8126B6283B782E00139239 /* ProjectYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectYApp.swift; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 				FB8126CC283B909900139239 /* Activities.swift */,
 				FB8126CA283B8D1C00139239 /* Luggage.swift */,
 				FB8126C4283B78ED00139239 /* Trasportation.swift */,
+				206CA71B283CCC32002B332F /* YourTrips.swift */,
+				2091C8BC283CDBC900BBF477 /* CardView.swift */,
+				2091C8BA283CDB8A00BBF477 /* DestinationDetails.swift */,
 				FB8126BA283B783000139239 /* Assets.xcassets */,
 				FB8126BC283B783100139239 /* Preview Content */,
 			);
@@ -156,12 +165,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB8126B9283B782E00139239 /* ContentView.swift in Sources */,
+				2091C8BB283CDB8A00BBF477 /* DestinationDetails.swift in Sources */,
 				FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */,
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB8126C9283B8C7900139239 /* UiElements.swift in Sources */,
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
+				206CA71C283CCC32002B332F /* YourTrips.swift in Sources */,
 				C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */,
 				FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */,
+				2091C8BD283CDBC900BBF477 /* CardView.swift in Sources */,
 				FB8126CD283B909900139239 /* Activities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
