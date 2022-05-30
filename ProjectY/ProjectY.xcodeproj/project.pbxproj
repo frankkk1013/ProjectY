@@ -24,6 +24,9 @@
 		FB8126C9283B8C7900139239 /* UiElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C8283B8C7900139239 /* UiElements.swift */; };
 		FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CA283B8D1C00139239 /* Luggage.swift */; };
 		FB8126CD283B909900139239 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CC283B909900139239 /* Activities.swift */; };
+		FBBD6D2B2844D59300064E13 /* AddingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2A2844D59300064E13 /* AddingSheet.swift */; };
+		FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2C2844D69300064E13 /* ProgressBar.swift */; };
+		FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		FB8126C8283B8C7900139239 /* UiElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiElements.swift; sourceTree = "<group>"; };
 		FB8126CA283B8D1C00139239 /* Luggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luggage.swift; sourceTree = "<group>"; };
 		FB8126CC283B909900139239 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		FBBD6D2A2844D59300064E13 /* AddingSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingSheet.swift; sourceTree = "<group>"; };
+		FBBD6D2C2844D69300064E13 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeavesCollectedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +98,12 @@
 				FB377D162840E28A00792995 /* DestinationDetails.swift */,
 				20705CAB2842863C00910511 /* CardListView.swift */,
 				FB377D172840E28A00792995 /* YourTrips.swift */,
+				FBBD6D2C2844D69300064E13 /* ProgressBar.swift */,
 				206185B72844B52C00526018 /* Lists.swift */,
 				FB15CFFB2840C51F001F2933 /* Info.plist */,
+				FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */,
 				FB8126B6283B782E00139239 /* ProjectYApp.swift */,
+				FBBD6D2A2844D59300064E13 /* AddingSheet.swift */,
 				FB8126B8283B782E00139239 /* ContentView.swift */,
 				C1C84FF8283C0C1A007B2534 /* HomeView.swift */,
 				FB8126C6283B8C5F00139239 /* Accomodation.swift */,
@@ -187,17 +196,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */,
 				FB8126B9283B782E00139239 /* ContentView.swift in Sources */,
 				FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */,
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB377D192840E28A00792995 /* DestinationDetails.swift in Sources */,
 				FB8126C9283B8C7900139239 /* UiElements.swift in Sources */,
 				FB377D182840E28A00792995 /* CardView.swift in Sources */,
+				FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */,
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
 				C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */,
 				FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */,
 				206185B82844B52C00526018 /* Lists.swift in Sources */,
 				FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */,
+				FBBD6D2B2844D59300064E13 /* AddingSheet.swift in Sources */,
 				FB8126CD283B909900139239 /* Activities.swift in Sources */,
 				20705CAC2842863C00910511 /* CardListView.swift in Sources */,
 				FB377D1A2840E28A00792995 /* YourTrips.swift in Sources */,

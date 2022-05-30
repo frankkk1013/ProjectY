@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct YourTrips: View {
+    @State private var isPresented = false
+    @StateObject var settings = Settings()
+    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
     
     var body: some View {
         
         List {
             
-//            ForEach () { CardView in
-//        }
+            //            ForEach () { CardView in
+            //        }
             
             NavigationLink(destination: DestinationDetails(), label: {
                 CardView(name: "Destination 1", imageName: "spiaggia")
@@ -42,14 +45,32 @@ struct YourTrips: View {
                     }
             }).listRowSeparator(.hidden)
             
-        //.onDelete(perform: delete)
+            //.onDelete(perform: delete)
+        }
+        .background{
+            Button("Present!") {
+                isPresented.toggle()
+            }
+            .fullScreenCover(isPresented: $isPresented, content: AddingSheet.init )
+            .environmentObject(settings)
+            .navigationBarItems(leading:NavigationLink(destination: Text(""), label: {
+                EditButton()
+            }))
+            .onAppear{
+                if needsAppOnboarding{
+                    isPresented.toggle()
+                    
+                }
+                
+            }
         }
         .listStyle(InsetListStyle())
-//        .listStyle(.inset)
+        //        .listStyle(.inset)
         .navigationTitle("Trips")
         .toolbar {
             EditButton()
         }
+        
         
     }
     
