@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Activities: View {
     @State var second: Bool = false
-    @EnvironmentObject var settings: Settings
+    @EnvironmentObject var settings: Settings 
 //    @Binding var tabSelection: Int
     
     

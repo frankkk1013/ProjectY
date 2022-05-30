@@ -18,10 +18,51 @@ struct pagePref{
     var elements: [String]
 }
 
+class RadioButtons : ObservableObject {
+    @ObservedObject var settings: Settings
+    var id = UUID()
+    
+    @Published var isSelected = false {
+        didSet{
+            
+            update()
+            
+        }
+    }
+    
+    
+    var title: String
+    
+    init(FromLuggage titleInput: String, fromSettings settings: Settings){
+        self.title = titleInput
+        self.settings = settings
+        
+        
+    }
+    
+    
+    
+    func update(){
+        if isSelected{
+            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.append(title)
+            
+            
+        }else{
+            if self.settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.firstIndex(of: title) != nil {
+                self.settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.remove(at: settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.firstIndex(of: title)!)
+                
+            }
+            
+        }
+        
+        
+    }
+}
+
 class Settings: ObservableObject {
-//    @Published var flag = false
-//    @Published var elements: [String] = []
-//    @Published var second: [String] = []
+    //    @Published var flag = false
+    //    @Published var elements: [String] = []
+    //    @Published var second: [String] = []
     
     @Published var pref: [pagePref] = []
     
@@ -50,7 +91,7 @@ struct SquareElement: View{
     
     
     var body: some View{
-       
+        
         
         VStack{
             if colorFlag{
@@ -65,53 +106,41 @@ struct SquareElement: View{
             
             Text(text).bold().font(.headline)
                 .foregroundColor(colorTxt).minimumScaleFactor(0.0001)
-               
-                    .lineLimit(1)
+            
+                .lineLimit(1)
             
         }.background(RoundedRectangle(cornerRadius: 10)
             .foregroundColor(Color(colorSq))
             .frame(width: width, height: width)
-
+                     
         )
-            .padding()
-            .onTapGesture {
-                colorFlag.toggle()
-                if colorFlag{
-                    colorSq = "GreenSquare"
-                    colorTxt = .white
-//                    if second {
-//                        settings.pref.append(text)
-//
-//                    }else{
-//                        settings.elements.append(text)
-//
-//                    }
+        .padding()
+        .onTapGesture {
+            colorFlag.toggle()
+            if colorFlag{
+                colorSq = "GreenSquare"
+                colorTxt = .white
                 
-                    settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.append(text)
-                    
-                    
-            
-                }else{
-                    colorSq = "Square"
-                    colorTxt = .black
-                    settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.remove(at: settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.firstIndex(of: text)!)
-//                    if second {
-//                        settings.second.remove(at: settings.second.firstIndex(of: text)!)
-//
-//                    }else{
-//                        settings.elements.remove(at: settings.elements.firstIndex(of: text)!)
-//
-//                    }
-                    
-                    
-                }
+                
+                settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.append(text)
+                
+                
+                
+            }else{
+                colorSq = "Square"
+                colorTxt = .black
+                settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.remove(at: settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.firstIndex(of: text)!)
+                
                 
                 
             }
+            
+            
+        }
         
-
-            .padding()
-       
+        
+        .padding()
+        
         
     }
 }
@@ -123,10 +152,10 @@ struct RectangularElement: View{
     @State var colorFlag: Bool = false
     @State var colorSq: String = "Square"
     @State var colorTxt: Color = .black
-//    @Binding var selection: Bool
+    //    @Binding var selection: Bool
     
     var body: some View{
-       
+        
         
         HStack{
             if colorFlag{
@@ -147,27 +176,137 @@ struct RectangularElement: View{
         }.background(RoundedRectangle(cornerRadius: 10)
             .foregroundColor(Color(colorSq))
             .frame(width: 168, height: 65))
-            .padding().padding()
-            .onTapGesture {
-                colorFlag.toggle()
-                if colorFlag{
-                    colorSq = "GreenSquare"
-                    colorTxt = .white
-//                    settings.second.append(text)
-            
-                }else{
-                    colorSq = "Square"
-                    colorTxt = .black
-//                    settings.second.remove(at: settings.second.firstIndex(of: text)!)
-                    
-                }
+        .padding().padding()
+        .onTapGesture {
+            colorFlag.toggle()
+            if colorFlag{
+                colorSq = "GreenSquare"
+                colorTxt = .white
+                //                    settings.second.append(text)
+                
+            }else{
+                colorSq = "Square"
+                colorTxt = .black
+                //                    settings.second.remove(at: settings.second.firstIndex(of: text)!)
                 
             }
-
+            
+        }
+        
         
         
         
     }
+}
+
+struct CustomRadioButton: View{
+    
+    //    @StateObject var settings: Settings
+    @State var pageName: String
+    @Binding var isPushed:Bool
+    
+    var id:UUID
+    
+    var text: String
+    var image: String
+    @State var colorFlag: Bool = false
+    @State var colorSq: String = "Square"
+    @State var colorTxt: Color = .black
+    @State var width: CGFloat = 120
+    @State var height: CGFloat = 120
+    @ScaledMetric var size: CGFloat = 1
+    let onDetail: () -> Void
+    
+    
+    var body: some View{
+        
+        Button(action: {
+            
+            onDetail()
+            
+            
+            
+            
+        }) {
+            VStack{
+                if isPushed{
+                    Image( image)
+                        .foregroundColor(colorTxt).padding(.bottom).foregroundColor(.white)
+                    
+                }else{
+                    Image( image)
+                        .foregroundColor(colorTxt).padding(.bottom)
+                }
+                
+                
+                Text(text).bold().font(.headline)
+                    .foregroundColor(isPushed ? .white : .black).minimumScaleFactor(0.0001)
+                
+                    .lineLimit(1)
+                
+            }.background(RoundedRectangle(cornerRadius: 10)
+                .foregroundColor(Color(colorSq))
+                .frame(width: width, height: width)
+                         
+            )
+            .padding()
+            
+            .onChange(of: isPushed) { newValue in
+                //                colorFlag.toggle()
+                print("perchèèèèèè")
+                
+                if $isPushed.wrappedValue{
+                    colorSq = "GreenSquare"
+                    colorTxt = .white
+                    
+                    print("sono verde")
+                    
+                    
+                    
+                    
+                    
+                    
+                }else{
+                    colorSq = "Square"
+                    colorTxt = .black
+                    
+                    print("sono nero")
+                    
+                }
+                
+                
+                
+                
+            }
+            
+            
+            .padding()
+        }
+        
+    }
+    
+    //    func updateColor(){
+    //        if isPushed{
+    //            colorSq = "GreenSquare"
+    //            colorTxt = .white
+    //
+    //            //                    settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.append(text)
+    //
+    //
+    //
+    //
+    //
+    //        }else{
+    //            colorSq = "Square"
+    //            colorTxt = .black
+    //
+    //            //                    settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.remove(at: settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.firstIndex(of: text)!)
+    //
+    //
+    //
+    //        }
+    //
+    //    }
 }
 
 

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Luggage: View {
 //    @State var selected: Bool
-    @EnvironmentObject var settings: Settings
+    @ObservedObject var settings: Settings
 //    @Binding var tabSelection: Int
     @State var colorFlag: Bool = true
     @State var colorSq1: String = "GreenSquare"
@@ -24,6 +24,25 @@ struct Luggage: View {
     private var gridItemLayout  = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
     private var secondGridItemLayout  = [GridItem(.flexible()),GridItem(.flexible())]
     
+    @ObservedObject var radio_1 :RadioButtons
+    @ObservedObject var radio_2 : RadioButtons
+    @ObservedObject var radio_3 : RadioButtons
+    @ObservedObject var radio_4 : RadioButtons
+    @ObservedObject var radio_5 : RadioButtons
+    @ObservedObject var radio_6 : RadioButtons
+    
+    init(from settings: Settings){
+        self.settings = settings
+        self.radio_1 = RadioButtons(FromLuggage: "Suitcase", fromSettings: settings)
+        self.radio_2 = RadioButtons(FromLuggage: "Backpack", fromSettings: settings)
+        self.radio_3 = RadioButtons(FromLuggage: "Duffle Bag", fromSettings: settings)
+        self.radio_4 = RadioButtons(FromLuggage: "Tote Bag", fromSettings: settings)
+        self.radio_5 = RadioButtons(FromLuggage: "Bucket Bag", fromSettings: settings)
+        self.radio_6 = RadioButtons(FromLuggage: "Briefcase", fromSettings: settings)
+        
+    }
+    @State var color: [Bool] = [false, false, false, false, false, false]
+    
     
     
     var body: some View {
@@ -32,14 +51,87 @@ struct Luggage: View {
             ScrollView{
                 VStack{
                     LazyVGrid(columns: gridItemLayout, spacing: 20){
-                        ForEach(uiData, id: \.self) { element in
-                            SquareElement(pageName: "Luggage",text: "\(element.name)", image: element.icon)
-                                .environmentObject(settings)
-//                                .onTapGesture {
-//                                    
-//                                }
+//                        ForEach(uiData, id: \.self) { element in
+//                            SquareElement(pageName: "Luggage",text: "\(element.name)", image: element.icon)
+//                                .environmentObject(settings)
+////                                .onTapGesture {
+////
+////                                }
+                        ///
+                        ///
+                           
+                        CustomRadioButton( pageName: "Luggage", isPushed: $color[0], id: radio_1.id, text: radio_1.title, image: radio_1.title){
+                            print("helloooo")
+                            radio_1.isSelected = true
+                            radio_2.isSelected = false
+                            radio_3.isSelected = false
+                            radio_4.isSelected = false
+                            radio_5.isSelected = false
+                            radio_6.isSelected = false
+                            color = [true, false, false, false, false, false]
+                            print(settings.pref)
+                           
+                        
+                        }
+//                        .environmentObject(settings)
+                        CustomRadioButton( pageName: "Luggage", isPushed: $color[1], id: radio_2.id, text: radio_2.title, image: radio_2.title){
+                            radio_1.isSelected = false
+                            radio_2.isSelected = true
+                            radio_3.isSelected = false
+                            radio_4.isSelected = false
+                            radio_5.isSelected = false
+                            radio_6.isSelected = false
+                            color = [false, true, false, false, false, false]
+                          
                             
-                        }}
+                        }
+//                        .environmentObject(settings)
+                        CustomRadioButton( pageName: "Luggage", isPushed: $color[2], id: radio_3.id, text: radio_3.title, image: radio_3.title){
+                            radio_1.isSelected = false
+                            radio_2.isSelected = false
+                            radio_3.isSelected = true
+                            radio_4.isSelected = false
+                            radio_5.isSelected = false
+                            radio_6.isSelected = false
+                            color = [false, false, true, false, false, false]
+                           
+                        }
+//                        .environmentObject(settings)
+                        CustomRadioButton(pageName: "Luggage", isPushed: $color[3], id: radio_4.id, text: radio_4.title, image: radio_4.title){
+                            radio_1.isSelected = false
+                            radio_2.isSelected = false
+                            radio_3.isSelected = false
+                            radio_4.isSelected = true
+                            radio_5.isSelected = false
+                            radio_6.isSelected = false
+                            color = [false, false, false, true, false, false]
+                        }
+//                        .environmentObject(settings)
+                        CustomRadioButton(pageName: "Luggage", isPushed: $color[4], id: radio_5.id, text: radio_5.title, image: radio_5.title){
+                            radio_1.isSelected = false
+                            radio_2.isSelected = false
+                            radio_3.isSelected = false
+                            radio_4.isSelected = false
+                            radio_5.isSelected = true
+                            radio_6.isSelected = false
+                            color = [false, false, false, false, true, false]
+                        }
+//                        .environmentObject(settings)
+                        CustomRadioButton(pageName: "Luggage", isPushed: $color[5], id: radio_6.id, text: radio_6.title, image: radio_6.title){
+                            radio_1.isSelected = false
+                            radio_2.isSelected = false
+                            radio_3.isSelected = false
+                            radio_4.isSelected = false
+                            radio_5.isSelected = false
+                            radio_6.isSelected = true
+                            color = [false, false, false, false, false, true]
+                           
+                            
+                        }
+//                        .environmentObject(settings)
+                        }
+                    
+                }
                     HStack{
                         Text("Size").bold()
                         Spacer()
@@ -157,7 +249,7 @@ struct Luggage: View {
 //                        
 //                        
 //                    }
-                }
+                
                 
             }
 //            .background{
@@ -173,6 +265,11 @@ struct Luggage: View {
                     settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.append(more[1])
                     
                 }
+                
+                
+               
+                
+                
             }
             .onChange(of: colorFlag)  { newValue in
                 if colorFlag{
@@ -187,6 +284,8 @@ struct Luggage: View {
                 
             }
     }
+    
+    
 }
 
 //struct Luggage_Previews: PreviewProvider {

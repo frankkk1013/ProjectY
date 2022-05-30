@@ -54,7 +54,7 @@ struct AddingSheet: View {
                 .onAppear{
                     pageName = "Accomodation"
                 }
-                Luggage().tabItem {
+                Luggage(from: settings).tabItem {
                     Image(systemName: "circle")
                     Text("One")
                 }
@@ -91,18 +91,37 @@ struct AddingSheet: View {
                 
                                
                 Button {
-                    
-                    if !settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty
-                      {
-                        selectedTab += 1
+                    if pageName != "Luggage"{
+                        if !settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty
+                          {
+                            selectedTab += 1
+                        
+                            
+                        }
+                        
+                    }else{
+                        if (settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.count >= 2)
+                          {
+                            selectedTab += 1
+                            
+                        }
                         
                     }
+                    print(settings.pref)
+                    
+                    
                 } label: {
                     Text("Continue                 ")
                         .font(.title3).bold()
                         .padding()
                         .foregroundColor(.white)
-                        .background(Color(((settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty )) ? "Square" : "GreenSquare")).cornerRadius(12)
+                        .background(
+                            Color(pageName == "Luggage"
+                                  ?
+                                  (settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.count >= 2 ?  "GreenSquare" : "Square")
+                                  : ((settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty) ? "Square" : "GreenSquare")).cornerRadius(12))
+                    
+                    
                     
                 }.frame(width: 197, height: 50)
                     .padding(.top)
