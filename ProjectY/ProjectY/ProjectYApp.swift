@@ -13,14 +13,15 @@ struct ProjectYApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                if(needsAppOnboarding){
-                    HomeView()
-                    
-                    
-                }else{
-                    YourTrips()
-                    
-                }
+//                if(needsAppOnboarding){
+//                    HomeView()
+//
+//
+//                }else{
+//                    YourTrips()
+//
+//                }
+                YourTrips()
             }
             
             
