@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Luggage: View {
-    @State var selected: Bool
+//    @State var selected: Bool
     @EnvironmentObject var settings: Settings
 //    @Binding var tabSelection: Int
     @State var colorFlag: Bool = true

@@ -10,6 +10,7 @@ import SwiftUI
 struct YourTrips: View {
     @State private var isPresented = false
     @StateObject var settings = Settings()
+    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
     
     
     var body: some View {
@@ -34,6 +35,12 @@ struct YourTrips: View {
             .navigationBarItems(leading:NavigationLink(destination: Text(""), label: {
                 EditButton()
             }))
+            .onAppear{
+                if needsAppOnboarding{
+                    isPresented.toggle()
+                    
+                }
+            }
         
     }
 }
