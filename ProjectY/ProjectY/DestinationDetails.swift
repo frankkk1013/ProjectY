@@ -11,18 +11,48 @@ struct DestinationDetails: View {
     
     var body: some View {
         
-        
+        List {
             
-            ScrollView(.vertical, showsIndicators: true) {
-                
-                VStack(alignment: .leading){
-                    
-                    Text("Destination Details")
-                }
-                //            .navigationBarTitle("Destination details")
-            }
-            //            .navigationBarItems(trailing:NavigationLink(destination: Text(""),label: {}))
+            NavigationLink(destination: Lists(), label: {
+                CardListView(systemName: "tshirt.fill", name: "Clothes", counter: "9")
+            }).listRowSeparator(.hidden)
+            
+            NavigationLink(destination: Lists(), label: {
+                CardListView(systemName: "headphones.circle.fill", name: "Technology", counter: "4")
+            }).listRowSeparator(.hidden)
+        }
+        .listStyle(InsetListStyle())
+        .navigationTitle("Destination 1")
         
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Menu {
+                    Button(action: {}) {
+                        Label("Location and Date", systemImage: "calendar")
+                    }
+                    
+                    Button(action: {}) {
+                        Label("Transportation", systemImage: "airplane")
+                    }
+                    
+                    Button(action: {}) {
+                        Label("Accomodation", systemImage: "house.fill")
+                    }
+                    
+                    Button(action: {}) {
+                        Label("Luggage", systemImage: "suitcase.fill")
+                    }
+                    
+                    Button(action: {}) {
+                        Label("Activities", systemImage: "sun.max.fill")
+                    }
+                }
+            label: {
+                Label("", systemImage: "info.circle")
+            }
+                
+            }
+        }
     }
 }
 
