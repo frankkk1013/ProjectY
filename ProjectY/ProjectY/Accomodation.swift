@@ -10,40 +10,25 @@ import SwiftUI
 
 
 struct Accomodation: View {
-    @StateObject var settings = Settings()
+    //    @Binding var tabSelection: Int
     @State var next: Bool = false
+    @EnvironmentObject var settings: Settings
     private var gridItemLayout  = [GridItem(.flexible()),GridItem(.flexible())]
-//    private var uiData
+
     
     private var uiData : [UiData] = [UiData(name: "Hotel", icon: "Hotel"),UiData(name: "House", icon: "House"),UiData(name: "Hostel", icon: "Hostel"),UiData(name: "Camper", icon: "Camper"),UiData(name: "Roulotte", icon: "Roulotte"),UiData(name: "B&B", icon: "B&B")]
+    
+    
     
     var body: some View {
         ScrollView{
             LazyVGrid(columns: gridItemLayout, spacing: 20){
                 ForEach(uiData, id: \.self) { element in
-                    SquareElement(text: "\(element.name)", image: element.icon)
+                    SquareElement(pageName: "Accomodation",text: "\(element.name)", image: element.icon)
                         .environmentObject(settings)
                     
                 }}.padding()
-            VStack{
-                
-                Button {
-                    print("Button was tapped")
-                    if !settings.elements.isEmpty{
-                        next.toggle()
-                    }
-                } label: {
-                    Text("Continue                 ")
-                        .font(.title3).bold()
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(Color(settings.elements.isEmpty ? "Square" : "GreenSquare")).cornerRadius(12)
-                    
-                }.frame(width: 197, height: 50)
-                    .padding(.top)
-            }.background{
-                NavigationLink("", isActive: $next, destination: { Luggage()})
-            }
+
         }.navigationTitle("Accomodation")
             .navigationBarBackButtonHidden(false)
     }
