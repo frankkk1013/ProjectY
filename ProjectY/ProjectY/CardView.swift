@@ -12,8 +12,8 @@ struct CardView: View {
     var name: String
     var imageName: String
     
-    var gradient = Gradient(colors: [Color.green, Color.green])
-    var opacityValue = 0.3
+    var gradient = Gradient(colors: [Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 0.4036192602)), Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 0.4036192602))])
+//    var opacityValue = 0.3
     
     var body: some View{
         
@@ -21,7 +21,7 @@ struct CardView: View {
             Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 360, height: 240)
+                .frame(width: 355, height: 240)
                 .mask(RoundedRectangle(cornerRadius: 35))
                 .saturation(0)
             
@@ -29,16 +29,16 @@ struct CardView: View {
                 gradient: gradient,
                 startPoint: .bottom,
                 endPoint: .top)
-                .frame(width: 360, height: 240)
+                .frame(width: 355, height: 240)
                 .mask(RoundedRectangle(cornerRadius: 35))
-                .opacity(opacityValue)
+//                .opacity(opacityValue)
                 .brightness(0.1)
             
-            HStack(alignment: .bottom) {
+            HStack() {
                 Text(name)
                     .font(.title)
                     .fontWeight(.semibold)
-                    .offset(x: 48, y: 84)
+                    .offset(x: 50, y: 85)
                     .foregroundColor(Color.white)
                 
                 Spacer()

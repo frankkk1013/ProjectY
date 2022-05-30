@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C18C84F82843D0C900D535EA /* LeavesCollectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C84F72843D0C900D535EA /* LeavesCollectedView.swift */; };
+		206185B82844B52C00526018 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206185B72844B52C00526018 /* Lists.swift */; };
+		20705CAC2842863C00910511 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20705CAB2842863C00910511 /* CardListView.swift */; };
 		C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C84FF8283C0C1A007B2534 /* HomeView.swift */; };
 		FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */; };
 		FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB15CFFD2840C51F001F2933 /* MapKit.framework */; };
@@ -23,11 +24,11 @@
 		FB8126C9283B8C7900139239 /* UiElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C8283B8C7900139239 /* UiElements.swift */; };
 		FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CA283B8D1C00139239 /* Luggage.swift */; };
 		FB8126CD283B909900139239 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CC283B909900139239 /* Activities.swift */; };
-		FBBD6D2928440B3F00064E13 /* AddingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2828440B3F00064E13 /* AddingSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C18C84F72843D0C900D535EA /* LeavesCollectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeavesCollectedView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		206185B72844B52C00526018 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
+		20705CAB2842863C00910511 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		C1C84FF8283C0C1A007B2534 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
 		FB15CFFB2840C51F001F2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		FB8126C8283B8C7900139239 /* UiElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiElements.swift; sourceTree = "<group>"; };
 		FB8126CA283B8D1C00139239 /* Luggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luggage.swift; sourceTree = "<group>"; };
 		FB8126CC283B909900139239 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
-		FBBD6D2828440B3F00064E13 /* AddingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,9 @@
 			children = (
 				FB377D152840E28A00792995 /* CardView.swift */,
 				FB377D162840E28A00792995 /* DestinationDetails.swift */,
+				20705CAB2842863C00910511 /* CardListView.swift */,
 				FB377D172840E28A00792995 /* YourTrips.swift */,
+				206185B72844B52C00526018 /* Lists.swift */,
 				FB15CFFB2840C51F001F2933 /* Info.plist */,
 				FB8126B6283B782E00139239 /* ProjectYApp.swift */,
 				FB8126B8283B782E00139239 /* ContentView.swift */,
@@ -99,12 +101,10 @@
 				FB8126C8283B8C7900139239 /* UiElements.swift */,
 				FB8126CC283B909900139239 /* Activities.swift */,
 				FB8126CA283B8D1C00139239 /* Luggage.swift */,
-				C18C84F72843D0C900D535EA /* LeavesCollectedView.swift */,
 				FB8126C4283B78ED00139239 /* Trasportation.swift */,
 				FB8126BA283B783000139239 /* Assets.xcassets */,
 				FB8126BC283B783100139239 /* Preview Content */,
 				FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */,
-				FBBD6D2828440B3F00064E13 /* AddingSheet.swift */,
 			);
 			path = ProjectY;
 			sourceTree = "<group>";
@@ -191,16 +191,16 @@
 				FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */,
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB377D192840E28A00792995 /* DestinationDetails.swift in Sources */,
-				C18C84F82843D0C900D535EA /* LeavesCollectedView.swift in Sources */,
 				FB8126C9283B8C7900139239 /* UiElements.swift in Sources */,
 				FB377D182840E28A00792995 /* CardView.swift in Sources */,
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
 				C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */,
 				FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */,
+				206185B82844B52C00526018 /* Lists.swift in Sources */,
 				FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */,
 				FB8126CD283B909900139239 /* Activities.swift in Sources */,
+				20705CAC2842863C00910511 /* CardListView.swift in Sources */,
 				FB377D1A2840E28A00792995 /* YourTrips.swift in Sources */,
-				FBBD6D2928440B3F00064E13 /* AddingSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
