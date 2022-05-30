@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C18C84F82843D0C900D535EA /* LeavesCollectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C84F72843D0C900D535EA /* LeavesCollectedView.swift */; };
 		C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C84FF8283C0C1A007B2534 /* HomeView.swift */; };
 		FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */; };
 		FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB15CFFD2840C51F001F2933 /* MapKit.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C18C84F72843D0C900D535EA /* LeavesCollectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeavesCollectedView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		C1C84FF8283C0C1A007B2534 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
 		FB15CFFB2840C51F001F2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				FB8126C8283B8C7900139239 /* UiElements.swift */,
 				FB8126CC283B909900139239 /* Activities.swift */,
 				FB8126CA283B8D1C00139239 /* Luggage.swift */,
+				C18C84F72843D0C900D535EA /* LeavesCollectedView.swift */,
 				FB8126C4283B78ED00139239 /* Trasportation.swift */,
 				FB8126BA283B783000139239 /* Assets.xcassets */,
 				FB8126BC283B783100139239 /* Preview Content */,
@@ -188,6 +191,7 @@
 				FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */,
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB377D192840E28A00792995 /* DestinationDetails.swift in Sources */,
+				C18C84F82843D0C900D535EA /* LeavesCollectedView.swift in Sources */,
 				FB8126C9283B8C7900139239 /* UiElements.swift in Sources */,
 				FB377D182840E28A00792995 /* CardView.swift in Sources */,
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
