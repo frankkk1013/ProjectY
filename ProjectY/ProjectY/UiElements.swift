@@ -13,15 +13,32 @@ struct UiData:  Hashable {
     var icon: String
 }
 
+struct pagePref{
+    var name: String
+    var elements: [String]
+}
+
 class Settings: ObservableObject {
-    @Published var flag = false
-    @Published var elements: [String] = []
-    @Published var second: [String] = []
+//    @Published var flag = false
+//    @Published var elements: [String] = []
+//    @Published var second: [String] = []
+    
+    @Published var pref: [pagePref] = []
+    
+    init() {
+        pref.append(pagePref(name: "HomeView", elements: []))
+        pref.append(pagePref(name: "Trasportation", elements: []))
+        pref.append(pagePref(name: "Accomodation", elements: []))
+        pref.append(pagePref(name: "Luggage", elements: []))
+        pref.append(pagePref(name: "Activities", elements: []))
+    }
 }
 
 struct SquareElement: View{
     @State var second : Bool = false
     @EnvironmentObject var settings: Settings
+    @State var pageName: String
+    
     var text: String
     var image: String
     @State var colorFlag: Bool = false
@@ -62,25 +79,29 @@ struct SquareElement: View{
                 if colorFlag{
                     colorSq = "GreenSquare"
                     colorTxt = .white
-                    if second {
-                        settings.second.append(text)
-                        
-                    }else{
-                        settings.elements.append(text)
-                        
-                    }
+//                    if second {
+//                        settings.pref.append(text)
+//
+//                    }else{
+//                        settings.elements.append(text)
+//
+//                    }
+                
+                    settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.append(text)
+                    
                     
             
                 }else{
                     colorSq = "Square"
                     colorTxt = .black
-                    if second {
-                        settings.second.remove(at: settings.second.firstIndex(of: text)!)
-                        
-                    }else{
-                        settings.elements.remove(at: settings.elements.firstIndex(of: text)!)
-                        
-                    }
+                    settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.remove(at: settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.firstIndex(of: text)!)
+//                    if second {
+//                        settings.second.remove(at: settings.second.firstIndex(of: text)!)
+//
+//                    }else{
+//                        settings.elements.remove(at: settings.elements.firstIndex(of: text)!)
+//
+//                    }
                     
                     
                 }
@@ -102,6 +123,7 @@ struct RectangularElement: View{
     @State var colorFlag: Bool = false
     @State var colorSq: String = "Square"
     @State var colorTxt: Color = .black
+//    @Binding var selection: Bool
     
     var body: some View{
        
@@ -131,12 +153,12 @@ struct RectangularElement: View{
                 if colorFlag{
                     colorSq = "GreenSquare"
                     colorTxt = .white
-                    settings.second.append(text)
+//                    settings.second.append(text)
             
                 }else{
                     colorSq = "Square"
                     colorTxt = .black
-                    settings.second.remove(at: settings.second.firstIndex(of: text)!)
+//                    settings.second.remove(at: settings.second.firstIndex(of: text)!)
                     
                 }
                 

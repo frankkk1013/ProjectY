@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct Activities: View {
-    @State var next: Bool = false
-    @StateObject var settings = Settings()
+    @State var second: Bool = false
+    @EnvironmentObject var settings: Settings
+//    @Binding var tabSelection: Int
+    
     
     private var gridItemLayout  = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
     
@@ -21,7 +23,7 @@ struct Activities: View {
             ScrollView{
                 LazyVGrid(columns: gridItemLayout, spacing: 20){
                     ForEach(uiData, id: \.self) { element in
-                        SquareElement(text: "\(element.name)", image: element.icon)
+                        SquareElement(pageName: "Activities",text: "\(element.name)", image: element.icon )
                             .environmentObject(settings)
                         
                     }}
@@ -31,36 +33,36 @@ struct Activities: View {
                     }.padding()
                 LazyVGrid(columns: gridItemLayout, spacing: 20){
                         ForEach(more, id: \.self) { element in
-                            SquareElement(second: true ,text: "\(element.name)", image: element.icon)
+                            SquareElement(second: true, pageName: "Activities",text: "\(element.name)", image: element.icon)
                                 .environmentObject(settings)
                             
                         }}
                     Spacer()
                     
-                    HStack{
-                        
-                        Button {
-                            print(settings.elements.isEmpty)
-                            if !settings.elements.isEmpty && !settings.second.isEmpty{
-                                next.toggle()
-                            }
-                        } label: {
-                            Text("Continue                 ")
-                                .font(.title3).bold()
-                                .padding()
-                                .foregroundColor(.white)
-                                .background(Color((settings.elements.isEmpty || settings.second.isEmpty ) ? "Square" : "GreenSquare")).cornerRadius(12)
-                            
-                        }.frame(width: 197, height: 50)
-                            .padding(.top)
-                        
-                        
-                        
-                        
-                        
-                    }
-                }.background{
-                    NavigationLink("", isActive: $next, destination: { YourTrips()})
+//                    HStack{
+//                        
+//                        Button {
+//                            print(settings.elements.isEmpty)
+//                            if !settings.elements.isEmpty{
+//                                next.toggle()
+//                            }
+//                        } label: {
+//                            Text("Continue                 ")
+//                                .font(.title3).bold()
+//                                .padding()
+//                                .foregroundColor(.white)
+//                                .background(Color((settings.elements.isEmpty ) ? "Square" : "GreenSquare")).cornerRadius(12)
+//                            
+//                        }.frame(width: 197, height: 50)
+//                            .padding(.top)
+//                        
+//                        
+//                        
+//                        
+//                        
+//                    }
+//                }.background{
+//                    NavigationLink("", isActive: $next, destination: { YourTrips()})
                 }
                 
             

@@ -79,20 +79,7 @@ struct HomeView: View {
                 .padding()
                 Spacer()
                 
-                Button {
-                    print("Button was tapped")
-                    
-                    next.toggle()
-                    
-                } label: {
-                    Text("Continue                 ")
-                        .font(.title3).bold()
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(Color( "GreenSquare")).cornerRadius(12)
-                    
-                }.frame(width: 197, height: 50)
-                    .padding(.top)
+                
                     .navigationTitle("New Trip")
                 
                 

@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct YourTrips: View {
+    @State private var isPresented = false
+    @StateObject var settings = Settings()
+    
     
     var body: some View {
+        
         
     
             ScrollView(.vertical, showsIndicators: true) {
@@ -22,7 +26,11 @@ struct YourTrips: View {
                     })
                 }
                 .navigationTitle("Trips")
-            }
+                Button("Present!") {
+                           isPresented.toggle()
+                       }
+                .fullScreenCover(isPresented: $isPresented, content: AddingSheet.init )
+            }.environmentObject(settings)
             .navigationBarItems(leading:NavigationLink(destination: Text(""), label: {
                 EditButton()
             }))
