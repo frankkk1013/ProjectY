@@ -9,7 +9,8 @@ import SwiftUI
 
 @main
 struct ProjectYApp: App {
-    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
+//    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
+    var test: UseTrip = UseTrip()
     var body: some Scene {
         WindowGroup {
             NavigationView{

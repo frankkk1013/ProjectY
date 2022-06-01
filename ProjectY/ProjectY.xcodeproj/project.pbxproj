@@ -27,6 +27,7 @@
 		FBBD6D2B2844D59300064E13 /* AddingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2A2844D59300064E13 /* AddingSheet.swift */; };
 		FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2C2844D69300064E13 /* ProgressBar.swift */; };
 		FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */; };
+		FBE058CE284603FB006C0E33 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE058CD284603FB006C0E33 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		FBBD6D2A2844D59300064E13 /* AddingSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingSheet.swift; sourceTree = "<group>"; };
 		FBBD6D2C2844D69300064E13 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeavesCollectedView.swift; sourceTree = "<group>"; };
+		FBE058CD284603FB006C0E33 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		FB8126B5283B782E00139239 /* ProjectY */ = {
 			isa = PBXGroup;
 			children = (
+				FBE058CC284603E4006C0E33 /* DB */,
 				FB377D152840E28A00792995 /* CardView.swift */,
 				FB377D162840E28A00792995 /* DestinationDetails.swift */,
 				20705CAB2842863C00910511 /* CardListView.swift */,
@@ -124,6 +127,14 @@
 				FB8126BD283B783100139239 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBE058CC284603E4006C0E33 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				FBE058CD284603FB006C0E33 /* Model.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 				FB377D182840E28A00792995 /* CardView.swift in Sources */,
 				FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */,
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
+				FBE058CE284603FB006C0E33 /* Model.swift in Sources */,
 				C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */,
 				FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */,
 				206185B82844B52C00526018 /* Lists.swift in Sources */,

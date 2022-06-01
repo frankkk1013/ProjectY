@@ -16,9 +16,6 @@ struct YourTrips: View {
         
         List {
             
-            //            ForEach () { CardView in
-            //        }
-            
             NavigationLink(destination: DestinationDetails(), label: {
                 CardView(name: "Destination 1", imageName: "spiaggia")
             }).listRowSeparator(.hidden)
@@ -45,7 +42,7 @@ struct YourTrips: View {
                     }
             }).listRowSeparator(.hidden)
             
-            //.onDelete(perform: delete)
+           
         }
         .background{
             Button("Present!") {
@@ -74,9 +71,7 @@ struct YourTrips: View {
         
     }
     
-    //    func delete(at offsets: IndexSet){
-    //        CardView.remove(atOffsets: offsets)
-    //    }
+   
     
 }
 

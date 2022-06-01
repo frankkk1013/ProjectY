@@ -13,7 +13,7 @@ struct UiData:  Hashable {
     var icon: String
 }
 
-struct pagePref{
+struct pagePref: Codable{
     var name: String
     var elements: [String]
 }
