@@ -17,7 +17,7 @@ struct CardListView: View {
         
         HStack{
             
-            VStack{
+            VStack(alignment: .leading){
                 
                 Image(systemName: systemName)
                     .frame(width: 40, height: 40)
@@ -26,12 +26,14 @@ struct CardListView: View {
                     .clipShape(Circle())
                 
                 Text(name)
-                    .font(.title)
+                    .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundColor(Color.primary)
             }
-            
+            Spacer()
             Text(counter)
+                .font(.title2)
+                .fontWeight(.semibold)
             
         }
     }

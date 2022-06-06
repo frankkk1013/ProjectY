@@ -14,6 +14,28 @@ struct ProjectYApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
+                
+                TabView {
+                    
+                    YourTrips().tabItem {
+                        Image(systemName: "suitcase.fill")
+                        Text("Suitcases")
+                        
+                    }
+                    
+                    TipsView().tabItem {
+                        Image(systemName: "video.fill")
+                        Text("Tips")
+                        
+                    }
+                    
+                    LeavesCollectedView().tabItem {
+                        Image(systemName: "leaf.fill")
+                        Text("Leaves")
+                        
+                    }
+                }
+                
 //                if(needsAppOnboarding){
 //                    HomeView()
 //
