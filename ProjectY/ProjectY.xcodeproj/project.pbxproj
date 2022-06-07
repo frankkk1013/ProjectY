@@ -10,6 +10,7 @@
 		206185B82844B52C00526018 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206185B72844B52C00526018 /* Lists.swift */; };
 		20705CAC2842863C00910511 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20705CAB2842863C00910511 /* CardListView.swift */; };
 		C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C84FF8283C0C1A007B2534 /* HomeView.swift */; };
+		E4A25C715E2D760993519B5A /* libPods-ProjectY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 667F3363D6632D9D673A201C /* libPods-ProjectY.a */; };
 		FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */; };
 		FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB15CFFD2840C51F001F2933 /* MapKit.framework */; };
 		FB377D182840E28A00792995 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB377D152840E28A00792995 /* CardView.swift */; };
@@ -33,6 +34,9 @@
 /* Begin PBXFileReference section */
 		206185B72844B52C00526018 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		20705CAB2842863C00910511 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		667F3363D6632D9D673A201C /* libPods-ProjectY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.debug.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.debug.xcconfig"; sourceTree = "<group>"; };
+		BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.release.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.release.xcconfig"; sourceTree = "<group>"; };
 		C1C84FF8283C0C1A007B2534 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
 		FB15CFFB2840C51F001F2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -62,16 +66,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */,
+				E4A25C715E2D760993519B5A /* libPods-ProjectY.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5090E4354BBED73C13F1817E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */,
+				BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB15CFFC2840C51F001F2933 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				FB15CFFD2840C51F001F2933 /* MapKit.framework */,
+				667F3363D6632D9D673A201C /* libPods-ProjectY.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,6 +97,7 @@
 				FB8126B5283B782E00139239 /* ProjectY */,
 				FB8126B4283B782E00139239 /* Products */,
 				FB15CFFC2840C51F001F2933 /* Frameworks */,
+				5090E4354BBED73C13F1817E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8126C1283B783100139239 /* Build configuration list for PBXNativeTarget "ProjectY" */;
 			buildPhases = (
+				6DC0955CCD52BF601E9AF15A /* [CP] Check Pods Manifest.lock */,
 				FB8126AF283B782E00139239 /* Sources */,
 				FB8126B0283B782E00139239 /* Frameworks */,
 				FB8126B1283B782E00139239 /* Resources */,
+				FEFC96782951C89C38B6FCE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +219,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DC0955CCD52BF601E9AF15A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFC96782951C89C38B6FCE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB8126AF283B782E00139239 /* Sources */ = {
@@ -347,14 +407,16 @@
 		};
 		FB8126C2283B783100139239 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProjectY/Preview Content\"";
-				DEVELOPMENT_TEAM = C598U6DJ3G;
+				DEVELOPMENT_TEAM = MB89SG3MC4;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectY/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Ecogge;
@@ -368,6 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = francesco.Ecogge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -378,14 +441,16 @@
 		};
 		FB8126C3283B783100139239 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProjectY/Preview Content\"";
-				DEVELOPMENT_TEAM = C598U6DJ3G;
+				DEVELOPMENT_TEAM = MB89SG3MC4;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectY/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Ecogge;
@@ -399,6 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = francesco.Ecogge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
