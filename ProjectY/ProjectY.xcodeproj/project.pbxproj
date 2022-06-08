@@ -21,17 +21,18 @@
 		C1E5332B284FFBFA001F57B4 /* MDPMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53320284FFBF9001F57B4 /* MDPMonthView.swift */; };
 		C1E5332C284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53325284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift */; };
 		C1E5332D284FFBFA001F57B4 /* MDPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53324284FFBFA001F57B4 /* MDPModel.swift */; };
-		E4A25C715E2D760993519B5A /* libPods-ProjectY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 667F3363D6632D9D673A201C /* libPods-ProjectY.a */; };
 		FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */; };
 		FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB15CFFD2840C51F001F2933 /* MapKit.framework */; };
 		FB377D182840E28A00792995 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB377D152840E28A00792995 /* CardView.swift */; };
 		FB377D192840E28A00792995 /* DestinationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB377D162840E28A00792995 /* DestinationDetails.swift */; };
 		FB377D1A2840E28A00792995 /* YourTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB377D172840E28A00792995 /* YourTrips.swift */; };
+		FB46238B2850B2FB0013C1DC /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB46238A2850B2FB0013C1DC /* GooglePlaces.framework */; };
+		FB6F28C728509B1C0057EBA9 /* Transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6F28C628509B1C0057EBA9 /* Transportation.swift */; };
+		FB6F28CB28509DC90057EBA9 /* lists.json in Resources */ = {isa = PBXBuildFile; fileRef = FB6F28CA28509DC90057EBA9 /* lists.json */; };
 		FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B6283B782E00139239 /* ProjectYApp.swift */; };
 		FB8126B9283B782E00139239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B8283B782E00139239 /* ContentView.swift */; };
 		FB8126BB283B783100139239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8126BA283B783000139239 /* Assets.xcassets */; };
 		FB8126BE283B783100139239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8126BD283B783100139239 /* Preview Assets.xcassets */; };
-		FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C4283B78ED00139239 /* Trasportation.swift */; };
 		FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C6283B8C5F00139239 /* Accomodation.swift */; };
 		FB8126C9283B8C7900139239 /* UiElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C8283B8C7900139239 /* UiElements.swift */; };
 		FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CA283B8D1C00139239 /* Luggage.swift */; };
@@ -45,9 +46,7 @@
 /* Begin PBXFileReference section */
 		206185B72844B52C00526018 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		20705CAB2842863C00910511 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
-		667F3363D6632D9D673A201C /* libPods-ProjectY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.debug.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.debug.xcconfig"; sourceTree = "<group>"; };
-		BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.release.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.release.xcconfig"; sourceTree = "<group>"; };
+		5BA068012104F231D1776713 /* Pods-ProjectY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.release.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.release.xcconfig"; sourceTree = "<group>"; };
 		C1C84FF8283C0C1A007B2534 /* OldHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldHomeView.swift; sourceTree = "<group>"; };
 		C1E5330C284F3D98001F57B4 /* Tips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
 		C1E53318284FF79C001F57B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -59,18 +58,21 @@
 		C1E53323284FFBF9001F57B4 /* MDPContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPContentView.swift; sourceTree = "<group>"; };
 		C1E53324284FFBFA001F57B4 /* MDPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPModel.swift; sourceTree = "<group>"; };
 		C1E53325284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMonthYearPickerButton.swift; sourceTree = "<group>"; };
+		DFDA4AD5C38BD6B705F80B58 /* Pods-ProjectY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.debug.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.debug.xcconfig"; sourceTree = "<group>"; };
 		FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
 		FB15CFFB2840C51F001F2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FB15CFFD2840C51F001F2933 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FB377D152840E28A00792995 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FB377D162840E28A00792995 /* DestinationDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationDetails.swift; sourceTree = "<group>"; };
 		FB377D172840E28A00792995 /* YourTrips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourTrips.swift; sourceTree = "<group>"; };
+		FB46238A2850B2FB0013C1DC /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Pods/GooglePlaces/Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		FB6F28C628509B1C0057EBA9 /* Transportation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transportation.swift; sourceTree = "<group>"; };
+		FB6F28CA28509DC90057EBA9 /* lists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lists.json; sourceTree = "<group>"; };
 		FB8126B3283B782E00139239 /* ProjectY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8126B6283B782E00139239 /* ProjectYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectYApp.swift; sourceTree = "<group>"; };
 		FB8126B8283B782E00139239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB8126BA283B783000139239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8126BD283B783100139239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FB8126C4283B78ED00139239 /* Trasportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trasportation.swift; sourceTree = "<group>"; };
 		FB8126C6283B8C5F00139239 /* Accomodation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accomodation.swift; sourceTree = "<group>"; };
 		FB8126C8283B8C7900139239 /* UiElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiElements.swift; sourceTree = "<group>"; };
 		FB8126CA283B8D1C00139239 /* Luggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luggage.swift; sourceTree = "<group>"; };
@@ -87,7 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */,
-				E4A25C715E2D760993519B5A /* libPods-ProjectY.a in Frameworks */,
+				FB46238B2850B2FB0013C1DC /* GooglePlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +99,8 @@
 		5090E4354BBED73C13F1817E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */,
-				BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */,
+				DFDA4AD5C38BD6B705F80B58 /* Pods-ProjectY.debug.xcconfig */,
+				5BA068012104F231D1776713 /* Pods-ProjectY.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -107,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				FB15CFFD2840C51F001F2933 /* MapKit.framework */,
-				667F3363D6632D9D673A201C /* libPods-ProjectY.a */,
+				FB46238A2850B2FB0013C1DC /* GooglePlaces.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,6 +143,7 @@
 				FBBD6D2C2844D69300064E13 /* ProgressBar.swift */,
 				206185B72844B52C00526018 /* Lists.swift */,
 				FB15CFFB2840C51F001F2933 /* Info.plist */,
+				FB6F28CA28509DC90057EBA9 /* lists.json */,
 				FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */,
 				FB8126B6283B782E00139239 /* ProjectYApp.swift */,
 				C1E5330C284F3D98001F57B4 /* Tips.swift */,
@@ -156,11 +159,11 @@
 				C1E53325284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift */,
 				C1E53322284FFBF9001F57B4 /* MultiDatePicker.swift */,
 				C1E53318284FF79C001F57B4 /* HomeView.swift */,
+				FB6F28C628509B1C0057EBA9 /* Transportation.swift */,
 				FB8126C6283B8C5F00139239 /* Accomodation.swift */,
 				FB8126C8283B8C7900139239 /* UiElements.swift */,
 				FB8126CC283B909900139239 /* Activities.swift */,
 				FB8126CA283B8D1C00139239 /* Luggage.swift */,
-				FB8126C4283B78ED00139239 /* Trasportation.swift */,
 				FB8126BA283B783000139239 /* Assets.xcassets */,
 				FB8126BC283B783100139239 /* Preview Content */,
 				FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */,
@@ -191,11 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8126C1283B783100139239 /* Build configuration list for PBXNativeTarget "ProjectY" */;
 			buildPhases = (
-				6DC0955CCD52BF601E9AF15A /* [CP] Check Pods Manifest.lock */,
+				898796721DAF18C236945A5B /* [CP] Check Pods Manifest.lock */,
 				FB8126AF283B782E00139239 /* Sources */,
 				FB8126B0283B782E00139239 /* Frameworks */,
 				FB8126B1283B782E00139239 /* Resources */,
-				FEFC96782951C89C38B6FCE4 /* [CP] Copy Pods Resources */,
+				5E2F4F60B09D9772FE205EDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6F28CB28509DC90057EBA9 /* lists.json in Resources */,
 				FB8126BE283B783100139239 /* Preview Assets.xcassets in Resources */,
 				FB8126BB283B783100139239 /* Assets.xcassets in Resources */,
 			);
@@ -252,7 +256,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DC0955CCD52BF601E9AF15A /* [CP] Check Pods Manifest.lock */ = {
+		5E2F4F60B09D9772FE205EDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898796721DAF18C236945A5B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,23 +295,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FEFC96782951C89C38B6FCE4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -300,10 +304,10 @@
 			files = (
 				C1E53329284FFBFA001F57B4 /* MDPDayOfMonth.swift in Sources */,
 				FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */,
+				FB6F28C728509B1C0057EBA9 /* Transportation.swift in Sources */,
 				C1E5330D284F3D98001F57B4 /* Tips.swift in Sources */,
 				C1E5332D284FFBFA001F57B4 /* MDPModel.swift in Sources */,
 				FB8126B9283B782E00139239 /* ContentView.swift in Sources */,
-				FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */,
 				20CB3388284E0F3A00836ED1 /* (null) in Sources */,
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB377D192840E28A00792995 /* DestinationDetails.swift in Sources */,
@@ -449,16 +453,20 @@
 		};
 		FB8126C2283B783100139239 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */;
+			baseConfigurationReference = DFDA4AD5C38BD6B705F80B58 /* Pods-ProjectY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProjectY/Preview Content\"";
-				DEVELOPMENT_TEAM = MB89SG3MC4;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
 				ENABLE_PREVIEWS = YES;
 				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GooglePlaces/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectY/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Ecogge;
@@ -478,21 +486,26 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
 		FB8126C3283B783100139239 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */;
+			baseConfigurationReference = 5BA068012104F231D1776713 /* Pods-ProjectY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProjectY/Preview Content\"";
-				DEVELOPMENT_TEAM = MB89SG3MC4;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
 				ENABLE_PREVIEWS = YES;
 				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GooglePlaces/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectY/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Ecogge;
@@ -512,6 +525,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};

@@ -11,16 +11,21 @@ struct TripDetails: Codable{
     var pref: [pagePref]
     
 }
+
 struct Row: Codable{
+    var category: String
     var title: String
-    var sustainble: Bool
+    var sustainable: String
     var description: String
+    var season: String
+    var checked: String
 }
 
 struct ToDoList: Codable{
+//    var category: String
     var name: String
     var rows: [Row]
-    var completePercent: Int
+    var completePercent: String
 }
 
 struct Trip: Codable{
@@ -312,7 +317,7 @@ class UseList: ObservableObject{
                     
                     
                     lists[index] = newValueList
-                    lists[index].completePercent = 0
+                    lists[index].completePercent = "0"
                     try FileManager.default.removeItem(at: URL(string: "\(listsFolderUrl!.absoluteString)lists.json")!)
                     
                     // Encoding new deck to json
