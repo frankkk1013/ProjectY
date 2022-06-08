@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import GooglePlaces
 
 struct YourTrips: View {
     @State private var isPresented = false
@@ -13,6 +14,8 @@ struct YourTrips: View {
     @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
     
     var body: some View {
+        
+        
         
         List {
             

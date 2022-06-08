@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct OldHomeView: View {
     @State private var searchText = "Where do you want to go?"
     @State private var date = Date()
     @State var next: Bool = false
@@ -15,7 +15,7 @@ struct HomeView: View {
     @FocusState private var nameIsFocused: Bool
     
     @State var dateRange: ClosedRange<Date>? = nil
-
+    
     @State var showResults: Bool = false
     
     
@@ -72,13 +72,15 @@ struct HomeView: View {
                 }.navigationTitle("Results").padding()
                 
             }else{
-                MultiDatePicker(dateRange: self.$dateRange)
-                if let range = dateRange {
-                    Text("\(range)").padding()
-                } else {
-                    Text("Select range date").padding()
-                }
+                DatePicker(
+                    "Start Date",
+                    selection: $date,
+                    displayedComponents: [.date]
+                )
+                .datePickerStyle(.graphical)
+                .padding()
                 Spacer()
+                
                 
                     .navigationTitle("New Trip")
                 
@@ -100,8 +102,8 @@ struct HomeView: View {
 }
 
 
-struct HomeView_Previews: PreviewProvider {
+struct OldHomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        OldHomeView()
     }
 }
