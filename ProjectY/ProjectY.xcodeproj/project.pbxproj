@@ -19,7 +19,7 @@
 		FB8126B9283B782E00139239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B8283B782E00139239 /* ContentView.swift */; };
 		FB8126BB283B783100139239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8126BA283B783000139239 /* Assets.xcassets */; };
 		FB8126BE283B783100139239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8126BD283B783100139239 /* Preview Assets.xcassets */; };
-		FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C4283B78ED00139239 /* Trasportation.swift */; };
+		FB8126C5283B78ED00139239 /* Transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C4283B78ED00139239 /* Transportation.swift */; };
 		FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C6283B8C5F00139239 /* Accomodation.swift */; };
 		FB8126C9283B8C7900139239 /* UiElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C8283B8C7900139239 /* UiElements.swift */; };
 		FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CA283B8D1C00139239 /* Luggage.swift */; };
@@ -45,7 +45,7 @@
 		FB8126B8283B782E00139239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB8126BA283B783000139239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8126BD283B783100139239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FB8126C4283B78ED00139239 /* Trasportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trasportation.swift; sourceTree = "<group>"; };
+		FB8126C4283B78ED00139239 /* Transportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transportation.swift; sourceTree = "<group>"; };
 		FB8126C6283B8C5F00139239 /* Accomodation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accomodation.swift; sourceTree = "<group>"; };
 		FB8126C8283B8C7900139239 /* UiElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiElements.swift; sourceTree = "<group>"; };
 		FB8126CA283B8D1C00139239 /* Luggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luggage.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				FB8126C8283B8C7900139239 /* UiElements.swift */,
 				FB8126CC283B909900139239 /* Activities.swift */,
 				FB8126CA283B8D1C00139239 /* Luggage.swift */,
-				FB8126C4283B78ED00139239 /* Trasportation.swift */,
+				FB8126C4283B78ED00139239 /* Transportation.swift */,
 				FB8126BA283B783000139239 /* Assets.xcassets */,
 				FB8126BC283B783100139239 /* Preview Content */,
 				FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */,
@@ -209,7 +209,7 @@
 			files = (
 				FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */,
 				FB8126B9283B782E00139239 /* ContentView.swift in Sources */,
-				FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */,
+				FB8126C5283B78ED00139239 /* Transportation.swift in Sources */,
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB377D192840E28A00792995 /* DestinationDetails.swift in Sources */,
 				FB8126C9283B8C7900139239 /* UiElements.swift in Sources */,

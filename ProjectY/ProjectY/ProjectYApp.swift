@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+var test: UseTrip = UseTrip()
 
 @main
 struct ProjectYApp: App {
 //    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
-    var test: UseTrip = UseTrip()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView{
@@ -23,6 +24,8 @@ struct ProjectYApp: App {
 //
 //                }
                 YourTrips()
+            }.onAppear{
+                test = UseTrip()
             }
             
             

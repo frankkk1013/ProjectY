@@ -48,6 +48,7 @@ class UseTrip: ObservableObject{
     init(){
         //load trips
         loadTrips()
+        print(listsFolderUrl)
         
         
     }
@@ -93,9 +94,10 @@ class UseTrip: ObservableObject{
         }
     }
     
-    /*da controllare se è da aggiungere una nuova lista al db delle liste modificate
-     magari var booleana? passata in ingresso?? */
+    /*dopo questo chiamare aggiornamento tramite use list*/
+    
     func handleUpdate(newValueTrip: Trip) -> Bool{
+        
         do {
             for (index, trip) in listOfTrips.enumerated(){
                 if newValueTrip.city == trip.city{
@@ -110,6 +112,9 @@ class UseTrip: ObservableObject{
                     try jsonData.write(to: URL(string: "\(listsFolderUrl!.absoluteString)trips.json")!)
                     // Writing the data in folder
 //                        try jsonString.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
+//                    useList.handleUpdate(newValueList: newValueTrip.lists)
+                    
+                    
                     
                     return true
                 }
@@ -300,10 +305,14 @@ class UseList: ObservableObject{
     
     func handleUpdate(newValueList: ToDoList) -> Bool{
         do {
+            
             for (index, list) in lists.enumerated(){
                 if newValueList.name == list.name{
                     
+                    
+                    
                     lists[index] = newValueList
+                    lists[index].completePercent = 0
                     try FileManager.default.removeItem(at: URL(string: "\(listsFolderUrl!.absoluteString)lists.json")!)
                     
                     // Encoding new deck to json
@@ -356,7 +365,7 @@ class UseList: ObservableObject{
         
     }
     
-    func CreateTrip(newValueList: ToDoList) -> Bool {
+    func CreateList(newValueList: ToDoList) -> Bool {
         
         var flag = false
         do{

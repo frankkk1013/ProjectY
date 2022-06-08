@@ -21,6 +21,8 @@ struct pagePref: Codable{
 class RadioButtons : ObservableObject {
     @ObservedObject var settings: Settings
     var id = UUID()
+    var title: String
+    var pageTitle: String
     
     @Published var isSelected = false {
         didSet{
@@ -31,11 +33,12 @@ class RadioButtons : ObservableObject {
     }
     
     
-    var title: String
     
-    init(FromLuggage titleInput: String, fromSettings settings: Settings){
+    
+    init(FromPage pageTitle: String, FromElement titleInput: String, fromSettings settings: Settings){
         self.title = titleInput
         self.settings = settings
+        self.pageTitle = pageTitle
         
         
     }
@@ -44,12 +47,12 @@ class RadioButtons : ObservableObject {
     
     func update(){
         if isSelected{
-            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.append(title)
+            self.settings.pref[settings.pref.firstIndex(where: {$0.name == pageTitle} )!].elements.append(title)
             
             
         }else{
-            if self.settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.firstIndex(of: title) != nil {
-                self.settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.remove(at: settings.pref[settings.pref.firstIndex(where: {$0.name == "Luggage"} )!].elements.firstIndex(of: title)!)
+            if self.settings.pref[settings.pref.firstIndex(where: {$0.name == pageTitle} )!].elements.firstIndex(of: title) != nil {
+                self.settings.pref[settings.pref.firstIndex(where: {$0.name == pageTitle} )!].elements.remove(at: settings.pref[settings.pref.firstIndex(where: {$0.name == pageTitle} )!].elements.firstIndex(of: title)!)
                 
             }
             
@@ -68,7 +71,7 @@ class Settings: ObservableObject {
     
     init() {
         pref.append(pagePref(name: "HomeView", elements: []))
-        pref.append(pagePref(name: "Trasportation", elements: []))
+        pref.append(pagePref(name: "Transportation", elements: []))
         pref.append(pagePref(name: "Accomodation", elements: []))
         pref.append(pagePref(name: "Luggage", elements: []))
         pref.append(pagePref(name: "Activities", elements: []))
@@ -285,29 +288,10 @@ struct CustomRadioButton: View{
         
     }
     
-    //    func updateColor(){
-    //        if isPushed{
-    //            colorSq = "GreenSquare"
-    //            colorTxt = .white
-    //
-    //            //                    settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.append(text)
-    //
-    //
-    //
-    //
-    //
-    //        }else{
-    //            colorSq = "Square"
-    //            colorTxt = .black
-    //
-    //            //                    settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.remove(at: settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.firstIndex(of: text)!)
-    //
-    //
-    //
-    //        }
-    //
-    //    }
+   
 }
+
+
 
 
 //struct SquareElement: View{

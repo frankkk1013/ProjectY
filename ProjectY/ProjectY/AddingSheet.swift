@@ -38,15 +38,15 @@ struct AddingSheet: View {
                     
                 }
                 .tag(0)
-                Trasportation().tabItem {
+                Trasportation(from: settings).tabItem {
                     Image(systemName: "circle")
                     Text("One")
                 }.onAppear{
-                    pageName = "Trasportation"
+                    pageName = "Transportation"
                     
                 }
                 .tag(1)
-                Accomodation().tabItem {
+                Accomodation(from: settings).tabItem {
                     Image(systemName: "circle")
                     Text("One")
                 }
@@ -71,7 +71,14 @@ struct AddingSheet: View {
                     pageName = "Activities"
                 }
                 .onChange(of: selectedTab ){ newValue in
+                    var list: UseList = UseList()
                     if selectedTab == 5 {
+                        // creare oggetto trip, con liste consigliate e salvare
+                        settings.pref.forEach { pref in
+                            // cerca le liste da consigliare
+                        }
+                        
+//                        test.CreateTrip(newValueTrip: Trip(city: "Naples", lists:[] , tripDetails: TripDetails(pref: settings.pref)), currentModifiedLists: list.lists)
                         presentationMode.wrappedValue.dismiss()
                         
                     }
@@ -91,6 +98,7 @@ struct AddingSheet: View {
                 
                                
                 Button {
+                   
                     if pageName != "Luggage"{
                         if !settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty
                           {

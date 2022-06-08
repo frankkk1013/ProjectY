@@ -33,12 +33,12 @@ struct Luggage: View {
     
     init(from settings: Settings){
         self.settings = settings
-        self.radio_1 = RadioButtons(FromLuggage: "Suitcase", fromSettings: settings)
-        self.radio_2 = RadioButtons(FromLuggage: "Backpack", fromSettings: settings)
-        self.radio_3 = RadioButtons(FromLuggage: "Duffle Bag", fromSettings: settings)
-        self.radio_4 = RadioButtons(FromLuggage: "Tote Bag", fromSettings: settings)
-        self.radio_5 = RadioButtons(FromLuggage: "Bucket Bag", fromSettings: settings)
-        self.radio_6 = RadioButtons(FromLuggage: "Briefcase", fromSettings: settings)
+        self.radio_1 = RadioButtons(FromPage: "Luggage", FromElement: "Suitcase", fromSettings: settings)
+        self.radio_2 = RadioButtons(FromPage: "Luggage", FromElement: "Backpack", fromSettings: settings)
+        self.radio_3 = RadioButtons(FromPage: "Luggage", FromElement: "Duffle Bag", fromSettings: settings)
+        self.radio_4 = RadioButtons(FromPage: "Luggage", FromElement: "Tote Bag", fromSettings: settings)
+        self.radio_5 = RadioButtons(FromPage: "Luggage", FromElement: "Bucket Bag", fromSettings: settings)
+        self.radio_6 = RadioButtons(FromPage: "Luggage", FromElement: "Briefcase", fromSettings: settings)
         
     }
     @State var color: [Bool] = [false, false, false, false, false, false]
