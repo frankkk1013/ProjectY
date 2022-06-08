@@ -14,6 +14,8 @@ struct HomeView: View {
     @StateObject private var viewModel = ContentViewModel()
     @FocusState private var nameIsFocused: Bool
     
+    @State var dateRange: ClosedRange<Date>? = nil
+
     @State var showResults: Bool = false
     
     
@@ -70,15 +72,13 @@ struct HomeView: View {
                 }.navigationTitle("Results").padding()
                 
             }else{
-                DatePicker(
-                    "Start Date",
-                    selection: $date,
-                    displayedComponents: [.date]
-                )
-                .datePickerStyle(.graphical)
-                .padding()
+                MultiDatePicker(dateRange: self.$dateRange)
+                if let range = dateRange {
+                    Text("\(range)").padding()
+                } else {
+                    Text("Select range date").padding()
+                }
                 Spacer()
-                
                 
                     .navigationTitle("New Trip")
                 

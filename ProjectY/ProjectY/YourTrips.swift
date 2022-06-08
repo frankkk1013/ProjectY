@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import GooglePlaces
 
 struct YourTrips: View {
     @State private var isPresented = false
@@ -14,36 +15,51 @@ struct YourTrips: View {
     
     var body: some View {
         
+        
+        
         List {
             
             NavigationLink(destination: DestinationDetails(), label: {
                 CardView(name: "Destination 1", imageName: "spiaggia")
             }).listRowSeparator(.hidden)
+                .swipeActions{
+                    Button(role: .destructive){
+                        print("Delete")
+                    } label: {
+                        Label("Delete", systemImage: "trash.fill")
+                    }
+                }
+            //                .onDelete(perform: delete)
+            
+            
             
             NavigationLink(destination: DestinationDetails(), label: {
                 CardView(name: "Destination 2", imageName: "spiaggia")
             }).listRowSeparator(.hidden)
+                .swipeActions{
+                    Button(role: .destructive){
+                        print("Delete")
+                    } label: {
+                        Label("Delete", systemImage: "trash.fill")
+                    }
+                }
+            
+            
             
             NavigationLink(destination: DestinationDetails(), label: {
                 CardView(name: "Destination 3", imageName: "spiaggia")
-                    .swipeActions {
-                        Button(role: .destructive){
-                            print("Delete")
-                        } label: {
-                            Label("Delete", systemImage: "trash.fill")
-                        }
-                        
-                        Button(role: .destructive){
-                            print("Favorite")
-                        } label: {
-                            Label("Favorite", systemImage: "star.fill")
-                        }.tint(.green)
-                        
-                    }
             }).listRowSeparator(.hidden)
+                .swipeActions{
+                    Button(role: .destructive){
+                        print("Delete")
+                    } label: {
+                        Label("Delete", systemImage: "trash.fill")
+                    }
+                }
             
-           
+            
         }
+        
         .background{
             Button("Present!") {
                 isPresented.toggle()
@@ -71,8 +87,14 @@ struct YourTrips: View {
         
     }
     
-   
-    
+    //    func delete(at offsets: IndexSet) {
+    //
+    //        if let first = offsets.first {
+    //
+    //            .remove(at: first)
+    //
+    //        }
+    //    }
 }
 
 

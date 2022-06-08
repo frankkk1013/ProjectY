@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     
+//    let id = UUID()
     var name: String
     var imageName: String
     
