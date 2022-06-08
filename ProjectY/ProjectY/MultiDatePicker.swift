@@ -75,7 +75,7 @@ struct MultiDatePicker: View {
     
     init(dateRange: Binding<ClosedRange<Date>?>,
          includeDays: DateSelectionChoices = .allDays,
-         minDate: Date? = nil,
+         minDate: Date? = Date(),
          maxDate: Date? = nil
     ) {
         _monthModel = StateObject(wrappedValue: MDPModel(dateRange: dateRange, includeDays: includeDays, minDate: minDate, maxDate: maxDate))
