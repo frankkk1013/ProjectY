@@ -9,8 +9,19 @@
 /* Begin PBXBuildFile section */
 		206185B82844B52C00526018 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206185B72844B52C00526018 /* Lists.swift */; };
 		20705CAC2842863C00910511 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20705CAB2842863C00910511 /* CardListView.swift */; };
-		20CB3388284E0F3A00836ED1 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB3387284E0F3A00836ED1 /* Tips.swift */; };
-		C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C84FF8283C0C1A007B2534 /* HomeView.swift */; };
+		20CB3388284E0F3A00836ED1 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		C1C84FF9283C0C1A007B2534 /* OldHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C84FF8283C0C1A007B2534 /* OldHomeView.swift */; };
+		C1E5330D284F3D98001F57B4 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5330C284F3D98001F57B4 /* Tips.swift */; };
+		C1E53319284FF79C001F57B4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53318284FF79C001F57B4 /* HomeView.swift */; };
+		C1E53326284FFBFA001F57B4 /* MDPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53323284FFBF9001F57B4 /* MDPContentView.swift */; };
+		C1E53327284FFBFA001F57B4 /* MDPMonthYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5331E284FFBF9001F57B4 /* MDPMonthYearPicker.swift */; };
+		C1E53328284FFBFA001F57B4 /* MultiDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53322284FFBF9001F57B4 /* MultiDatePicker.swift */; };
+		C1E53329284FFBFA001F57B4 /* MDPDayOfMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5331F284FFBF9001F57B4 /* MDPDayOfMonth.swift */; };
+		C1E5332A284FFBFA001F57B4 /* MDPDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53321284FFBF9001F57B4 /* MDPDayView.swift */; };
+		C1E5332B284FFBFA001F57B4 /* MDPMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53320284FFBF9001F57B4 /* MDPMonthView.swift */; };
+		C1E5332C284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53325284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift */; };
+		C1E5332D284FFBFA001F57B4 /* MDPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E53324284FFBFA001F57B4 /* MDPModel.swift */; };
+		E4A25C715E2D760993519B5A /* libPods-ProjectY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 667F3363D6632D9D673A201C /* libPods-ProjectY.a */; };
 		FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */; };
 		FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB15CFFD2840C51F001F2933 /* MapKit.framework */; };
 		FB377D182840E28A00792995 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB377D152840E28A00792995 /* CardView.swift */; };
@@ -34,8 +45,20 @@
 /* Begin PBXFileReference section */
 		206185B72844B52C00526018 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		20705CAB2842863C00910511 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
-		20CB3387284E0F3A00836ED1 /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
-		C1C84FF8283C0C1A007B2534 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		667F3363D6632D9D673A201C /* libPods-ProjectY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.debug.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.debug.xcconfig"; sourceTree = "<group>"; };
+		BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.release.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.release.xcconfig"; sourceTree = "<group>"; };
+		C1C84FF8283C0C1A007B2534 /* OldHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldHomeView.swift; sourceTree = "<group>"; };
+		C1E5330C284F3D98001F57B4 /* Tips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		C1E53318284FF79C001F57B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C1E5331E284FFBF9001F57B4 /* MDPMonthYearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMonthYearPicker.swift; sourceTree = "<group>"; };
+		C1E5331F284FFBF9001F57B4 /* MDPDayOfMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPDayOfMonth.swift; sourceTree = "<group>"; };
+		C1E53320284FFBF9001F57B4 /* MDPMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMonthView.swift; sourceTree = "<group>"; };
+		C1E53321284FFBF9001F57B4 /* MDPDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPDayView.swift; sourceTree = "<group>"; };
+		C1E53322284FFBF9001F57B4 /* MultiDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePicker.swift; sourceTree = "<group>"; };
+		C1E53323284FFBF9001F57B4 /* MDPContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPContentView.swift; sourceTree = "<group>"; };
+		C1E53324284FFBFA001F57B4 /* MDPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPModel.swift; sourceTree = "<group>"; };
+		C1E53325284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMonthYearPickerButton.swift; sourceTree = "<group>"; };
 		FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
 		FB15CFFB2840C51F001F2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FB15CFFD2840C51F001F2933 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -64,16 +87,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB15CFFE2840C51F001F2933 /* MapKit.framework in Frameworks */,
+				E4A25C715E2D760993519B5A /* libPods-ProjectY.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5090E4354BBED73C13F1817E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */,
+				BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB15CFFC2840C51F001F2933 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				FB15CFFD2840C51F001F2933 /* MapKit.framework */,
+				667F3363D6632D9D673A201C /* libPods-ProjectY.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +118,7 @@
 				FB8126B5283B782E00139239 /* ProjectY */,
 				FB8126B4283B782E00139239 /* Products */,
 				FB15CFFC2840C51F001F2933 /* Frameworks */,
+				5090E4354BBED73C13F1817E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,10 +143,19 @@
 				FB15CFFB2840C51F001F2933 /* Info.plist */,
 				FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */,
 				FB8126B6283B782E00139239 /* ProjectYApp.swift */,
-				20CB3387284E0F3A00836ED1 /* Tips.swift */,
+				C1E5330C284F3D98001F57B4 /* Tips.swift */,
 				FBBD6D2A2844D59300064E13 /* AddingSheet.swift */,
 				FB8126B8283B782E00139239 /* ContentView.swift */,
-				C1C84FF8283C0C1A007B2534 /* HomeView.swift */,
+				C1C84FF8283C0C1A007B2534 /* OldHomeView.swift */,
+				C1E53323284FFBF9001F57B4 /* MDPContentView.swift */,
+				C1E5331F284FFBF9001F57B4 /* MDPDayOfMonth.swift */,
+				C1E53321284FFBF9001F57B4 /* MDPDayView.swift */,
+				C1E53324284FFBFA001F57B4 /* MDPModel.swift */,
+				C1E53320284FFBF9001F57B4 /* MDPMonthView.swift */,
+				C1E5331E284FFBF9001F57B4 /* MDPMonthYearPicker.swift */,
+				C1E53325284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift */,
+				C1E53322284FFBF9001F57B4 /* MultiDatePicker.swift */,
+				C1E53318284FF79C001F57B4 /* HomeView.swift */,
 				FB8126C6283B8C5F00139239 /* Accomodation.swift */,
 				FB8126C8283B8C7900139239 /* UiElements.swift */,
 				FB8126CC283B909900139239 /* Activities.swift */,
@@ -147,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8126C1283B783100139239 /* Build configuration list for PBXNativeTarget "ProjectY" */;
 			buildPhases = (
+				6DC0955CCD52BF601E9AF15A /* [CP] Check Pods Manifest.lock */,
 				FB8126AF283B782E00139239 /* Sources */,
 				FB8126B0283B782E00139239 /* Frameworks */,
 				FB8126B1283B782E00139239 /* Resources */,
+				FEFC96782951C89C38B6FCE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,23 +251,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DC0955CCD52BF601E9AF15A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFC96782951C89C38B6FCE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB8126AF283B782E00139239 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E53329284FFBFA001F57B4 /* MDPDayOfMonth.swift in Sources */,
 				FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */,
+				C1E5330D284F3D98001F57B4 /* Tips.swift in Sources */,
+				C1E5332D284FFBFA001F57B4 /* MDPModel.swift in Sources */,
 				FB8126B9283B782E00139239 /* ContentView.swift in Sources */,
 				FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */,
-				20CB3388284E0F3A00836ED1 /* Tips.swift in Sources */,
+				20CB3388284E0F3A00836ED1 /* (null) in Sources */,
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB377D192840E28A00792995 /* DestinationDetails.swift in Sources */,
+				C1E53327284FFBFA001F57B4 /* MDPMonthYearPicker.swift in Sources */,
 				FB8126C9283B8C7900139239 /* UiElements.swift in Sources */,
 				FB377D182840E28A00792995 /* CardView.swift in Sources */,
+				C1E53319284FF79C001F57B4 /* HomeView.swift in Sources */,
+				C1E5332B284FFBFA001F57B4 /* MDPMonthView.swift in Sources */,
+				C1E53326284FFBFA001F57B4 /* MDPContentView.swift in Sources */,
 				FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */,
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
 				FBE058CE284603FB006C0E33 /* Model.swift in Sources */,
-				C1C84FF9283C0C1A007B2534 /* HomeView.swift in Sources */,
+				C1E53328284FFBFA001F57B4 /* MultiDatePicker.swift in Sources */,
+				C1E5332A284FFBFA001F57B4 /* MDPDayView.swift in Sources */,
+				C1C84FF9283C0C1A007B2534 /* OldHomeView.swift in Sources */,
 				FB8126B7283B782E00139239 /* ProjectYApp.swift in Sources */,
 				206185B82844B52C00526018 /* Lists.swift in Sources */,
 				FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */,
@@ -229,6 +326,7 @@
 				FB8126CD283B909900139239 /* Activities.swift in Sources */,
 				20705CAC2842863C00910511 /* CardListView.swift in Sources */,
 				FB377D1A2840E28A00792995 /* YourTrips.swift in Sources */,
+				C1E5332C284FFBFA001F57B4 /* MDPMonthYearPickerButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +449,16 @@
 		};
 		FB8126C2283B783100139239 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA78E4967C0F64B97F89B868 /* Pods-ProjectY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProjectY/Preview Content\"";
-				DEVELOPMENT_TEAM = C598U6DJ3G;
+				DEVELOPMENT_TEAM = MB89SG3MC4;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectY/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Ecogge;
@@ -372,6 +472,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = francesco.Ecogge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -382,14 +483,16 @@
 		};
 		FB8126C3283B783100139239 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE77486F54B19BABA99CD503 /* Pods-ProjectY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProjectY/Preview Content\"";
-				DEVELOPMENT_TEAM = C598U6DJ3G;
+				DEVELOPMENT_TEAM = MB89SG3MC4;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectY/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Ecogge;
@@ -403,6 +506,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = francesco.Ecogge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
