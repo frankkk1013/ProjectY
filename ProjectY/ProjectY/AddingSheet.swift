@@ -106,7 +106,7 @@ struct AddingSheet: View {
                             }
                             
                         }
-                        test.CreateTrip(newValueTrip: Trip(city: "Naples", lists: [prova] , tripDetails: TripDetails(pref: settings.pref)), currentModifiedLists: list.lists)
+//                        test.CreateTrip(newValueTrip: Trip(city: "Naples", lists: [prova] , tripDetails: TripDetails(pref: settings.pref)), currentModifiedLists: list.lists)
                         presentationMode.wrappedValue.dismiss()
                         
                     }

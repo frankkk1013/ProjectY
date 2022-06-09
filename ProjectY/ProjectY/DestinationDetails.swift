@@ -15,20 +15,20 @@ struct DestinationDetails: View {
             Section(header: Text("Checklists")
                 .font(.title3)
                 .fontWeight(.bold)) {
-            NavigationLink(destination: Lists(), label: {
+            NavigationLink(destination: Lists(title: "Clothes"), label: {
                 CardListView(systemName: "tshirt.fill", name: "Clothes", counter: "9")
             })
 //            .listRowSeparator(.hidden)
             
-            NavigationLink(destination: Lists(), label: {
+            NavigationLink(destination: Lists(title: "Toiletries"), label: {
                 CardListView(systemName: "comb.fill", name: "Toiletries", counter: "12")
             })
             
-            NavigationLink(destination: Lists(), label: {
+            NavigationLink(destination: Lists(title: "Technology"), label: {
                 CardListView(systemName: "beats.headphones", name: "Technology", counter: "11")
             })
             
-            NavigationLink(destination: Lists(), label: {
+            NavigationLink(destination: Lists(title: "Photography"), label: {
                 CardListView(systemName: "camera.fill", name: "Photography", counter: "8")
             })
         }

@@ -35,7 +35,7 @@ struct CardListView: View {
                 .font(.title2)
                 .fontWeight(.semibold)
             
-        }
+        }.padding(.vertical, 5)
     }
 }
 

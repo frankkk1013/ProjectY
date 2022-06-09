@@ -103,5 +103,3 @@ struct YourTrips_Previews: PreviewProvider {
         YourTrips()
     }
 }
-
-
