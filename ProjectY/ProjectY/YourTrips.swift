@@ -16,7 +16,7 @@ struct YourTrips: View {
     var body: some View {
         
         
-        
+        NavigationView {
         List {
             
             NavigationLink(destination: DestinationDetails(), label: {
@@ -58,6 +58,7 @@ struct YourTrips: View {
                 }
             
             
+        }.navigationTitle("Trips")
         }
         
         .background{
@@ -78,11 +79,9 @@ struct YourTrips: View {
             }
         }
         .listStyle(InsetListStyle())
-        //        .listStyle(.inset)
+        //.listStyle(.inset)
         .navigationTitle("Trips")
-        .toolbar {
-            EditButton()
-        }
+        .navigationBarItems(leading: EditButton())
         
         
     }

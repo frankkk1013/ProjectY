@@ -41,7 +41,7 @@ struct CardView: View {
                     .fontWeight(.semibold)
                     .offset(x: 50, y: 85)
                     .foregroundColor(Color.white)
-                
+                    
                 Spacer()
             }
         }
