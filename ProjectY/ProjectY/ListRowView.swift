@@ -13,10 +13,19 @@ struct ListRowView: View {
     
     var body: some View {
         HStack {
-            Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
+            Image(systemName: item.isCompleted ? "circle.inset.filled" : "circle")
                 .foregroundColor(Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 1)))
+            
             Text(item.title)
+            
+            Image(systemName: "leaf")
+                .foregroundColor(Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 1)))
+            
             Spacer()
+        
+                Image(systemName: "info.circle")
+                    .foregroundColor(Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 1)))
+            
         }
         .font(.title2)
         .padding(.vertical, 12)
