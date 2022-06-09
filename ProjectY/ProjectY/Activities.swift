@@ -11,6 +11,7 @@ struct Activities: View {
     @State var second: Bool = false
     @EnvironmentObject var settings: Settings 
 //    @Binding var tabSelection: Int
+    @State var colorFlag: Bool = true
     
     
     private var gridItemLayout  = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]

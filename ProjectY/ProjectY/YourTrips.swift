@@ -8,6 +8,7 @@
 import SwiftUI
 import GooglePlaces
 
+
 struct YourTrips: View {
     @State private var isPresented = false
     @StateObject var settings = Settings()

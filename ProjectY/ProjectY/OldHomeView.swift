@@ -85,9 +85,9 @@ struct OldHomeView: View {
                     .navigationTitle("New Trip")
                 
                 
-                    .background{
-                        NavigationLink("", isActive: $next, destination: { Trasportation()})
-                    }
+//                    .background{
+//                        NavigationLink("", isActive: $next, destination: { Trasportation()})
+//                    }
                 
             }
             
