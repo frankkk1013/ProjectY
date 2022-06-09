@@ -6,17 +6,18 @@
 //
 
 import SwiftUI
+var trips: UseTrip = UseTrip()
 
 
 @main
 struct ProjectYApp: App {
 //    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
-    var test: UseTrip = UseTrip()
+   
     var body: some Scene {
         WindowGroup {
                 TabView {
                     
-                    YourTrips().tabItem {
+                    YourTrips(trips: trips).tabItem {
                         Image(systemName: "suitcase.fill")
                         Text("Trips")
                         

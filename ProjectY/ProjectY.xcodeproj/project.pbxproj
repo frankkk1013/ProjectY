@@ -31,7 +31,6 @@
 		FB8126B9283B782E00139239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126B8283B782E00139239 /* ContentView.swift */; };
 		FB8126BB283B783100139239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8126BA283B783000139239 /* Assets.xcassets */; };
 		FB8126BE283B783100139239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8126BD283B783100139239 /* Preview Assets.xcassets */; };
-		FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C4283B78ED00139239 /* Trasportation.swift */; };
 		FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C6283B8C5F00139239 /* Accomodation.swift */; };
 		FB8126C9283B8C7900139239 /* UiElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C8283B8C7900139239 /* UiElements.swift */; };
 		FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CA283B8D1C00139239 /* Luggage.swift */; };
@@ -39,6 +38,7 @@
 		FBBD6D2B2844D59300064E13 /* AddingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2A2844D59300064E13 /* AddingSheet.swift */; };
 		FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2C2844D69300064E13 /* ProgressBar.swift */; };
 		FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */; };
+		FBD56ECA2851DD8300ED214E /* Transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD56EC92851DD8300ED214E /* Transportation.swift */; };
 		FBE058CE284603FB006C0E33 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE058CD284603FB006C0E33 /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +71,6 @@
 		FB8126B8283B782E00139239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB8126BA283B783000139239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8126BD283B783100139239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FB8126C4283B78ED00139239 /* Trasportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trasportation.swift; sourceTree = "<group>"; };
 		FB8126C6283B8C5F00139239 /* Accomodation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accomodation.swift; sourceTree = "<group>"; };
 		FB8126C8283B8C7900139239 /* UiElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiElements.swift; sourceTree = "<group>"; };
 		FB8126CA283B8D1C00139239 /* Luggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luggage.swift; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		FBBD6D2A2844D59300064E13 /* AddingSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingSheet.swift; sourceTree = "<group>"; };
 		FBBD6D2C2844D69300064E13 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeavesCollectedView.swift; sourceTree = "<group>"; };
+		FBD56EC92851DD8300ED214E /* Transportation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transportation.swift; sourceTree = "<group>"; };
 		FBE058CD284603FB006C0E33 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +152,7 @@
 				C1E53323284FFBF9001F57B4 /* MDPContentView.swift */,
 				C1E5331F284FFBF9001F57B4 /* MDPDayOfMonth.swift */,
 				C1E53321284FFBF9001F57B4 /* MDPDayView.swift */,
+				FBD56EC92851DD8300ED214E /* Transportation.swift */,
 				C1E53324284FFBFA001F57B4 /* MDPModel.swift */,
 				C1E53320284FFBF9001F57B4 /* MDPMonthView.swift */,
 				C1E5331E284FFBF9001F57B4 /* MDPMonthYearPicker.swift */,
@@ -162,7 +163,6 @@
 				FB8126C8283B8C7900139239 /* UiElements.swift */,
 				FB8126CC283B909900139239 /* Activities.swift */,
 				FB8126CA283B8D1C00139239 /* Luggage.swift */,
-				FB8126C4283B78ED00139239 /* Trasportation.swift */,
 				FB8126BA283B783000139239 /* Assets.xcassets */,
 				FB8126BC283B783100139239 /* Preview Content */,
 				FB15CFF92840C2E3001F2933 /* LocalSearchService.swift */,
@@ -302,10 +302,10 @@
 			files = (
 				C1E53329284FFBFA001F57B4 /* MDPDayOfMonth.swift in Sources */,
 				FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */,
+				FBD56ECA2851DD8300ED214E /* Transportation.swift in Sources */,
 				C1E5330D284F3D98001F57B4 /* Tips.swift in Sources */,
 				C1E5332D284FFBFA001F57B4 /* MDPModel.swift in Sources */,
 				FB8126B9283B782E00139239 /* ContentView.swift in Sources */,
-				FB8126C5283B78ED00139239 /* Trasportation.swift in Sources */,
 				20CB3388284E0F3A00836ED1 /* (null) in Sources */,
 				FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */,
 				FB377D192840E28A00792995 /* DestinationDetails.swift in Sources */,

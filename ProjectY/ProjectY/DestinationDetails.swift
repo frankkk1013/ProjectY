@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DestinationDetails: View {
+    var trip : Trip
     
     var body: some View {
         
@@ -15,6 +16,10 @@ struct DestinationDetails: View {
             Section(header: Text("Checklists")
                 .font(.title3)
                 .fontWeight(.bold)) {
+//                    ForEach(trip.lists){ list in
+//                        CardListView(systemName: "", name: list.name, counter: "") //to count rows where a certain condition is satisified
+//                        
+//                    }
             NavigationLink(destination: Lists(), label: {
                 CardListView(systemName: "tshirt.fill", name: "Clothes", counter: "9")
             })
@@ -35,7 +40,7 @@ struct DestinationDetails: View {
         }
 //        .listStyle(InsetListStyle())
         .listStyle(.insetGrouped)
-        .navigationTitle("Destination 1")
+        .navigationTitle(trip.city)
         
 //        .toolbar {
 //            ToolbarItem(placement: .primaryAction) {
@@ -70,8 +75,8 @@ struct DestinationDetails: View {
 }
 
 
-struct DestinationDetails_Previews: PreviewProvider {
-    static var previews: some View {
-        DestinationDetails()
-    }
-}
+//struct DestinationDetails_Previews: PreviewProvider {
+//    static var previews: some View {
+////        DestinationDetails()
+//    }
+//}
