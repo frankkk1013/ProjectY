@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2015747A28533AA4005F3DFD /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015747928533AA4005F3DFD /* SheetView.swift */; };
+		2015747C285359EB005F3DFD /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015747B285359EB005F3DFD /* VideoCard.swift */; };
 		206185B82844B52C00526018 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206185B72844B52C00526018 /* Lists.swift */; };
 		20705CAC2842863C00910511 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20705CAB2842863C00910511 /* CardListView.swift */; };
 		20A500A02851DDA00085251E /* Transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5009F2851DDA00085251E /* Transportation.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2015747928533AA4005F3DFD /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		2015747B285359EB005F3DFD /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
 		206185B72844B52C00526018 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		20705CAB2842863C00910511 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		20A5009F2851DDA00085251E /* Transportation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transportation.swift; sourceTree = "<group>"; };
@@ -151,11 +155,13 @@
 				206185B72844B52C00526018 /* Lists.swift */,
 				20A500A528521C460085251E /* ListViewModel.swift */,
 				20A500A32851EE2E0085251E /* ItemModel.swift */,
+				2015747928533AA4005F3DFD /* SheetView.swift */,
 				20A500A12851E58A0085251E /* ListRowView.swift */,
 				FB15CFFB2840C51F001F2933 /* Info.plist */,
 				FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */,
 				FB8126B6283B782E00139239 /* ProjectYApp.swift */,
 				C1E5330C284F3D98001F57B4 /* Tips.swift */,
+				2015747B285359EB005F3DFD /* VideoCard.swift */,
 				FBBD6D2A2844D59300064E13 /* AddingSheet.swift */,
 				FB8126B8283B782E00139239 /* ContentView.swift */,
 				C1C84FF8283C0C1A007B2534 /* OldHomeView.swift */,
@@ -325,6 +331,7 @@
 				C1E53319284FF79C001F57B4 /* HomeView.swift in Sources */,
 				C1E5332B284FFBFA001F57B4 /* MDPMonthView.swift in Sources */,
 				C1E53326284FFBFA001F57B4 /* MDPContentView.swift in Sources */,
+				2015747A28533AA4005F3DFD /* SheetView.swift in Sources */,
 				FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */,
 				FB8126C7283B8C5F00139239 /* Accomodation.swift in Sources */,
 				20A500A22851E58A0085251E /* ListRowView.swift in Sources */,
@@ -337,6 +344,7 @@
 				206185B82844B52C00526018 /* Lists.swift in Sources */,
 				FB15CFFA2840C2E3001F2933 /* LocalSearchService.swift in Sources */,
 				FBBD6D2B2844D59300064E13 /* AddingSheet.swift in Sources */,
+				2015747C285359EB005F3DFD /* VideoCard.swift in Sources */,
 				FB8126CD283B909900139239 /* Activities.swift in Sources */,
 				20705CAC2842863C00910511 /* CardListView.swift in Sources */,
 				FB377D1A2840E28A00792995 /* YourTrips.swift in Sources */,

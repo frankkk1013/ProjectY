@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TipsView: View {
+struct Tips: View {
 
     var body: some View {
         
@@ -19,8 +19,8 @@ struct TipsView: View {
     }
 }
 
-struct TipsView_Previews: PreviewProvider {
+struct Tips_Previews: PreviewProvider {
     static var previews: some View {
-        TipsView()
+        Tips()
     }
 }

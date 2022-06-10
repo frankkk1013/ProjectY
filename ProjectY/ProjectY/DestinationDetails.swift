@@ -20,22 +20,22 @@ struct DestinationDetails: View {
 //                        CardListView(systemName: "", name: list.name, counter: "") //to count rows where a certain condition is satisified
 //                        
 //                    }
-            NavigationLink(destination: Lists(), label: {
+                    NavigationLink(destination: Lists( title: "Clothes"), label: {
                 CardListView(systemName: "tshirt.fill", name: "Clothes", counter: "9")
             })
 //            .listRowSeparator(.hidden)
             
-            NavigationLink(destination: Lists(), label: {
-                CardListView(systemName: "comb.fill", name: "Toiletries", counter: "12")
-            })
+//                    NavigationLink(destination: Lists( title: ""), label: {
+//                CardListView(systemName: "comb.fill", name: "Toiletries", counter: "12")
+//            })
+//            
+//                    NavigationLink(destination: Lists( title: ""), label: {
+//                CardListView(systemName: "beats.headphones", name: "Technology", counter: "11")
+//            })
             
-            NavigationLink(destination: Lists(), label: {
-                CardListView(systemName: "beats.headphones", name: "Technology", counter: "11")
-            })
-            
-            NavigationLink(destination: Lists(), label: {
-                CardListView(systemName: "camera.fill", name: "Photography", counter: "8")
-            })
+//            NavigationLink(destination: Lists(), label: {
+//                CardListView(systemName: "camera.fill", name: "Photography", counter: "8")
+//            })
         }
         }
 //        .listStyle(InsetListStyle())

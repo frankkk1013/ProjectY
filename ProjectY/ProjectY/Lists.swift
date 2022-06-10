@@ -9,22 +9,26 @@ import SwiftUI
 
 struct Lists: View {
     
-    @EnvironmentObject var listViewModel: ListViewModel
+   @StateObject var listViewModel: ListViewModel = ListViewModel()
     
     var title: String
     var body: some View {
         
-        List {
+        ScrollView(.vertical) {
             ForEach(listViewModel.items) { item in
                 ListRowView(item: item)
                     .onTapGesture {
                         withAnimation(.linear) {
                             listViewModel.updateItem(item: item)
                         }
+                        
                     }
+                Divider()
             }
+            .padding(.horizontal)
+            Spacer()
         }
-        .listStyle(DefaultListStyle())
+        .listStyle(PlainListStyle())
         //        .listStyle(Plain/Grouped/Sidebar/Default/InsetGroupedListStyle())
         .navigationTitle(title)
     }

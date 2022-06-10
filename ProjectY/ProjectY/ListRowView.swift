@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ListRowView: View {
     
+    @State var showSheetView = false
+    
     let item: ItemModel
     
     var body: some View {
@@ -22,9 +24,29 @@ struct ListRowView: View {
                 .foregroundColor(Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 1)))
             
             Spacer()
-        
-                Image(systemName: "info.circle")
+            
+//            Button(action: {
+//                self.showSheetView.toggle()
+//            }) {
+//                Image(systemName: "info.circle")
+//                    .foregroundColor(Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 1)))
+//                    .sheet(isPresented: $showSheetView) {
+//                        SheetView()
+//                    }
+//            }
+            
+            Button(action: {self.showSheetView.toggle()}, label: {
+                Label("", systemImage: "info.circle")
                     .foregroundColor(Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 1)))
+                    .sheet(isPresented: $showSheetView) {
+                        SheetView()
+                        
+                    }
+                
+            })
+            
+//                Image(systemName: "info.circle")
+//                    .foregroundColor(Color(#colorLiteral(red: 0.4032904506, green: 0.7195885181, blue: 0.4985763431, alpha: 1)))
             
         }
         .font(.title2)
