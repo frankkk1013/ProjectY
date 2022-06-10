@@ -38,7 +38,7 @@ struct YourTrips: View {
                 
             }.navigationTitle("Trips")
                 .background{
-                    NavigationLink("", isActive: $isDetails, destination: { DestinationDetails(trip: tripToShow) })
+                    NavigationLink("", isActive: $isDetails, destination: { DestinationDetails(trips: trips, trip: tripToShow) })
                 }
                 .navigationBarItems(leading: Button(action:{
                     isPresented.toggle()
