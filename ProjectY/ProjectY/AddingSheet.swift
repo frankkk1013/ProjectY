@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AddingSheet: View {
 //    @State var selection: Bool = false
+    
     @State var selectedTab: Int = 0
     @EnvironmentObject var settings: Settings
     @State var pageName: String = "HomeView"
@@ -106,7 +107,7 @@ struct AddingSheet: View {
                             }
                             
                         }
-//                        test.CreateTrip(newValueTrip: Trip(city: "Naples", lists: [prova] , tripDetails: TripDetails(pref: settings.pref)), currentModifiedLists: list.lists)
+                        trips.CreateTrip(newValueTrip: Trip(city: "Naples", lists: [prova] , tripDetails: TripDetails(pref: settings.pref)), currentModifiedLists: list.lists)
                         presentationMode.wrappedValue.dismiss()
                         
                     }

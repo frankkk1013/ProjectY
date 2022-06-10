@@ -21,14 +21,16 @@ struct Row: Codable{
     var checked: String
 }
 
-struct ToDoList: Codable{
+struct ToDoList: Codable, Identifiable{
 //    var category: String
+    let id = UUID()
     var name: String
     var rows: [Row]
     var completePercent: String
 }
 
-struct Trip: Codable{
+struct Trip: Codable, Identifiable{
+    let id = UUID()
     var city: String
     var lists: [ToDoList]           // Array di to do list
     var tripDetails: TripDetails    // Preferenze legate al trip scelte nella fase di aggiunta
@@ -45,7 +47,7 @@ public struct DbConfigList: Codable {
 //CLASSE PER LA PERSISTENZA DEI TRIP
 class UseTrip: ObservableObject{
     
-    var listOfTrips: [Trip] = [Trip]()
+    @Published var listOfTrips: [Trip] = [Trip]()
     @Published var db = DbConfig(trip: [])    // Object of our db
     @Published var dbLocation: URL? = nil           // Our url to db json file
     @Published var listsFolderUrl: URL? = nil

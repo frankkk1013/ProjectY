@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DestinationDetails: View {
+    var trip : Trip
     
     var body: some View {
         
@@ -15,27 +16,31 @@ struct DestinationDetails: View {
             Section(header: Text("Checklists")
                 .font(.title3)
                 .fontWeight(.bold)) {
-            NavigationLink(destination: Lists(title: "Clothes"), label: {
+//                    ForEach(trip.lists){ list in
+//                        CardListView(systemName: "", name: list.name, counter: "") //to count rows where a certain condition is satisified
+//                        
+//                    }
+            NavigationLink(destination: Lists(), label: {
                 CardListView(systemName: "tshirt.fill", name: "Clothes", counter: "9")
             })
 //            .listRowSeparator(.hidden)
             
-            NavigationLink(destination: Lists(title: "Toiletries"), label: {
+            NavigationLink(destination: Lists(), label: {
                 CardListView(systemName: "comb.fill", name: "Toiletries", counter: "12")
             })
             
-            NavigationLink(destination: Lists(title: "Technology"), label: {
+            NavigationLink(destination: Lists(), label: {
                 CardListView(systemName: "beats.headphones", name: "Technology", counter: "11")
             })
             
-            NavigationLink(destination: Lists(title: "Photography"), label: {
+            NavigationLink(destination: Lists(), label: {
                 CardListView(systemName: "camera.fill", name: "Photography", counter: "8")
             })
         }
         }
 //        .listStyle(InsetListStyle())
         .listStyle(.insetGrouped)
-        .navigationTitle("Destination 1")
+        .navigationTitle(trip.city)
         
 //        .toolbar {
 //            ToolbarItem(placement: .primaryAction) {
@@ -70,8 +75,8 @@ struct DestinationDetails: View {
 }
 
 
-struct DestinationDetails_Previews: PreviewProvider {
-    static var previews: some View {
-        DestinationDetails()
-    }
-}
+//struct DestinationDetails_Previews: PreviewProvider {
+//    static var previews: some View {
+////        DestinationDetails()
+//    }
+//}
