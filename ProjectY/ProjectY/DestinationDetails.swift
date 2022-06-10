@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct DestinationDetails: View {
-    var trip : Trip
+    @StateObject var trips: UseTrip
+    @State var trip : Trip
+    @State var destinationList: ToDoList = ToDoList(name: "", rows: [], completePercent: "")
+    @State var showList: Bool = false
     
     var body: some View {
         
@@ -16,27 +19,35 @@ struct DestinationDetails: View {
             Section(header: Text("Checklists")
                 .font(.title3)
                 .fontWeight(.bold)) {
-//                    ForEach(trip.lists){ list in
-//                        CardListView(systemName: "", name: list.name, counter: "") //to count rows where a certain condition is satisified
-//                        
-//                    }
-                    NavigationLink(destination: Lists( title: "Clothes"), label: {
-                CardListView(systemName: "tshirt.fill", name: "Clothes", counter: "9")
-            })
-//            .listRowSeparator(.hidden)
-            
-//                    NavigationLink(destination: Lists( title: ""), label: {
+                    ForEach(trip.lists){ list in
+                        CardListView(systemName: "", name: list.name, counter: "") //to count rows where a certain condition is satisified
+                            .onTapGesture {
+                                print("hello")
+                                destinationList = list
+                                showList.toggle()
+                            }
+                        
+                    }
+//            NavigationLink(destination: Lists(), label: {
+//                CardListView(systemName: "tshirt.fill", name: "Clothes", counter: "9")
+//            })
+////            .listRowSeparator(.hidden)
+//            
+//            NavigationLink(destination: Lists(), label: {
 //                CardListView(systemName: "comb.fill", name: "Toiletries", counter: "12")
 //            })
 //            
-//                    NavigationLink(destination: Lists( title: ""), label: {
+//            NavigationLink(destination: Lists(), label: {
 //                CardListView(systemName: "beats.headphones", name: "Technology", counter: "11")
 //            })
-            
+//            
 //            NavigationLink(destination: Lists(), label: {
 //                CardListView(systemName: "camera.fill", name: "Photography", counter: "8")
 //            })
         }
+        }
+        .background{
+            NavigationLink("", isActive: $showList, destination: {Lists(trips: trips, trip: trip, title: destinationList.name)})
         }
 //        .listStyle(InsetListStyle())
         .listStyle(.insetGrouped)

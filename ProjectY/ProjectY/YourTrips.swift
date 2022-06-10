@@ -28,53 +28,17 @@ struct YourTrips: View {
                             tripToShow = trip
                             isDetails.toggle()
                             print("tappato")
-                        }
+                        }.listRowSeparator(.hidden)
+                        .padding()
+                        
                         
                     
                 }.onDelete(perform: delete)
                 
-//                NavigationLink(destination: DestinationDetails(), label: {
-//                    CardView(name: "Destination 1", imageName: "spiaggia")
-//                }).listRowSeparator(.hidden)
-//                    .swipeActions{
-//                        Button(role: .destructive){
-//                            print("Delete")
-//                        } label: {
-//                            Label("Delete", systemImage: "trash.fill")
-//                        }
-//                    }
-//                //                .onDelete(perform: delete)
-//
-//
-//
-//                NavigationLink(destination: DestinationDetails(), label: {
-//                    CardView(name: "Destination 2", imageName: "spiaggia")
-//                }).listRowSeparator(.hidden)
-//                    .swipeActions{
-//                        Button(role: .destructive){
-//                            print("Delete")
-//                        } label: {
-//                            Label("Delete", systemImage: "trash.fill")
-//                        }
-//                    }
-//
-//
-//
-//                NavigationLink(destination: DestinationDetails(), label: {
-//                    CardView(name: "Destination 3", imageName: "spiaggia")
-//                }).listRowSeparator(.hidden)
-//                    .swipeActions{
-//                        Button(role: .destructive){
-//                            print("Delete")
-//                        } label: {
-//                            Label("Delete", systemImage: "trash.fill")
-//                        }
-//                    }
-                
                 
             }.navigationTitle("Trips")
                 .background{
-                    NavigationLink("", isActive: $isDetails, destination: { DestinationDetails(trip: tripToShow) })
+                    NavigationLink("", isActive: $isDetails, destination: { DestinationDetails(trips: trips, trip: tripToShow) })
                 }
                 .navigationBarItems(leading: Button(action:{
                     isPresented.toggle()
