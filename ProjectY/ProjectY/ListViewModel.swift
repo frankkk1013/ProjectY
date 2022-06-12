@@ -12,16 +12,16 @@ class ListViewModel: ObservableObject {
     @Published var items: [ItemModel] = []
     
     init() {
-        getItems()
+        
+        
+        
     }
     
-    func getItems() {
-        let newItems = [
-            ItemModel(title: "First item", isCompleted: false),
-            ItemModel(title: "Second item", isCompleted: false),
-            ItemModel(title: "Third item", isCompleted: false),
-        ]
-        items.append(contentsOf: newItems)
+    func setItems(rows: [Row]) {
+        rows.forEach{ row in
+            items.append(ItemModel(title: row.title, isCompleted: row.checked == "true" ? true : false, sustainable: row.sustainable, description: row.description))
+            
+        }
     }
     
     func updateItem(item: ItemModel) {

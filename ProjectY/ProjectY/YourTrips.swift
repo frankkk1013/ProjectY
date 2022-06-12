@@ -26,6 +26,7 @@ struct YourTrips: View {
                     CardView(name: trip.city, imageName: trip.city)
                         .onTapGesture {
                             tripToShow = trip
+                            print(trip.tripDetails)
                             isDetails.toggle()
                             print("tappato")
                         }.listRowSeparator(.hidden)

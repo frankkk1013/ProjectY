@@ -43,6 +43,8 @@
 		FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2C2844D69300064E13 /* ProgressBar.swift */; };
 		FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */; };
 		FBE058CE284603FB006C0E33 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE058CD284603FB006C0E33 /* Model.swift */; };
+		FBF67F022855D1DB00807E3D /* listseng.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF67F002855D1DB00807E3D /* listseng.json */; };
+		FBF67F032855D1DB00807E3D /* listsita.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF67F012855D1DB00807E3D /* listsita.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		FBBD6D2C2844D69300064E13 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeavesCollectedView.swift; sourceTree = "<group>"; };
 		FBE058CD284603FB006C0E33 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FBF67F002855D1DB00807E3D /* listseng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listseng.json; sourceTree = "<group>"; };
+		FBF67F012855D1DB00807E3D /* listsita.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listsita.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 				FBBD6D2A2844D59300064E13 /* AddingSheet.swift */,
 				FB8126B8283B782E00139239 /* ContentView.swift */,
 				C1C84FF8283C0C1A007B2534 /* OldHomeView.swift */,
+				FBF67F002855D1DB00807E3D /* listseng.json */,
+				FBF67F012855D1DB00807E3D /* listsita.json */,
 				C1E53323284FFBF9001F57B4 /* MDPContentView.swift */,
 				C1E5331F284FFBF9001F57B4 /* MDPDayOfMonth.swift */,
 				C1E53321284FFBF9001F57B4 /* MDPDayView.swift */,
@@ -255,8 +261,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF67F022855D1DB00807E3D /* listseng.json in Resources */,
 				FB8126BE283B783100139239 /* Preview Assets.xcassets in Resources */,
 				FB8126BB283B783100139239 /* Assets.xcassets in Resources */,
+				FBF67F032855D1DB00807E3D /* listsita.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

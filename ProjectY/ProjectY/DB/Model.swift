@@ -12,7 +12,28 @@ struct TripDetails: Codable{
     
 }
 
-struct Row: Codable{
+struct RowV: Codable{
+//    let id = UUID()
+   
+    var checked: String
+    var title: String
+    var sustainable: String
+    var description: String
+    var category: String
+    var season: String
+    
+}
+
+struct ToDoListV: Codable{
+//    var category: String
+//    let id = UUID()
+    var name: String
+    var rows: [RowV]
+    var completePercent: String
+}
+
+struct Row: Codable, Identifiable{
+    let id = UUID()
     var category: String
     var title: String
     var sustainable: String
