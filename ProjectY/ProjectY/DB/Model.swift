@@ -12,7 +12,28 @@ struct TripDetails: Codable{
     
 }
 
-struct Row: Codable{
+struct RowV: Codable{
+//    let id = UUID()
+   
+    var checked: String
+    var title: String
+    var sustainable: String
+    var description: String
+    var category: String
+    var season: String
+    
+}
+
+struct ToDoListV: Codable{
+//    var category: String
+//    let id = UUID()
+    var name: String
+    var rows: [RowV]
+    var completePercent: String
+}
+
+struct Row: Codable, Identifiable{
+    let id = UUID()
     var category: String
     var title: String
     var sustainable: String
@@ -34,10 +55,12 @@ struct Trip: Codable, Identifiable{
     var city: String
     var lists: [ToDoList]           // Array di to do list
     var tripDetails: TripDetails    // Preferenze legate al trip scelte nella fase di aggiunta
+    var sustainableLeaf: String
 }
 
 public struct DbConfig: Codable {
     var trip: [String]
+    
 }
 
 public struct DbConfigList: Codable {
@@ -101,6 +124,41 @@ class UseTrip: ObservableObject{
         }
     }
     
+    func calculateAvg(trip: Trip) -> Int{
+        var countLeaf: Int = 0
+        var countNot: Int = 0
+        var avg: Int = 0
+        
+            trip.lists.forEach{ list in
+                list.rows.forEach{ row in
+                    if row.sustainable == "true"{
+                        countLeaf+=1
+                        print("trueeee")
+                        
+                    }else{
+                        if row.sustainable == "false" && row.description != "" {
+                            countNot+=1
+                            print("falseee")
+                            
+                        }
+                    }
+                    
+                }
+                
+            }
+        
+        print(countLeaf)
+        print(countNot)
+        avg = (countLeaf) / (countNot)
+        print(avg)
+        return avg
+        
+                
+    }
+            
+        
+        
+    
     /*dopo questo chiamare aggiornamento tramite use list*/
     
     func handleUpdate(newValueTrip: Trip) -> Bool{
@@ -108,15 +166,17 @@ class UseTrip: ObservableObject{
         do {
             for (index, trip) in listOfTrips.enumerated(){
                 if newValueTrip.city == trip.city{
+                    
                     listOfTrips[index] = newValueTrip
-                    try FileManager.default.removeItem(at: URL(string: "\(listsFolderUrl!.absoluteString)trips.json")!)
+                    listOfTrips[index].sustainableLeaf = String(calculateAvg(trip: newValueTrip))
+                    print(try FileManager.default.removeItem(at: URL(string: "\(listsFolderUrl!.absoluteString)trips.json")!))
                     
                     // Encoding new deck to json
                     let jsonData = try JSONEncoder().encode(listOfTrips)
                     
                     // Creating file path and appending new name
                     
-                    try jsonData.write(to: URL(string: "\(listsFolderUrl!.absoluteString)trips.json")!)
+                    print(try jsonData.write(to: URL(string: "\(listsFolderUrl!.absoluteString)trips.json")!))
                     // Writing the data in folder
 //                        try jsonString.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
 //                    useList.handleUpdate(newValueList: newValueTrip.lists)
@@ -195,7 +255,11 @@ class UseTrip: ObservableObject{
             }
             
             if(flag == false){
-                listOfTrips.append(newValueTrip)
+                var trip = newValueTrip
+                let avg = calculateAvg(trip: newValueTrip)
+//                print("avg \(avg)")
+                trip.sustainableLeaf = String(avg)
+                listOfTrips.append(trip)
                 let jsonData = try JSONEncoder().encode(listOfTrips)
     //            try FileManager.default.removeItem(at: URL(string: "\(progressFolderUrl!.absoluteString)progress.json")!)
                 try jsonData.write(to: URL(string: "\(listsFolderUrl!.absoluteString)trips.json")!)

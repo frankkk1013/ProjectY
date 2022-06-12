@@ -10,6 +10,8 @@ import SwiftUI
 struct LeavesCollectedView: View {
     @State var next: Bool = false
     @State private var progressValue: Float = 0.0
+    @State private var average: String  = "0"
+    @StateObject var trips: UseTrip
 
     var body: some View {
 //        NavigationView{
@@ -58,7 +60,7 @@ struct LeavesCollectedView: View {
                     .padding()
                 
                 
-                Text("Leaves you collected so far:")
+                Text("Sustainability Average")
                     .font(.body)
                     .fontWeight(.semibold)
 
@@ -70,10 +72,29 @@ struct LeavesCollectedView: View {
                     
                     Image(systemName: "leaf.fill").foregroundColor(Color(#colorLiteral(red: 0.1677696109, green: 0.684253037, blue: 0.3964454532, alpha: 1)))
                     
-                    Text("82")
+                    Text(average)
                         .padding(.leading)
                     
                 }.navigationTitle("Sustainability status")
+                    .onAppear{
+                        var sum = 0
+                        var count = 0
+                        trips.listOfTrips.forEach{ trip in
+                            sum += Int(trip.sustainableLeaf)!
+                            count += 1
+                            
+                            
+                        }
+                        if count == 0{
+                            average = "0"
+                            
+                        }else{
+                            average = String(sum/count)
+                            
+                        }
+                       
+                        
+                    }
                 
                  
                 
@@ -104,6 +125,6 @@ struct LeavesCollectedView: View {
 
 struct LeavesCollectedView_Previews: PreviewProvider {
     static var previews: some View {
-        LeavesCollectedView()
+        LeavesCollectedView(trips: trips)
     }
 }

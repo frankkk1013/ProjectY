@@ -1,0 +1,413 @@
+
+[{"name":"Bagno",
+"rows":[{"checked":"false","title":"Rasoio di sicurezza con testine intercambiabili","sustainable":"false","description":"","category":"any","season":"any"},{"checked":"false","title":"Sapone","sustainable":"false","description":"Potresti cercare un sapone con confezione sostenibile. Puoi anche utilizzare saponette, che hanno un impatto ambientale inferiore rispetto al sapone liquido.","category":"any","season":"any"},
+    {"checked":"false","title":"Sapone solido","sustainable":"true","description":"Ha un impatto ambientale inferiore rispetto al sapone liquido in termini di impronta carbonica, eco-tossicità, potenziale di eliminazione dell'ozono e potenziale di eutrofizzazione.","category":"any","season":"any"},
+    {"checked":"false","title":"Spazzolino","sustainable":"false","description":"Ogni anno un'enorme quantità di spazzolini tradizionali da denti viene gettata via e spesso non viene riciclata. Potresti provare a usare uno spazzolino ecologico.","category":"any","season":"any"},
+    {"checked":"false","title":"Spazzolino ecologico","sustainable":"true","description":"Esistono diverse opzioni se si desidera utilizzare uno spazzolino ecologico: spazzolini a base vegetale, che sono realizzati con materiali naturali; oppure, puoi utilizzare spazzolini elettrici con testine intercambiabili, in modo che durino più tempo e, dunque, il consumo di plastica nel tempo diminuisca.","category":"any","season":"any"},
+    {"checked":"false","title":"Dentifricio","sustainable":"false","description":"Il dentifricio tradizionale è solitamente prodotto con ingredienti nocivi e la sua confezione non ha un buon impatto sull'ambiente. Prova a cercare un'opzione ecologica.","category":"any","season":"any"},
+    {"checked":"false","title":"Dentifricio solido","sustainable":"true","description":"Per aiutare l’ambiente, puoi ridurre gli sprechi utilizzando il dentifricio solido, che ha un imballaggio minimo rispetto a quello tradizionale.","category":"any","season":"any"},
+    {"checked":"false","title":"Filo interdentale","sustainable":"false","description":"Il filo interdentale tradizionale è realizzato in plastica non biodegradabile a base di petrolio. Potresti usarne uno biodegradabile.","category":"any","season":"any"},
+    {"checked":"false","title":"Filo interdentale biodegradabile","sustainable":"true","description":"Il filo interdentale biodegradabile è una buona scelta per l'ambiente: è fatto di fibre naturali e non ha dolcificanti o aromi artificiali.","category":"any","season":"any"},
+    {"checked":"false","title":"Balsamo","sustainable":"false","description":"Potresti usare un balsamo ecologico invece di uno tradizionale.","category":"any","season":"any"},
+    {"checked":"false","title":"Balsamo naturale senza silicone","sustainable":"true","description":"Balms made with natural ingredients don’t have silicones, which are not biodegradable substances.","category":"any","season":"any"},
+    {"checked":"false","title":"Spugna di mare o di luffa","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Deodorante","sustainable":"false","description":"I deodoranti regolari di solito non fanno bene all'ambiente: ad esempio, i deodoranti spray rilasciano sostanze chimiche nell'aria. Anche il loro imballaggio può essere dannoso per l'ambiente: spesso sono in plastica o altri materiali non riciclabili. Potresti usare quindi un deodorante sostenibile.","category":"any","season":"any"},
+    {"checked":"false","title":"Deodorante naturale","sustainable":"true","description":"È la versione ecologica del normale deodorante: è un deodorante plastic free e di solito ha ricariche compostabili.","category":"any","season":"any"},
+    {"checked":"false","title":"Repellente naturale","sustainable":"true","description":"Usa un repellente fatto di tea tree oil, neem, citronella, eucalipto e lavanda","category":"any","season":"any"},
+    {"checked":"false","title":"Shampoo liquido","sustainable":"false","description":"E se lo sostituissi con uno shampoo solido? In questo modo potrai portarlo in aereo senza problemi e, inoltre, non sprecherai plastica per la confezione.","category":"any","season":"any"},
+    {"checked":"false","title":"Shampoo solido","sustainable":"true","description":"È la versione ecologica dello tradizionale shampoo liquido. La sua composizione è simile a quella dello shampoo liquido con la netta differenza che la componente acquosa è stata rimossa. Inoltre, lo shampoo solido ha un'impronta di carbonio complessiva inferiore. Puoi portarlo su un aereo senza problemi e, inoltre, non sprecherai plastica per la sua confezione.","category":"any","season":"any"},
+    {"checked":"false","title":"Asciugamano di cotone","sustainable":"false","description":"Poiché il cotone di solito cresce con l'uso di pesticidi ed erbicidi sintetici, potresti pensare di usare invece un’asciugamano fatta con materiali naturali, come la canapa.","category":"any","season":"any"},
+    {"checked":"false","title":"Asciugamano di canapa","sustainable":"true","description":"È prodotta in modo più sostenibile perché non ha bisogno di pesticidi durante la coltivazione della canapa. Questo tipo di tessuto assorbe molta più umidità rispetto al cotone e si asciuga molto velocemente, quindi è perfetto per viaggiare.","category":"any","season":"any"},
+    {"checked":"false","title":"Borotalco","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Cotton floc","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Gel disinfettante","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Crema per viso","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Crema per mani e corpo","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Phon da viaggio","sustainable":"false","description":"Check if the accommodation where you will stay will already provide you with the dryer","category":"any","season":"any"},
+    {"checked":"false","title":"Pettine o spazzola","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Gel, cera o lacca","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Collutorio","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Burro di cacao","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Pinzette","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Assorbenti","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+
+,"completePercent":"0"},
+    {"name":"Make up",
+    "rows":[{"checked":"false","title":"Oli e burri naturali come l’olio di ricino","sustainable":"true","description":"Questo tipo di oli possono essere sia sostenibili per l'ambiente che economici.","category":"any","season":"any"},{"checked":"false","title":"Ombretto solido","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Kajal","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Eyeliner in gel","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Mascara","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Pennelli","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Salviettine per la rimozione del makeup","sustainable":"false","description":"La maggior parte delle salviette tradizionali contiene plastica, che si decompone in modo incredibilmente lento, rimanendo nell'ambiente per anni. Durante la sua decomposizione, la plastica rilascia microplastiche che possono finire nei nostri corsi d'acqua causando danni alla vita marina e ai delicati ecosistemi. Ecco perché potresti considerare di usare salviettine biodegradabili realizzate senza plastica.","category":"any","season":"any"},
+        {"checked":"false","title":" Dischetti struccanti riutilizzabili","sustainable":"true","description":"I dischetti riutilizzabili hanno un buon impatto sull'ambiente ma anche sui tuoi risparmi: lo sai che ogni dischetto può durare fino a 1000 lavaggi?","category":"any","season":"any"},
+        {"checked":"false","title":"Matita","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Piccola palette","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Temperamatite biodegradabile","sustainable":"true","description":"È fatto con materiali biodegradabili.","category":"any","season":"any"},
+        {"checked":"false","title":"Rossetto compatto","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Burro di cacao","sustainable":"false","description":"Puoi sostituirlo con un balsamo per labbra senza plastica realizzato con ingredienti naturali e packaging ecologico.","category":"any","season":"any"},
+        {"checked":"false","title":"Burro di cacao sostenibile","sustainable":"true","description":"Il balsamo per labbra è un elemento essenziale che puoi usare ogni giorno. Pertanto, è importante scegliere un burro cacao a basso consumo che non abbia un impatto negativo sull'ambiente. Prova a cercare un balsamo per labbra che sia a spreco zero per i suoi ingredienti e la confezione.","category":"","season":""},
+        {"checked":"false","title":" Correttore compatto","sustainable":"false","description":"","category":"any","season":"any"}
+        ]
+
+    ,"completePercent":"0"},
+    {"name":"Vestiti",
+    "rows":[{"checked":"false","title":"K-way","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Asciugamani","sustainable":"false","description":"Poiché il cotone di solito cresce con l'uso di pesticidi ed erbicidi sintetici, potresti considerare di utilizzare un asciugamano in tessuto naturale come il cotone biologico.","category":"any","season":"any"},
+        {"checked":"false","title":"Asciugamani in fibre naturali","sustainable":"true","description":"Gli asciugamani in fibre naturali, come il cotone biologico o la canapa, non sono solo una scelta più sostenibile ma anche più utile: questi asciugamani sono ultra assorbenti e si asciugano molto velocemente, quindi sono perfetti per viaggiare.","category":"any","season":"any"},
+        {"checked":"false","title":"Occhiali da sole","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Mutande","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Calzini","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Reggiseni","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Calze","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Canottiere","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Pantaloni","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Pantaloncini","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Jeans","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Pantaloni della tuta","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Cintura","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"T-shirt","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Maglia a maniche lunghe","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Felpa","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Maglione","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Sciarpa","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Guanti","sustainable":"false","description":"","category":"any","season":"winter"},
+        {"checked":"false","title":"Cappotti","sustainable":"false","description":"","category":"any","season":"winter"},
+        {"checked":"false","title":"Giacche a vento","sustainable":"false","description":"","category":"any","season":"fall"},
+        {"checked":"false","title":"Cappello invernale","sustainable":"false","description":"","category":"any","season":"winter"},
+        {"checked":"false","title":"Cappello con visiera","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Pigiama","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Scarpe eleganti","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Scarpe da ginnastica","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Camicie","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Accappatoio","sustainable":"false","description":"","category":"any","season":"any"}
+        ]
+
+    ,"completePercent":"0"},
+    {"name":"Spiaggia",
+    "rows":[{"checked":"false","title":"Infradito","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Infradito realizzate con plastica riciclata","sustainable":"true","description":"Anche per il tuo stile, puoi cercare scelte sostenibili: usa capi di abbigliamento realizzati con materiale naturale o riciclato.","category":"any","season":"summer"},
+    {"checked":"false","title":"Asciugamano da spiaggia","sustainable":"false","description":"Poiché il cotone di solito cresce con l'uso di pesticidi ed erbicidi sintetici, potresti considerare di utilizzare un asciugamano in tessuto naturale come il cotone biologico.","category":"any","season":"summer"},
+    {"checked":"false","title":"Aciugamani in fibre naturali","sustainable":"true","description":"Gli asciugamani in fibre naturali, come il cotone biologico o la canapa, non sono solo una scelta più sostenibile ma anche più utile: questi asciugamani sono ultra assorbenti e si asciugano molto velocemente, quindi sono perfetti per viaggiare..","category":"any","season":"summer"},
+    {"checked":"false","title":"Costume da bagno","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Costume da bagno realizzato con fibre rigenerate","sustainable":"true","description":"Anche per il tuo stile, puoi cercare scelte sostenibili: usa capi di abbigliamento realizzati con materiale naturale o riciclato.","category":"any","season":"summer"},
+    {"checked":"false","title":"Scarpe da scoglio","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Occhiali da sole","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Cappellino","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Crema solare","sustainable":"false","description":"Potresti usare una crema solare biodegradabile invece di una tradizionale, che non è la scelta perfetta per l'ambiente perché gli ingredienti chimici che inquinano le acque e le barriere coralline non provengono solo dai bagnanti, ma anche dalle acque reflue. Quindi prova a cercare una crema solare ecologica che non contenga alcun ingrediente dannoso come ottinoxato, ossibenzone, 4-metilbenzilden canfora, parabeni.","category":"any","season":"summer"},
+    {"checked":"false","title":"Crema solare biodegradabile","sustainable":"true","description":"È la versione ecologica delle tradizionali protezioni solari. Gli ingredienti delle normali protezioni solari, che finiscono nei laghi, nei fiumi e nell'oceano (non solo dai bagnanti, ma anche dalle acque reflue) sono spesso tossici per l'ambiente. Per avere un comportamento più sostenibile puoi cercare una crema solare che non contenga nessuna delle seguenti sostanze: Ossibenzone, Ottinoxato, Ottocrilene, 4-metilbenzilden canfora, Acido para-aminobenzoico (PABA), Metilparaben, Etilparaben, Propilparaben, Butilparaben, Benzile parabene, Triclosano, qualsiasi forma di microplastica, qualsiasi nanoparticella come ossido di zinco o biossido di titanio. (L'elenco precedente è l'elenco HEL che puoi trovare su haereticus-lab.org)","category":"any","season":"summer"},
+    {"checked":"false","title":"Crema dopo sole","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Olio abbronzante","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Pareo","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Pinne","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Masshcera","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Boccaglio","sustainable":"false","description":"","category":"any","season":"summer"}
+]
+    ,"completePercent":"0"},
+    {"name":"Montagna",
+    "rows":[{"checked":"false","title":"Giubbotto pesante","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Sciarpa","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Guanti","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Cappello di lana","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Maglione in pile","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Calzamaglia","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Tenda","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Borraccia riutilizzabile","sustainable":"true","description":"Le borracce riutilizzabili aiutano l’ambiente per più motivi: utilizzano meno risorse, rilasciano meno gas nocivi e, inoltre, mantengono la tua bevanda alla temperatura che desideri.","category":"any","season":"any"},
+    {"checked":"false","title":"Scarponi","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+    {"name":"Documenti personali",
+    "rows":[{"checked":"false","title":"Carta d’identità","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Passaporto","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Patente","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Carta di credito","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Tessera sanitaria","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+    
+    {"name":"Medicine",
+    "rows":[{"checked":"false","title":"Termometro","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Cerotti","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Disinfettante","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antidolorifici","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antipiretici","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antivomito","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antistaminici","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antinfiammatori","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antinausea","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antibiotici","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Spray repellente per insetti","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+    
+    {"name":"Essentiali",
+    "rows":[{"checked":"false","title":"Cuffie","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Chiavi di casa","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Busta di plastica","sustainable":"false","description":"Puoi sostituirlo con una shopper di tela, che puoi riutilizzare più volte così da non consumare plastica.","category":"any","season":"any"},
+    {"checked":"false","title":"Shopper di tela","sustainable":"true","description":"Le shopper di tela sono biodegradabili e realizzate con risorse rinnovabili. Sono anche robuste e durevoli, quindi possono essere utilizzate più volte.","category":"any","season":"any"},
+    {"checked":"false","title":"Ombrello","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Guide di viaggio digitali","sustainable":"true","description":"Invece delle guide di viaggio su carta, puoi utilizzare quelle digitali in modo da essere sostenibile anche mentre visiti posti nuovi.","category":"any","season":"any"},
+    {"checked":"false","title":"Orologio","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Power Bank","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Portafogli","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Caricatore del telefono","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Occhiali da vista","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Lenti a contatto","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Occhiali da sole","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+
+
+
+    {"name":"Fotografia",
+    "rows":[
+    
+    {"checked":"false","title":"Fotocamera","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Lente multiuso","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Cavalletto","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Batteria della fotocamera","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Caricabatterie","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Drone","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Ottiche ","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Flash","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+
+    {"name":"Aereo",
+    "rows":[
+    
+    {"checked":"false","title":"Biglietto","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Passaporto","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Mascherina per coprire gli occhi","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Tappi per orecchie","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Cuscino da viaggio","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+   
+   {"name":"Lavoro",
+    "rows":[
+        {"checked":"false","title":"Computer","sustainable":"falso","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Caricatore computer","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Documenti","sustainable":"falso","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Badge aziendale e/o biglietti da visita","sustainable":"false","description":"","category":"any","season":"any"}
+        ]
+
+    ,"completePercent":"0"},
+        
+        {"name":"Sport invernali",
+        "rows":[
+            {"checked":"false","title":"Elmetto","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Stivali","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Giacca impermeabile","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Guanti","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Sciarpa","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Cappellino di lan","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Occhiali protettivi","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Calzini di lana","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Biancheria termica","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Scarpe impermeabili","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Crema solare","sustainable":"false","description":"Potresti usare una crema solare biodegradabile invece di una tradizionale, che non è la scelta perfetta per l'ambiente perché gli ingredienti chimici che inquinano le acque e le barriere coralline non provengono solo dai bagnanti, ma anche dalle acque reflue. Quindi prova a cercare una crema solare ecologica che non contenga alcun ingrediente dannoso come ottinoxato, ossibenzone, 4-metilbenzilden canfora, parabeni.","category":"any","season":"any"},
+            {"checked":"false","title":"Crema solare biodegradabile","sustainable":"true","description":"È la versione ecologica delle tradizionali protezioni solari. Gli ingredienti delle normali protezioni solari, che finiscono nei laghi, nei fiumi e nell'oceano (non solo dai bagnanti, ma anche dalle acque reflue) sono spesso tossici per l'ambiente. Per avere un comportamento più sostenibile puoi cercare una crema solare che non contenga nessuna delle seguenti sostanze: Ossibenzone, Ottinoxato, Ottocrilene, 4-metilbenzilden canfora, Acido para-aminobenzoico (PABA),  Metilparaben, Etilparaben, Propilparaben, Butilparaben, Benzile parabene, Triclosano, qualsiasi forma di microplastica, qualsiasi nanoparticella come ossido di zinco o biossido di titanio. (L'elenco precedente è l'elenco HEL che puoi trovare su haereticus-lab.org)","category":"any","season":"any"},
+            {"checked":"false","title":"Balsamo labbra","sustainable":"false","description":"Puoi sostituirlo con un balsamo per labbra senza plastica realizzato con ingredienti naturali e packaging ecologico.","category":"any","season":"any"},
+            {"checked":"false","title":"Balsamo labbra biodegradabile","sustainable":"true","description":"Il balsamo per labbra è un elemento essenziale che puoi usare ogni giorno. Pertanto, è importante scegliere un burro cacao a basso consumo che non abbia un impatto negativo sull'ambiente. Prova a cercare un balsamo per labbra che sia a spreco zero per i suoi ingredienti e la confezione.","category":"any","season":"any"},
+            {"checked":"false","title":"Borsa da scii/snowboard","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Kit primo soccorso","sustainable":"false","description":"","category":"any","season":"any"}
+            ]
+
+        ,"completePercent":"0"},
+        
+        {"name":"Hiking",
+        "rows":[
+            {"checked":"false","title":"Zaino per hiking","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Stivali/scarpe","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Kit primo soccorso","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Mappa":"false","description":"","category":"any","season":"any"}
+            {"checked":"false","title":"Libro guida","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Bussola","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Segnale di localizzazione personale (PLB)","sustainable":"false","description":"Uno strumento per la tua sicurezza. Ti permette di rimanere connesso anche quando sei fuori gamma di servizi cellulari. E’ uno strumento portabile utilizzabile in caso di emergenza medica, rottura del veicolo o in caso perdi la strada","category":"any","season":"any"},
+            {"checked":"false","title":"Altimetro","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Torcia","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Crema solare","sustainable":"false","description":"Potresti usare una crema solare biodegradabile invece di una tradizionale, che non è la scelta perfetta per l'ambiente perché gli ingredienti chimici che inquinano le acque e le barriere coralline non provengono solo dai bagnanti, ma anche dalle acque reflue. Quindi prova a cercare una crema solare ecologica che non contenga alcun ingrediente dannoso come ottinoxato, ossibenzone, 4-metilbenzilden canfora, parabeni.","category":"any","season":"any"},
+            {"checked":"false","title":"Crema solare biodegradabile","sustainable":"true","description":"È la versione ecologica delle tradizionali protezioni solari. Gli ingredienti delle normali protezioni solari, che finiscono nei laghi, nei fiumi e nell'oceano (non solo dai bagnanti, ma anche dalle acque reflue) sono spesso tossici per l'ambiente. Per avere un comportamento più sostenibile puoi cercare una crema solare che non contenga nessuna delle seguenti sostanze: Ossibenzone, Ottinoxato, Ottocrilene, 4-metilbenzilden canfora, Acido para-aminobenzoico (PABA),  Metilparaben, Etilparaben, Propilparaben, Butilparaben, Benzile parabene, Triclosano, qualsiasi forma di microplastica, qualsiasi nanoparticella come ossido di zinco o biossido di titanio. (L'elenco precedente è l'elenco HEL che puoi trovare su haereticus-lab.org)","category":"any","season":"any"},
+            {"checked":"false","title":"Occhiali da sole","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"telo ultraleggero","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Biancheria intima traspirante","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Maglietta traspirante","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Pantaloni ad asciugatura rapida","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Pantaloni in flanella","sustainable":"false","description":"","category":"any","season":"winter"},
+            {"checked":"false","title":"Maglietta a maniche lunghe","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Maglietta in flanella","sustainable":"false","description":"","category":"any","season":"winter"},
+            {"checked":"false","title":"Guanti","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Cappello","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Giacca isolante","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Bottiglia d’acqua di plastica","sustainable":"false","description":"Puoi sostituirla con una bottiglia riutilizzabile: consuma meno olio, rilascia meno anidride carbonica, non occuperà spazio nelle discariche e mantiene la tua bevanda alla temperatura che desideri.","category":"any","season":"any"},
+            {"checked":"false","title":"Borraccia","sustainable":"true","description":"Puoi sostituirla con una borraccia riutilizzabile: consuma meno olio, rilascia meno anidride carbonica, non imballerà le discariche e mantiene la tua bevanda alla temperatura che desideri.","category":"any","season":"any"},
+            {"checked":"false","title":"Filtro per l’acqua","sustainable":"false","description":"","category":"any","season":"any"}
+            
+            ]
+
+        ,"completePercent":"0"},
+        
+        {"name":"Ciclismo",
+        "rows":[
+            {"checked":"false","title":"Elmetto","sustainable":"false","description":"Se sei alla ricerca dell’elmetto ideale, cercane uno fatto di materiali rinnovabili, a base biologica o riciclati. Questi tipi di elmetti sono contenere cuscinetti lavabili e antimicrobici ","category":"any","season":"any"},
+            {"checked":"false","title":"Guanti da ciclismo","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Sacchetto impermeabile","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Lucchetto","sustainable":"false","description":"","category":"any","season":"any"}
+            {"checked":"false","title":"Pompa per la bici","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Borraccia","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Accessori per bici","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Lubrificante per catene","sustainable":"false","description":"Potresti usare un lubrificante per bici a base vegetale senza petrolchimici, che sono ingredienti dannosi per l'ambiente.","category":"any","season":"any"},
+            {"checked":"false","title":"Lubrificante a base vegetale","sustainable":"true","description":"È un prodotto realizzato con ingredienti a base naturale. Anche la sua confezione è spesso realizzata con plastica riciclata.","category":"any","season":"any"},
+            {"checked":"false","title":"Pantaloncini da ciclismo","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Calzini da ciclismo","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Maglia da ciclismo","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Faretto a pannello solare","sustainable":"true","description":"Invece di un faretto tradizionale, puoi usarne uno a pannello solare, il che significa che non devi caricarlo perché la luce solare lo caricherà per te.","category":"any","season":"any"},
+            {"checked":"false","title":"Caricatore USB per bici","sustainable":"true","description":"Questo dispositivo è attaccato sulla ruota posteriore della tua bici e immagazzina energia mentre pedali","category":"any","season":"any"}
+            ]
+
+        ,"completePercent":"0"},
+        
+        {"name":"Concerto/Teatro",
+        "rows":[
+            {"checked":"false","title":"Merchandising","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Powerbank","sustainable":"false","description":"Controlla se il luogo dell’evento ti consente di portarlo.","category":"any","season":"any"},
+            {"checked":"false","title":"Biglietto","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Binocolo","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Macchina fotografica","sustainable":"false","description":"Controlla se e che tipo di fotocamera puoi portare con te","category":"any","season":"any"},
+            {"checked":"false","title":"Cappello","sustainable":"false","description":"","category":"any","season":"any"}
+        ]
+
+    ,"completePercent":"0"},
+            
+            {"name":"Cane",
+            "rows":[
+                {"checked":"false","title":"Ciotola per acqua e cibo","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Guinzaglio e collare","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Medaglietta identificativa e microchip","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Kit pronto soccorso","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Cuccia","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Spazzola","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Spazzolino","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Dentifricio","sustainable":"false","description":"Alcuni degli ingredienti utilizzati per il dentifricio tradizionale, come i coloranti o il pirofosfato di sodio, non fanno bene all'ambiente. Puoi sostituirlo con un dentifricio biologico, che è anche una scelta più sana per te.","category":"any","season":"any"},
+                {"checked":"false","title":"Dentifricio organico","sustainable":"true","description":"È una scelta più salutare per te e per l'ambiente: essendo realizzato con ingredienti naturali, non contiene sostanze chimiche, che potrebbero mettere in pericolo la tua salute, o sostanze nocive, che non fanno bene all'ambiente.","category":"any","season":"any"},
+                {"checked":"false","title":"Paletta","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Bustine di plastica","sustainable":"false","description":"La plastica ha un processo di decomposizione molto lento, quindi puoi sostituire i sacchetti di plastica per gli escrementi con quelli compostabili.","category":"any","season":"any"},
+                {"checked":"false","title":"Bustine biodegradabili","sustainable":"true","description":"Sono realizzati con ingredienti biodegradabili.","category":"any","season":"any"},
+                {"checked":"false","title":"Giocattolo","sustainable":"false","description":"Se vuoi essere sostenibile anche nella scelta dei giocattoli per il tuo animale domestico, puoi cercare giocattoli realizzati con materiali riciclati.","category":"any","season":"any"},
+                {"checked":"false","title":"Prodotti per animali","sustainable":"false","description":"Se vuoi essere sostenibile con i prodotti per il tuo animale domestico, puoi cercare prodotti realizzati con materiali sostenibili, organici o riciclati.","category":"any","season":"any"}
+            ]
+
+        ,"completePercent":"0"},
+                
+                {"name":"Bambino",
+                "rows":[
+                    {"checked":"false","title":"Pannolini monouso","sustainable":"false","description":"Potresti cercare pannolini realizzati con materiali sostenibili","category":"any","season":"any"},
+                    {"checked":"false","title":"Bottiglia","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Vestiti","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Cappello","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Lozione corpo per bambini","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Sapone","sustainable":"false","description":"Potresti cercare un sapone con confezione sostenibile. Puoi anche utilizzare saponette, che hanno un impatto ambientale inferiore rispetto al sapone liquido.","category":"any","season":"any"},
+                    {"checked":"false","title":"Saponetta","sustainable":"true","description":"Ha un impatto ambientale inferiore rispetto al sapone liquido in termini di impronta carbonica, eco-tossicità, potenziale di eliminazione dell'ozono e potenziale di eutrofizzazione.","category":"any","season":"any"},
+                    {"checked":"false","title":"Calzini","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Crema solare","sustainable":"false","description":"Potresti usare una crema solare biodegradabile invece di una tradizionale, che non è la scelta perfetta per l'ambiente perché gli ingredienti chimici che inquinano le acque e le barriere coralline non provengono solo dai bagnanti, ma anche dalle acque reflue. Quindi prova a cercare una crema solare ecologica che non contenga alcun ingrediente dannoso come ottinoxato, ossibenzone, 4-metilbenzilden canfora, parabeni.","category":"any","season":"any"},
+                    {"checked":"false","title":"Crema solare biodegradabile","sustainable":"true","description":"È la versione ecologica delle tradizionali protezioni solari. Gli ingredienti delle normali protezioni solari, che finiscono nei laghi, nei fiumi e nell'oceano (non solo dai bagnanti, ma anche dalle acque reflue) sono spesso tossici per l'ambiente. Per avere un comportamento più sostenibile puoi cercare una crema solare che non contenga nessuna delle seguenti sostanze: Ossibenzone, Ottinoxato, Ottocrilene, 4-metilbenzilden canfora, Acido para-aminobenzoico (PABA),  Metilparaben, Etilparaben, Propilparaben, Butilparaben, Benzile parabene, Triclosano, qualsiasi forma di microplastica, qualsiasi nanoparticella come ossido di zinco o biossido di titanio. (L'elenco precedente è l'elenco HEL che puoi trovare su haereticus-lab.org)","category":"any","season":"any"},
+                    {"checked":"false","title":"Salviettine","sustainable":"false","description":"La maggior parte delle salviette tradizionali per neonati contiene plastica, che si decompone in modo incredibilmente lento, rimanendo nell'ambiente per anni. Durante la sua decomposizione, la plastica rilascia microplastiche che possono finire nei nostri corsi d'acqua causando danni alla vita marina e ai delicati ecosistemi. Ecco perché potresti considerare di usare salviettine biodegradabili realizzate senza plastica.","category":"any","season":"any"},
+                    {"checked":"false","title":"Salviettine ecologiche","sustainable":"true","description":"Se vuoi essere sostenibile ma hai anche bisogno di salviette per neonati, quelle biodegradabili sono la scelta perfetta per te. Non sono solo morbidi e sicure per il tuo bambino, ma si decompongono anche in parti più piccole negli anni, riducendo notevolmente gli sprechi.","category":"any","season":"any"},
+                    {"checked":"false","title":"Copertina","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Igienizzante mani","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Tappetino per ricambi","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Giocattoli","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Tiralatte","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Passeggino","sustainable":"false","description":"","category":"any","season":"any"}
+                ]
+
+            ,"completePercent":"0"},
+                    
+                    {"name":"Sedia a rotelle",
+                    "rows":[
+                        {"checked":"false","title":"Nastro adesivo","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Pluriball","sustainable":"false","description":"Se vuoi proteggere la tua sedia a rotelle durante il viaggio, puoi anche usare un pluriball riciclabile. ","category":"any","season":"any"},
+                        {"checked":"false","title":"Pluriball reciclabil","sustainable":"true","description":"È la versione sostenibile della comune forma di imbottitura per imballaggio.","category":"any","season":"any"},
+                        {"checked":"false","title":"Chiavi a brugola","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Viti di ricambio","sustainable":"false","description":"","category":"any","season":"any"}
+                        ]
+
+                    ,"completePercent":"0"},
+                   
+                   {"name":"Appartamento",
+                    "rows":[{"checked":"false","title":"Biancheria da letto organica","sustainable":"true","description":"Fatta con materiali organici.","category":"Apartment","season":"any"},{"checked":"false","title":"Lenzuola organiche o di bamboo","sustainable":"true","description":"Fatte con materiali organici.","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Detergente organico per I panni","sustainable":"true","description":"Fatto con materiali organici.","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Lenzuola di cotone","sustainable":"false","description":"","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Palle di lana per l’asciugatrice o ammorbidente organico","sustainable":"true","description":"le palle di lana per l’asciugatrice funzionano come ammorbidente naturale e sono riutilizzabili. Permettono di ridurre le pieghe dei vestiti e diminuisce il tempo di asciugatura. Inoltre sono una migliore alternativa al palle di plastica e all’ammorbidente liquido","category":"Appartamento","season":"any"}
+                        {"checked":"false","title":"Spazzola per indumenti","sustainable":"false","description":"","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Smacchiatore biologico","sustainable":"true","description":"Fatto con materiali organici.","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Spugna o spazzolone da cucina di origine vegetale","sustainable":"true","description":"Fatti con materiali organici.","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Spugna da cucina","sustainable":"false","description":"","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Sapone liquido per piatti di origine vegetale","sustainable":"true","description":"Ha un impatto minore sull'ambiente rispetto al tradizionale sapone liquido.","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Panno","sustainable":"false","description":"","category":"Apartment","season":"any"}
+                        {"checked":"false","title":"Involucro cera d'api o di cera vegetale","sustainable":"true","description":"L'involucro di cera d'api o di cera vegetare è una alternativa sostenibile ai contenitori di plastica per la conservazione degli alimenti. Possono durare fino a un anno con cura adeguata.","category":"Apartment","season":"any"}
+                        
+                        ]
+
+                    ,"completePercent":"0"},
+                   {"name":"Camper",
+                   "rows":[
+                       {"checked":"false","title":"Assicurazione veicolo","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Documento di identità","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Libretto veicolo","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Carte stradali","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Tessera sanitaria","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Elenchi aree di sosta","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Guide campeggi","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Guide turistiche","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Presine e asciugapiatti","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Posate, mestolo e ramina","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Tazze","sustainable":"falso","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Caffettiera","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Piatti e bicchieri biodegradabili","sustainable":"true","description":"Fatti con materiali biodegradabili.","category":"any","season":"any"},
+                       {"checked":"false","title":"Tovaglioli di carta e rotoli asciugatutto","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Aprobottiglie, apriscatole, cavatappi","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Pellicole, contenitori e sacchetti per conservare il cibo","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Sacchetti immondizia","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Sale grosso e fine, zucchero, olio e aceto","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Caffè e the","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Accendigas o fiammiferio","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Spugne, pagliette e detersivo per piatti","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Tovaglie","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Forbici","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Grattuggia","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Tagliere","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Coltello","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Cibo","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Lenzuola","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Cuscini","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Sacchi a pelo e coperte","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Asciugamani e accappatoi","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Liquido WC e carta igienica biodegradabile","sustainable":"true","description":"Fatti con materiali biodegradabili.","category":"any","season":"any"},
+                       {"checked":"false","title":"Corde e mollette per stendere, sapone da bucato","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Torcia elettrica  ricaricabile","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Insetticida","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Cunei per ruote","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Tavolo da campeggio e sedie pieghevoli","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Cavo elettrico con spina e presa CEE e adattatori","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Canna acqua con riduttore per vari diametri","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Cacciaviti, martello, pinza, forbici, cutter, etc.","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Fusibili e lampadine di ricambio","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Nastro isolante, fascette stringi tubo, spray lubrificante, etc","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Due bombole di gas propano e chiave per cambiare la bombola","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Scopa, paletta e straccio per pavimento","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Detergente multiuso per pulizia interno","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Prontosoccorso e medicine","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Spazzolino","sustainable":"false","description":"Ogni anno un'enorme quantità di spazzolini tradizionali da denti viene gettata via e spesso non viene riciclata. Potresti provare a usare uno spazzolino ecologico.","category":"any","season":"any"},
+                       {"checked":"false","title":"Spazzolino in bambù o con testine intercambiabili","sustainable":"true","description":"Esistono diverse opzioni se si desidera utilizzare uno spazzolino ecologico: spazzolini a base vegetale, che sono realizzati con materiali naturali; oppure, puoi utilizzare spazzolini elettrici con testine intercambiabili, in modo che durino più tempo e, dunque, il consumo di plastica nel tempo diminuisca.","category":"any","season":"any"},
+                       {"checked":"false","title":"Shampoo, balsamo e bagnoschiuma","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Deodorante","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Asciugacapelli, spazzole e pettine","sustainable":"false","description":"","category":"any","season":"any"},
+                       {"checked":"false","title":"Borraccia","sustainable":"t","description":"Le borracce riutilizzabili aiutano l’ambiente per più motivi: utilizzano meno risorse, rilasciano meno gas nocivi e, inoltre, mantengono la tua bevanda alla temperatura che desideri.","category":"any","season":"any"}
+                       
+                       
+                       ]
+
+                   ,"completePercent":"0"}
+]

@@ -6,16 +6,16 @@
 //
 
 import SwiftUI
-import GooglePlaces
+//import GooglePlaces
 
 
 struct YourTrips: View {
     @StateObject var trips: UseTrip
     @State private var isPresented = false
     @State private var isDetails = false
-    @State private var tripToShow = Trip(city: "", lists: [], tripDetails: TripDetails(pref: []))
+    @State private var tripToShow = Trip(city: "", lists: [], tripDetails: TripDetails(pref: []), sustainableLeaf: "")
     @StateObject var settings = Settings()
-    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
+//    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
     
     var body: some View {
         
@@ -26,6 +26,7 @@ struct YourTrips: View {
                     CardView(name: trip.city, imageName: trip.city)
                         .onTapGesture {
                             tripToShow = trip
+                            print(trip.tripDetails)
                             isDetails.toggle()
                             print("tappato")
                         }.listRowSeparator(.hidden)
@@ -54,13 +55,7 @@ struct YourTrips: View {
         .fullScreenCover(isPresented: $isPresented, content: AddingSheet.init)
         .environmentObject(settings)
        
-        .onAppear{
-            if needsAppOnboarding{
-                isPresented.toggle()
-                
-            }
-            
-        }
+        
       
         //.listStyle(.inset)
         

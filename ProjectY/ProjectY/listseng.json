@@ -1,0 +1,416 @@
+
+[{"name":"Bathroom",
+"rows":[{"checked":"false","title":"Safety razor with interchangeable heads","sustainable":"false","description":"","category":"any","season":"any"},{"checked":"false","title":"Soap","sustainable":"false","description":"You may look for a soap with sustainable packaging. You can also use bar soaps, which have a lower environmental impact than liquid ones.","category":"any","season":"any"},
+    {"checked":"false","title":"Bar soap","sustainable":"true","description":"It has a lower environmental impact than liquid soap in carbon footprint, eco-toxicity, ozone depletion potential, and eutrophication potential.","category":"any","season":"any"},
+    {"checked":"false","title":"Traditional toothbrush","sustainable":"false","description":"A huge amount of traditional toothbrushes are thrown away every year and they’re often not recycled. You may look for an eco-friendly toothbrush.","category":"any","season":"any"},
+    {"checked":"false","title":"Eco-friendly toothbrush","sustainable":"true","description":"There are different options if you want to use an eco-friendly toothbrush: there are plant-based toothbrushes, which are made with natural materials; otherwise, you can use electric toothbrushes with interchangeable heads, that are built to last so you’d use less plastic over time.","category":"any","season":"any"},
+    {"checked":"false","title":"Traditional toothpaste","sustainable":"false","description":"Traditional toothpaste is usually made with harmful ingredients and its packaging isn’t good for the environment. Try to look for an eco-friendly option.","category":"any","season":"any"},
+    {"checked":"false","title":"Solid toothpaste","sustainable":"true","description":"You can reduce waste to protect the environment by using solid toothpaste, which has minimal packaging compared to the traditional one.","category":"any","season":"any"},
+    {"checked":"false","title":"Dental floss","sustainable":"false","description":"Traditional dental floss is made of non-biodegradable, petroleum-based plastic. You can use a biodegradable one.","category":"any","season":"any"},
+    {"checked":"false","title":"Biodegradable dental floss","sustainable":"true","description":"Biodegradable dental floss is a good choice for the environment: it is made of natural fibres and has no sweeteners or artificial flavouring.","category":"any","season":"any"},
+    {"checked":"false","title":"Traditional balm","sustainable":"false","description":"Traditional balms usually have silicones among their ingredients. You can use an eco-friendly balm instead of a traditional one.","category":"any","season":"any"},
+    {"checked":"false","title":"Natural and silicone-free balm","sustainable":"true","description":"Balms made with natural ingredients don’t have silicones, which are not biodegradable substances.","category":"any","season":"any"},
+    {"checked":"false","title":"Sea/loofah sponge","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Traditional deodorant","sustainable":"false","description":"Regular deodorants are usually not good for the environment: for example, spray deodorants release chemicals into the air. Even their packaging can be bad for the environment: they often come in plastic or other non-recyclable materials. You may look for a sustainable deodorant.","category":"any","season":"any"},
+    {"checked":"false","title":"Natural deodorant","sustainable":"true","description":"It is the green version of the regular deodorant: it’s plastic-free deodorant and usually has compostable refills.","category":"any","season":"any"},
+    {"checked":"false","title":"Natural repellents","sustainable":"true","description":"Find one made by based on tea tree oil, neem, lemongrass, eucalyptus and lavender","category":"any","season":"any"},
+    {"checked":"false","title":"Liquid shampoo","sustainable":"false","description":"What if you replace it with solid shampoo? In this way, you can bring it on a plane with no problems and, last but not least, you won’t waste any plastic for its package.","category":"any","season":"any"},
+    {"checked":"false","title":"Solid shampoo","sustainable":"true","description":"It is the eco-friendly version of traditional liquid shampoo. Its composition is similar to that of liquid shampoo with the distinct difference that the water component has been removed. Also, the overall carbon footprint is less with solid shampoo. You can bring it on a plane with no problems and, last but not least, you won’t waste any plastic for its package.","category":"any","season":"any"},
+    {"checked":"false","title":"Cotton towel","sustainable":"false","description":"As cotton usually grows with the use of synthetic pesticides and herbicides, you may consider to use a towel made with natural materials, like hemp.","category":"any","season":"any"},
+    {"checked":"false","title":"Hemp towel","sustainable":"true","description":"It is produced in a more sustainable way because it doesn’t need pesticides to grow crops. Its fabric absorbs a lot more moisture compared to cotton and dries ultra-fast, so it is perfect for travelling.","category":"any","season":"any"},
+    {"checked":"false","title":"Talcum powder","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Cotton swabs","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Disinfectant gel","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Face cream","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Hands and body cream","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Travel hairdryer","sustainable":"false","description":"Check if the accommodation where you will stay will already provide you with the dryer","category":"any","season":"any"},
+    {"checked":"false","title":"Comb or brush","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Gel, wax or lacquer","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Mouthwash","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Cocoa butter","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Tweezers","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Pads","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+
+,"completePercent":"0"},
+    {"name":"Make up",
+    "rows":[{"checked":"false","title":"Natural oils and butters such as castor oil","sustainable":"true","description":"This kind of oil can be both environmentally sustainable and economical.","category":"any","season":"any"},{"checked":"false","title":"Compact eyeshadow","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Kajal","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Gel eyeliner","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Mascara","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Brushes","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Wipes","sustainable":"false","description":"Most traditional wipes contain plastic, which breaks down incredibly slowly, staying in the environment for years. During its degradation, plastic releases microplastics that can end up in our waterways causing damage to marine life and delicate ecosystems. So when you have to remove your makeup, consider using reusable pads.","category":"any","season":"any"},
+        {"checked":"false","title":" Reusable make-up remover pads","sustainable":"true","description":"Reusable pads have a good impact on environment but also on your pocket: do you know that each pad can last up to 1000 washes?","category":"any","season":"any"},
+        {"checked":"false","title":"Pencil","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Small palette","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Eco biodegradable sharpener","sustainable":"true","description":"It's made with biodegradable materials.","category":"any","season":"any"},
+        {"checked":"false","title":"Compact lipstick","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Lip balm","sustainable":"false","description":"You can replace it with a plastic free lip balm made with natural ingredients and eco packaging.","category":"any","season":"any"},
+        {"checked":"false","title":"Sustainable lip balm","sustainable":"true","description":"Lip balm is an essential item you may use daily. As such, it’s important to choose a low waste chapstick that doesn’t negatively impact the environment. Try to look for a lip balm which is zero waste for its ingredients and packaging.","category":"","season":""},
+        {"checked":"false","title":"Compact concealer","sustainable":"false","description":"","category":"any","season":"any"}
+        ]
+
+    ,"completePercent":"0"},
+    {"name":"Clothes",
+    "rows":[{"checked":"false","title":"K-way dubleface","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Towels","sustainable":"false","description":"As cotton usually grows with the use of synthetic pesticides and herbicides, you may consider to use a natural fabric towel as organic cotton.","category":"any","season":"any"},
+        {"checked":"false","title":"Natural fabric towel","sustainable":"true","description":"Towels in natural fibres, such as organic cotton or hemp, are not only a more sustainable choice but also a useful one: these towels are ultra-absorbent dry ultra-fast, so they’re perfect for travelling.","category":"any","season":"any"},
+        {"checked":"false","title":"Sunglasses","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Underwear","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Socks","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Bras","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Socking","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Tank tops","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Trousers","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Shorts","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Jeans","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Sweatpants","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Belt","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"T-shirt","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Long-sleeved shirt","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Sweatshirt","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Sweater","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Scarf","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Gloves","sustainable":"false","description":"","category":"any","season":"winter"},
+        {"checked":"false","title":"Coats","sustainable":"false","description":"","category":"any","season":"winter"},
+        {"checked":"false","title":"Windbreakers","sustainable":"false","description":"","category":"any","season":"fall"},
+        {"checked":"false","title":"Winter hat","sustainable":"false","description":"","category":"any","season":"winter"},
+        {"checked":"false","title":"Basketball hat","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Pajamas","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Elegant shoes","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Sneakers","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Shirts","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Bathrobe","sustainable":"false","description":"","category":"any","season":"any"}
+        ]
+
+    ,"completePercent":"0"},
+    {"name":"Beach",
+    "rows":[{"checked":"false","title":"Flip flops","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Flip flops made with recycled plastic","sustainable":"true","description":"Even with your style, you can look for sustainable choices: use clothing items made with natural or recycled material.","category":"any","season":"summer"},
+    {"checked":"false","title":"Beach cotton towel","sustainable":"false","description":"As cotton usually grows with the use of synthetic pesticides and herbicides, you may consider to use a natural fabric towel as organic cotton.","category":"any","season":"summer"},
+    {"checked":"false","title":"Natural fabric towel","sustainable":"true","description":"Towels in natural fibres, such as organic cotton or hemp, are not only a more sustainable choice but also a useful one: these towels are ultra-absorbent dry ultra-fast, so they’re perfect for travelling.","category":"any","season":"summer"},
+    {"checked":"false","title":"Swimsuit","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Swimsuit made with regenerated fibres","sustainable":"true","description":"Even with your style, you can look for sustainable choices: use clothing items made with natural or recycled material.","category":"any","season":"summer"},
+    {"checked":"false","title":"Water shoes","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Sunglasses","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Hat","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Sunscreen","sustainable":"false","description":"You may use a biodegradable sunscreen instead of a traditional one, which isn’t the perfect choice for the environment because the chemical ingredients leaching into waters and coral reefs are not just from swimmers, but from sewage. So try to look for an eco-friendly sunscreen which doesn’t have any harmful ingredient such as octinoxate, oxybenzone, 4-methylbenzylidene camphor, parabens.","category":"any","season":"summer"},
+    {"checked":"false","title":"Biodegradable sunscreen","sustainable":"true","description":"It is the eco-friendly version of traditional sunscreens. The ingredients in normal sunscreens, which end up in lakes, rivers and oceans (not only from swimmers but from sewage as well) are often toxic to the environment. You can have better sustainable behaviour if you look for a sunscreen which doesn’t contain any of the following substances: Oxybenzone, Octinoxate, Octocrylene, 4-methylbenzylidene camphor, Para-aminobenzoic acid (PABA), Methyl Paraben, Ethyl Paraben, Propyl Paraben, Butyl Paraben, Benzyl Paraben, Triclosan, any form of microplastic sphere or beads, any nanoparticles like zinc oxide or titanium dioxide. (The previous list is the HEL list that you can find on haereticus-lab.org)","category":"any","season":"summer"},
+    {"checked":"false","title":"After-sun cream","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Tanning oil","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Pareo","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Fins","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Mask","sustainable":"false","description":"","category":"any","season":"summer"},
+    {"checked":"false","title":"Snorkel","sustainable":"false","description":"","category":"any","season":"summer"}
+]
+    ,"completePercent":"0"},
+    {"name":"Mountain",
+    "rows":[{"checked":"false","title":"Heavy jacket","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Scarf","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Gloves","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Beanie","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Sweater in fleece","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Tights","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Tent","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Reusable water bottle","sustainable":"true","description":"Reusable bottles help the environment for more reasons: they use fewer resources, emit less harmful gas and as a plus, they keep your drink at the temperature you want.","category":"any","season":"any"},
+    {"checked":"false","title":"Boots","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+    {"name":"Personal Documents",
+    "rows":[{"checked":"false","title":"ID card","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Passport","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Licence","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Credit Card VISA","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Health Insurance Card","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+    
+    {"name":"Medicines",
+    "rows":[{"checked":"false","title":"Thermometer","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Patches","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Disinfectant","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Painkillers","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antipyretics","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antivomit","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antihistamines","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Anti-inflammatory","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antinausea","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Antibiotics","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Spray repellent for insects","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+    
+    {"name":"Essentials",
+    "rows":[{"checked":"false","title":"Headphones","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"House Key","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Plastic bag","sustainable":"false","description":"You may replace it with a cotton bag: you can reuse it every time so you won’t use any plastic.","category":"any","season":"any"},
+    {"checked":"false","title":"Tote bag","sustainable":"true","description":"Cotton bags are biodegradable and made from a renewable resource. They're also sturdy and durable, so they can be used many times.","category":"any","season":"any"},
+    {"checked":"false","title":"Umbrella","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Digital travel guides","sustainable":"true","description":"Instead of print travel guides, you may use digital ones so you’ll be sustainable even while you’re visiting new places.","category":"any","season":"any"},
+    {"checked":"false","title":"Watch","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Power Bank","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Wallet","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Phone charger","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+
+
+
+    {"name":"Photography",
+    "rows":[
+    
+    {"checked":"false","title":"Camera","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Multipurpose lens","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Stand","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Camera battery","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Camera battery charger","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Drone","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Optics ","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Flash","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Eyeglasses","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Contact lenses","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Sunglasses","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+
+    {"name":"Plane",
+    "rows":[
+    
+    {"checked":"false","title":"Flight ticket","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Passport","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Eye mask","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Earplugs","sustainable":"false","description":"","category":"any","season":"any"},
+    {"checked":"false","title":"Inflatable Travel Pillow","sustainable":"false","description":"","category":"any","season":"any"}
+    ]
+        ,"completePercent":"0"},
+    
+    {"name":"Work",
+    "rows":[
+        {"checked":"false","title":"Laptop","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Laptop charger","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Documents","sustainable":"false","description":"","category":"any","season":"any"},
+        {"checked":"false","title":"Company badges and/or business cards","sustainable":"false","description":"","category":"any","season":"any"}
+        ]
+
+    ,"completePercent":"0"},
+        
+        {"name":"Ski",
+        "rows":[
+            {"checked":"false","title":"Helmet","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Boots","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Windproof jacket","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Mittens","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Scarf","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Beanie","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Googles","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Wooden skin socks","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Thermal underwear","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Waterproof shoes","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Sunscreen","sustainable":"false","description":"You may use a biodegradable sunscreen instead of a traditional one, which isn’t the perfect choice for the environment because the chemical ingredients leaching into waters and coral reefs are not just from swimmers, but from sewage. So try to look for an eco-friendly sunscreen which doesn’t have any harmful ingredient such as octinoxate, oxybenzone, 4-methylbenzylidene camphor, parabens.","category":"any","season":"any"},
+            {"checked":"false","title":"Biodegradable sunscreen","sustainable":"true","description":"It is the eco-friendly version of traditional sunscreens. The ingredients in normal sunscreens, which end up in lakes, rivers and oceans (not only from swimmers but from sewage as well) are often toxic to the environment. You can have better sustainable behaviour if you look for a sunscreen which doesn’t contain any of the following substances: Oxybenzone, Octinoxate,Octocrylene, 4-methylbenzylidene camphor, Para-aminobenzoic acid (PABA), Methyl Paraben, Ethyl Paraben, Propyl Paraben ,Butyl Paraben, Benzyl Paraben, Triclosan, Any form of microplastic sphere or beads, Any nanoparticles like zinc oxide or titanium dioxide.","category":"any","season":"any"},
+            {"checked":"false","title":"Lip balm","sustainable":"false","description":"You can replace it with a plastic free lip balm made with natural ingredients and eco packaging.","category":"any","season":"any"},
+            {"checked":"false","title":"Sustainable lip balm","sustainable":"true","description":"Lip balm is an essential item you may use daily. As such, it’s important to choose a low waste chapstick that doesn’t negatively impact the environment. Try to look for a lip balm which is zero waste for its ingredients and packaging.","category":"any","season":"any"},
+            {"checked":"false","title":"Skii / Snowboard bag","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"First aid kit","sustainable":"false","description":"","category":"any","season":"any"}
+            ]
+
+        ,"completePercent":"0"},
+        
+        {"name":"Hiking",
+        "rows":[
+            {"checked":"false","title":"Hiking backpack","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Boots/shoes","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"First-aid kit","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Map","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Guidebook","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Compass","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Personal locator beacon (PLB)","sustainable":"false","description":"a tool to keep you safe and connected even when you're out of cell service range. It’s a portable device very helpful if you have a health emergency, vehicle breakdown, or get lost on your adventures.","category":"any","season":"any"},
+            {"checked":"false","title":"Altimeter","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Flashlight","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Sunscreen","sustainable":"false","description":"You may use a biodegradable sunscreen instead of a traditional one, which isn’t the perfect choice for the environment because the chemical ingredients leaching into waters and coral reefs are not just from swimmers, but from sewage. So try to look for an eco-friendly sunscreen which doesn’t have any harmful ingredient such as octinoxate, oxybenzone, 4-methylbenzylidene camphor, parabens.","category":"any","season":"any"},
+            {"checked":"false","title":"Biodegradable sunscreen","sustainable":"true","description":"It is the eco-friendly version of traditional sunscreens. The ingredients in normal sunscreens, which end up in lakes, rivers and oceans (not only from swimmers but from sewage as well) are often toxic to the environment. You can have better sustainable behaviour if you look for a sunscreen which doesn’t contain any of the following substances: Oxybenzone, Octinoxate,Octocrylene, 4-methylbenzylidene camphor, Para-aminobenzoic acid (PABA), Methyl Paraben, Ethyl Paraben, Propyl Paraben ,Butyl Paraben, Benzyl Paraben, Triclosan, Any form of microplastic sphere or beads, Any nanoparticles like zinc oxide or titanium dioxide.","category":"any","season":"any"},
+            {"checked":"false","title":"Sunglasses","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Ultralight tarp","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Moisture-wicking underwear","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Moisture-wicking T-shirt","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Quick-drying pants/shorts","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Quick-drying pants/shorts","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Fleece pants","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Long-sleeve shirt","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Lightweight fleece or jacket","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Gloves/mittens","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Hat","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Warm, insulated jacket","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Plastic water bottle","sustainable":"false","description":"You can replace it with a reusable bottle: it uses less oil, releases less carbon dioxide, won't pack landfills and keeps your drink at the temperature you want.","category":"any","season":"any"},
+            {"checked":"false","title":"Reusable water bottle","sustainable":"true","description":"Reusable bottles help the environment for more reasons: they use fewer resources, emit less harmful gas and as a plus, they keep your drink at the temperature you want.","category":"any","season":"any"},
+            {"checked":"false","title":"Water filter/purifier","sustainable":"false","description":"","category":"any","season":"any"}
+            
+            ]
+
+        ,"completePercent":"0"},
+        
+        {"name":"Cycling",
+        "rows":[
+            {"checked":"false","title":"Bike helmet","sustainable":"false","description":"As you’re looking for the perfect helmet for your cycling ride, you may choose a product which use renewable, bio-based and recycled materials. This kind of helmet can have washable and anti-microbial pads.","category":"any","season":"any"},
+            {"checked":"false","title":"Cycling gloves","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Waterproof pouch","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Bike lock","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Bike pump","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Water bottle","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Multi-tool bike accessories","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Chain lube","sustainable":"false","description":"you may use a plant-base lube without petrochemicals, which are harmful ingredients for the environment.","category":"any","season":"any"},
+            {"checked":"false","title":"Plant-base lube","sustainable":"true","description":"It’s a product made with natural based ingredients. Even its package is often made with recycled plastic.","category":"any","season":"any"},
+            {"checked":"false","title":"Bike shorts","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Bike socks","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Bike jersey","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Solar panel light","sustainable":"true","description":"Instead of a traditional light, you can use a solar panel one, which means you don’t need to charge it because sunlight will charge it for you.","category":"any","season":"any"},
+            {"checked":"false","title":"Bicycle lightweight USB generator","sustainable":"false","description":"This device will be attached to your bike’s rear wheel and it will store the energy as you cycle.","category":"any","season":"any"}
+            ]
+
+        ,"completePercent":"0"},
+        
+        {"name":"Concert/Theatre",
+        "rows":[
+            {"checked":"false","title":"Merchandising","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Mini portable charger","sustainable":"false","description":"Check if the venue allows you to bring it.","category":"any","season":"any"},
+            {"checked":"false","title":"Concert ticket","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Binoculars","sustainable":"false","description":"","category":"any","season":"any"},
+            {"checked":"false","title":"Camera","sustainable":"false","description":"Check if and what kind of camera you’re allowed to bring with you","category":"any","season":"any"},
+            {"checked":"false","title":"Baseball hat","sustainable":"false","description":"","category":"any","season":"any"}
+        ]
+
+    ,"completePercent":"0"},
+            
+            {"name":"Dog",
+            "rows":[
+                {"checked":"false","title":"Water and food bowls","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Leash and Collar","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Pet Identification Tag and Microchip","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Pet first aid kit","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Pet bed","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Pet grooming brush","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Toothbrush","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Traditional toothpaste","sustainable":"false","description":"Some of the ingredients used for traditional toothpaste, such as colourants or sodium pyrophosphate, aren’t good for the environment. You can replace it with organic toothpaste, which is also a healthier choice for you.","category":"any","season":"any"},
+                {"checked":"false","title":"Organic toothpaste","sustainable":"true","description":"It is a healthier choice for you and the environment: being made with natural ingredients, it doesn’t have any chemicals, that could potentially endanger your health, or harmful substances, that aren’t good for the environment.","category":"any","season":"any"},
+                {"checked":"false","title":"Pooper scooper","sustainable":"false","description":"","category":"any","season":"any"},
+                {"checked":"false","title":"Plastic poop bags","sustainable":"false","description":"Plastic has a very slow degradation process, so you may replace plastic poop bags with compostable ones.","category":"any","season":"any"},
+                {"checked":"false","title":"Compostable poop bags","sustainable":"true","description":"They’re made with biodegradable ingredients.","category":"any","season":"any"},
+                {"checked":"false","title":"Toys","sustainable":"false","description":"If you want to be sustainable with toys for your pet, you can look for toys made with upcycled and recycled materials.","category":"any","season":"any"},
+                {"checked":"false","title":"Pet supplies","sustainable":"false","description":"If you want to be sustainable with supplies for your pet, you can look for products made with sustainable, organic or recycle materials.","category":"any","season":"any"}
+            ]
+
+        ,"completePercent":"0"},
+                
+                {"name":"Baby",
+                "rows":[
+                    {"checked":"false","title":"Disposable diapers","sustainable":"false","description":"You can look for diapers made with sustainable materials","category":"any","season":"any"},
+                    {"checked":"false","title":"Baby bottle","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Baby clothes","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Baby hat","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Lotion","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Soap","sustainable":"false","description":"You may look for a soap with sustainable packaging. You can also use bar soaps, which have a lower environmental impact than liquid ones.","category":"any","season":"any"},
+                    {"checked":"false","title":"Bar soap","sustainable":"true","description":"It has a lower environmental impact than liquid soap in carbon footprint, eco-toxicity, ozone depletion potential, and eutrophication potential.","category":"any","season":"any"},
+                    {"checked":"false","title":"Socks","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Sunscreen","sustainable":"false","description":"You may use a biodegradable sunscreen instead of a traditional one, which isn’t the perfect choice for the environment because the chemical ingredients leaching into waters and coral reefs are not just from swimmers, but from sewage. So try to look for an eco-friendly sunscreen which doesn’t have any harmful ingredient such as octinoxate, oxybenzone, 4-methylbenzylidene camphor, parabens.","category":"any","season":"any"},
+                    {"checked":"false","title":"Biodegradable sunscreen","sustainable":"true","description":"It is the eco-friendly version of traditional sunscreens. The ingredients in normal sunscreens, which end up in lakes, rivers and oceans (not only from swimmers but from sewage as well) are often toxic to the environment. You can have better sustainable behaviour if you look for a sunscreen which doesn’t contain any of the following substances: Oxybenzone, Octinoxate,Octocrylene, 4-methylbenzylidene camphor, Para-aminobenzoic acid (PABA), Methyl Paraben, Ethyl Paraben, Propyl Paraben ,Butyl Paraben, Benzyl Paraben, Triclosan, Any form of microplastic sphere or beads, Any nanoparticles like zinc oxide or titanium dioxide.","category":"any","season":"any"},
+                    {"checked":"false","title":"Baby wipes","sustainable":"false","description":"Most traditional baby wipes contain plastic, which breaks down incredibly slowly, staying in the environment for years. During its degradation, plastic releases microplastics that can end up in our waterways causing damage to marine life and delicate ecosystems. That’s why you may use biodegradable baby wipes made without plastic.","category":"any","season":"any"},
+                    {"checked":"false","title":"Eco-friendly baby wipes","sustainable":"true","description":"To be greener even during your lunch, you can use lunch boxes which are BPA-free, and phthalate-free.","category":"any","season":"any"},
+                    {"checked":"false","title":"Blanket","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Hand sanitiser","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Changing mat","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Toys","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"bresstpump","sustainable":"false","description":"","category":"any","season":"any"},
+                    {"checked":"false","title":"Stroller","sustainable":"false","description":"","category":"any","season":"any"}
+                ]
+
+            ,"completePercent":"0"},
+                    
+                    {"name":"Wheelchair",
+                    "rows":[
+                        {"checked":"false","title":"Duct tape","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Bubble wrap","sustainable":"false","description":"If you want to protect your chair during the flight with it, you can also use a recyclable one. ","category":"any","season":"any"},
+                        {"checked":"false","title":"recyclable bubble wrap","sustainable":"true","description":"It's the sustainable version of the most common protective packaging form.","category":"any","season":"any"},
+                        {"checked":"false","title":"Allen wrenches to fit the screws on your wheelchair","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Replacement screws","sustainable":"false","description":"","category":"any","season":"any"}
+                        ]
+
+                    ,"completePercent":"0"},
+                    
+                    {"name":"Apartment",
+                    "rows":[{"checked":"false","title":"Organic bedding","sustainable":"true","description":"It's made with organic materials.","category":"Apartment","season":"any"},{"checked":"false","title":"Organic or bamboo sheets","sustainable":"true","description":"Made with organic materials.","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Plant based detergent","sustainable":"true","description":"Made with organic materials.","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Cotton sheets","sustainable":"false","description":"","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Wool dryer balls or plant based softener","sustainable":"true","description":"the wool dryer balls are reusable natural fabric softener that reduces clothing wrinkles and saves drying time. The dryer ball is a better alternative to plastic balls and liquid softener","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Garment brush","sustainable":"false","description":"","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Organic stain removers","sustainable":"true","description":"Made with organic materials.","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Plant based scrubbers and sponges","sustainable":"true","description":"Made with organic materials.","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Kitchen sponge","sustainable":"false","description":"","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Plant based liquid dish soap","sustainable":"true","description":"It has a lower environmental impact than traditional liquid soap","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Cloth towels","sustainable":"false","description":"","category":"Apartment","season":"any"},
+                        {"checked":"false","title":"Beeswax or plant based wax wraps","sustainable":"true","description":"The sustainable reusable beeswax food wrap is a natural alternative to plastic wrap for food storage. They can last for up one year with proper care. ","category":"Apartment","season":"any"}
+                        
+                        ]
+
+                ,"completePercent":"0"},
+                    
+                    {"name":"Camper",
+                    "rows":[
+                        {"checked":"false","title":"Vehicle insurance","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Identity document","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Vehicle registration","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Road maps","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Health insurance","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Lists of rest areas","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Guides to campsites","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Tour guides","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Pot holders and dish towels","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Cutlery, ladle and ramine","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Cups","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Coffee maker","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Biodegradable plates and cups","sustainable":"true","description":"Made with biodegradable materials.","category":"any","season":"any"},
+                        {"checked":"false","title":"Paper towels and drying rolls","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Bottle openers, can openers, corkscrews","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Cling wrap, containers and bags for storing food","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Garbage bags","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Coarse and fine salt, sugar, oil and vinegar","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Coffee and tea","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Lighters or matches","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Sponges, scouring pads and dishwashing detergent","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Tablecloths","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Scissors","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Grater","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Chopping board","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Knife","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Food","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Sheets","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Cushions","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Sleeping bags and blankets","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Towels and bathrobes","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"WC liquid and biodegradable toilet paper","sustainable":"true","description":"Made with biodegradable materials.","category":"any","season":"any"},
+                        {"checked":"false","title":"Cords and clothespins, laundry soap","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Rechargeable flashlight","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Insecticides","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Wheel wedges","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Camping table and folding chairs","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Electric cable with CEE plug and socket and adapters","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Water pipe with reducer for various diameters","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Screwdrivers, hammer, pliers, scissors, cutters, etc.","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Fuses and replacement bulbs","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Electrical tape, hose clamps, lubricating spray, etc.","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Two propane gas cylinders and key for changing the cylinder","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Broom, dustpan and floor mop","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Multi-purpose detergent for internal cleaning","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Emergency care kit and medicines","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Traditional toothbrush","sustainable":"false","description":"A huge amount of traditional toothbrushes are thrown away every year and they’re often not recycled. You may look for an eco-friendly toothbrush.","category":"any","season":"any"},
+                        {"checked":"false","title":"Eco-friendly toothbrush","sustainable":"true","description":"There are different options if you want to use an eco-friendly toothbrush: there are plant-based toothbrushes, which are made with natural materials; otherwise, you can use electric toothbrushes with interchangeable heads, that are built to last so you’d use less plastic over time.","category":"any","season":"any"},
+                        {"checked":"false","title":"Shampoo, conditioner and body wash","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Deodorant","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Hair dryer, brushes and comb","sustainable":"false","description":"","category":"any","season":"any"},
+                        {"checked":"false","title":"Reusable water bottle","sustainable":"true","description":"Reusable bottles help the environment for more reasons: they use fewer resources, emit less harmful gas and as a plus, they keep your drink at the temperature you want.","category":"any","season":"any"}
+                        
+                        
+                        ]
+
+                    ,"completePercent":"0"}
+
+                   ]

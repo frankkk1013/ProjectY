@@ -20,7 +20,8 @@ struct DestinationDetails: View {
                 .font(.title3)
                 .fontWeight(.bold)) {
                     ForEach(trip.lists){ list in
-                        CardListView(systemName: "", name: list.name, counter: "") //to count rows where a certain condition is satisified
+                        
+                        CardListView(systemName: "list.bullet", name: list.name, counter: String(list.rows.count)) //to count rows where a certain condition is satisified
                             .onTapGesture {
                                 print("hello")
                                 destinationList = list
@@ -47,11 +48,14 @@ struct DestinationDetails: View {
         }
         }
         .background{
-            NavigationLink("", isActive: $showList, destination: {Lists(trips: trips, trip: trip, title: destinationList.name)})
+            NavigationLink("", isActive: $showList, destination: {Lists(trips: trips, trip: trip, title: destinationList.name).environmentObject(ListViewModel())})
         }
 //        .listStyle(InsetListStyle())
         .listStyle(.insetGrouped)
         .navigationTitle(trip.city)
+        .onAppear{
+            trip = trips.listOfTrips.first(where: {$0.city == trip.city})!
+        }
         
 //        .toolbar {
 //            ToolbarItem(placement: .primaryAction) {
