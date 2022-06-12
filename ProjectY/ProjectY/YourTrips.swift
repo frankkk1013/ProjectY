@@ -13,7 +13,7 @@ struct YourTrips: View {
     @StateObject var trips: UseTrip
     @State private var isPresented = false
     @State private var isDetails = false
-    @State private var tripToShow = Trip(city: "", lists: [], tripDetails: TripDetails(pref: []))
+    @State private var tripToShow = Trip(city: "", lists: [], tripDetails: TripDetails(pref: []), sustainableLeaf: "")
     @StateObject var settings = Settings()
     @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
     

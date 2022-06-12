@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     @State private var searchText = "Where do you want to go?"
     @State private var date = Date()
+    @ObservedObject var settings: Settings
     @State var next: Bool = false
     @StateObject private var viewModel = ContentViewModel()
     @FocusState private var nameIsFocused: Bool
@@ -42,6 +43,9 @@ struct HomeView: View {
                     Button(action: {
                         self.showResults = false
                         self.nameIsFocused = false
+                        if (searchText != "" || searchText != "Where do you want to go?" ){
+                            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText)
+                        }
                         
                        
                         
@@ -68,6 +72,7 @@ struct HomeView: View {
                     }.onTapGesture {
                         viewModel.cityText = item.title
                         self.searchText = item.title
+                        
                         self.showResults.toggle()
                     }
                 }.navigationTitle("Results").padding()
@@ -75,7 +80,10 @@ struct HomeView: View {
             }else{
                 MultiDatePicker(dateRange: self.$dateRange)
                 if let range = dateRange {
-                    Text("\(range)").padding()
+                    Text("\(range)").padding().onAppear{
+                        self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append("\(dateRange)")
+                    }
+                   
                 } else {
                     Text("Select range date").padding()
                 }
@@ -91,6 +99,12 @@ struct HomeView: View {
             }
             
             
+        }.onAppear{
+            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements = []
+        }.onDisappear{
+            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText)
+//           print(dateRange)
+            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append("\(dateRange)")
         }
         //                        .onChange(of: viewModel.cityText){ newValue in
         //                            self.showResults = true
@@ -101,8 +115,8 @@ struct HomeView: View {
 }
 
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}
+//struct HomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeView()
+//    }
+//}

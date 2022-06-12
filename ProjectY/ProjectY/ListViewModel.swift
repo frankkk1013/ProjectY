@@ -35,4 +35,14 @@ class ListViewModel: ObservableObject {
         }
     }
     
+    func refresh(rows: [Row]) {
+//        if let index = items.firstIndex { (existingItem) -> Bool in
+//            return existingItem.id == item.id
+//        } {
+//            //run this code
+//        }
+        self.items = []
+        setItems(rows: rows)
+    }
+    
 }

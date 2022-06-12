@@ -34,7 +34,7 @@ struct AddingSheet: View {
                 })
             }.padding(.trailing)
             TabView(selection: $selectedTab) {
-                HomeView().tabItem {
+                HomeView(settings: settings).tabItem {
                     Image(systemName: "circle")
                     Text("One")
                 }.onAppear{
@@ -78,8 +78,21 @@ struct AddingSheet: View {
                     var list: UseList = UseList()
                     var listToAdd: [ToDoList] = []
                     var rows: [Row] = []
+                    var flag: Bool = false
+                   
                     
-                    if selectedTab == 5 {
+                    
+                    settings.pref.forEach{pref in
+                        if pref.elements.count >= 2{
+                            flag = true
+                            
+                        }else{
+                            flag = false
+                        }
+                        
+                    }
+                    
+                    if selectedTab == 5 && flag  {
                         // creare oggetto trip, con liste consigliate e salvare
                         settings.pref.forEach { pref in
                             // cerca le liste da consigliare
@@ -96,7 +109,8 @@ struct AddingSheet: View {
                         
                         defaultLists.forEach{ lista in
                             
-                            
+                            rows = []
+                           
                             if (lista.name == "Essentials" ||
                                 lista.name == "Medicines" ||
                                 lista.name == "Bathroom"  ||
@@ -107,6 +121,7 @@ struct AddingSheet: View {
                                 lista.rows.forEach{ row in
                                     if settings.pref.contains(where: {$0.name == row.category}) || row.category == "any"{
                                         rows.append(row)
+                                        
                                         
                                         
                                     }
@@ -141,6 +156,8 @@ struct AddingSheet: View {
                             
                             
                             
+                            
+                            
                         }
 //                        listToAdd.forEach{ listss in
 //                            print(listss.name)
@@ -148,7 +165,7 @@ struct AddingSheet: View {
 //                        }
                         
                         
-                        trips.CreateTrip(newValueTrip: Trip(city: "Naples", lists: listToAdd , tripDetails: TripDetails(pref: settings.pref)), currentModifiedLists: list.lists)
+                        trips.CreateTrip(newValueTrip: Trip(city: settings.pref[0].elements.first(where: {!$0.starts(with: "Optional")})!, lists: listToAdd , tripDetails: TripDetails(pref: settings.pref), sustainableLeaf: ""), currentModifiedLists: list.lists)
 //                        print(defaultLists)
 //                        print(listToAdd)
                         
