@@ -35,6 +35,24 @@ struct ListRowView: View {
                     
                 })
                 
+            }else{
+                if item.description != ""{
+                    Image(systemName: "leaf")
+                        .foregroundColor(.orange).brightness(-0.3)
+                    
+                    Spacer()
+                
+                    Button(action: {self.showSheetView.toggle()}, label: {
+                        Label("", systemImage: "info.circle")
+                            .foregroundColor(.orange).brightness(-0.3)
+                            .sheet(isPresented: $showSheetView) {
+                                SheetView(title: item.title, description: item.description)
+                                
+                            }
+                        
+                    })
+                    
+                }
             }
             
             

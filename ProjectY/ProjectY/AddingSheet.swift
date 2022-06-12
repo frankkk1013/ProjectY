@@ -99,7 +99,7 @@ struct AddingSheet: View {
                         }
                         
                         
-                        print(prova)
+                       
                         /*   Per ogni lista salvate, per ogni riga, controllo se
                          tra i filtri scelti esiste un elemento nella lista
                          appartenente a uno dei filtri scelti oppure se non

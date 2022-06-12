@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import GooglePlaces
+//import GooglePlaces
 
 
 struct YourTrips: View {
@@ -15,7 +15,7 @@ struct YourTrips: View {
     @State private var isDetails = false
     @State private var tripToShow = Trip(city: "", lists: [], tripDetails: TripDetails(pref: []), sustainableLeaf: "")
     @StateObject var settings = Settings()
-    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
+//    @AppStorage("needsAppOnboarding") private var needsAppOnboarding: Bool = true
     
     var body: some View {
         
@@ -55,13 +55,7 @@ struct YourTrips: View {
         .fullScreenCover(isPresented: $isPresented, content: AddingSheet.init)
         .environmentObject(settings)
        
-        .onAppear{
-            if needsAppOnboarding{
-                isPresented.toggle()
-                
-            }
-            
-        }
+        
       
         //.listStyle(.inset)
         

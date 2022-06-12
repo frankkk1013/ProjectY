@@ -133,10 +133,12 @@ class UseTrip: ObservableObject{
                 list.rows.forEach{ row in
                     if row.sustainable == "true"{
                         countLeaf+=1
+                        print("trueeee")
                         
                     }else{
                         if row.sustainable == "false" && row.description != "" {
                             countNot+=1
+                            print("falseee")
                             
                         }
                     }
@@ -144,7 +146,11 @@ class UseTrip: ObservableObject{
                 }
                 
             }
-        avg = (countLeaf)/(countLeaf+countNot)
+        
+        print(countLeaf)
+        print(countNot)
+        avg = (countLeaf) / (countNot)
+        print(avg)
         return avg
         
                 
@@ -250,8 +256,10 @@ class UseTrip: ObservableObject{
             
             if(flag == false){
                 var trip = newValueTrip
-                trip.sustainableLeaf = String(calculateAvg(trip: newValueTrip))
-                listOfTrips.append(newValueTrip)
+                let avg = calculateAvg(trip: newValueTrip)
+//                print("avg \(avg)")
+                trip.sustainableLeaf = String(avg)
+                listOfTrips.append(trip)
                 let jsonData = try JSONEncoder().encode(listOfTrips)
     //            try FileManager.default.removeItem(at: URL(string: "\(progressFolderUrl!.absoluteString)progress.json")!)
                 try jsonData.write(to: URL(string: "\(listsFolderUrl!.absoluteString)trips.json")!)
