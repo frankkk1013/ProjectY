@@ -23,7 +23,7 @@ struct ProjectYApp: App {
                         
                     }
                     
-                    TipsView().tabItem {
+                    Tips().tabItem {
                         Image(systemName: "video.fill")
                         Text("Tips")
                         
