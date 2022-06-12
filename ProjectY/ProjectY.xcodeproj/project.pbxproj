@@ -55,6 +55,8 @@
 		FBF67F062855FC9800807E3D /* listseng.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF67F042855FC9800807E3D /* listseng.json */; };
 		FBF67F072855FC9800807E3D /* listsita.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF67F052855FC9800807E3D /* listsita.json */; };
 		FBF67F0C2856488E00807E3D /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF67F0B2856488E00807E3D /* OnBoarding.swift */; };
+		FBF67F0E2856597400807E3D /* UIVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF67F0D2856597400807E3D /* UIVideoPlayer.swift */; };
+		FBF67F1228565CF400807E3D /* onboarding.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FBF67F1128565CF400807E3D /* onboarding.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +109,8 @@
 		FBF67F052855FC9800807E3D /* listsita.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listsita.json; sourceTree = "<group>"; };
 		FBF67F0828562E5300807E3D /* ProjectY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF67F0B2856488E00807E3D /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		FBF67F0D2856597400807E3D /* UIVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVideoPlayer.swift; sourceTree = "<group>"; };
+		FBF67F1128565CF400807E3D /* onboarding.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onboarding.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				FBF67F0B2856488E00807E3D /* OnBoarding.swift */,
+				FBF67F0D2856597400807E3D /* UIVideoPlayer.swift */,
+				FBF67F1128565CF400807E3D /* onboarding.mp4 */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF67F1228565CF400807E3D /* onboarding.mp4 in Resources */,
 				FB8126BE283B783100139239 /* Preview Assets.xcassets in Resources */,
 				2015748C28538B6E005F3DFD /* Vid7.mp4 in Resources */,
 				FBF67F062855FC9800807E3D /* listseng.json in Resources */,
@@ -301,6 +308,7 @@
 				FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */,
 				20A500A02851DDA00085251E /* Transportation.swift in Sources */,
 				C1E5330D284F3D98001F57B4 /* Tips.swift in Sources */,
+				FBF67F0E2856597400807E3D /* UIVideoPlayer.swift in Sources */,
 				C1E5332D284FFBFA001F57B4 /* MDPModel.swift in Sources */,
 				FB8126B9283B782E00139239 /* ContentView.swift in Sources */,
 				20CB3388284E0F3A00836ED1 /* (null) in Sources */,
