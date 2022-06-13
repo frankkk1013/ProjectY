@@ -24,9 +24,10 @@ struct VideoView: View {
             //.frame(height: 800)
         }
         
-        //        VideoPlayer(player: player)
-        //            .edgesIgnoringSafeArea(.all)
-        
+        // Stop the player when the view disappears
+        .onDisappear() {
+            videoPlayer.pause()
+        }
     }
 }
 
