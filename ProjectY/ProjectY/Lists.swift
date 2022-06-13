@@ -10,7 +10,7 @@ import SwiftUI
 struct Lists: View {
     
     @EnvironmentObject var listViewModel: ListViewModel
-    @State private var tripToShow = Trip(city: "", lists: [], tripDetails: TripDetails(pref: []), sustainableLeaf: "")
+    @State private var tripToShow = Trip(city: "", lists: [], tripDetails: TripDetails(pref: []), sustainableLeaf: "", url: "")
     @StateObject var trips: UseTrip
     @StateObject var lists: UseList = UseList()
     @State var trip : Trip

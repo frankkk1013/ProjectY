@@ -56,6 +56,7 @@ struct Trip: Codable, Identifiable{
     var lists: [ToDoList]           // Array di to do list
     var tripDetails: TripDetails    // Preferenze legate al trip scelte nella fase di aggiunta
     var sustainableLeaf: String
+    var url: String
 }
 
 public struct DbConfig: Codable {
