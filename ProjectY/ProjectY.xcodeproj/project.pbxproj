@@ -48,6 +48,9 @@
 		FB8126C9283B8C7900139239 /* UiElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126C8283B8C7900139239 /* UiElements.swift */; };
 		FB8126CB283B8D1C00139239 /* Luggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CA283B8D1C00139239 /* Luggage.swift */; };
 		FB8126CD283B909900139239 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8126CC283B909900139239 /* Activities.swift */; };
+		FB9CAB7E2857241B00DFCFF4 /* medium.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9CAB7B2857241B00DFCFF4 /* medium.png */; };
+		FB9CAB7F2857241B00DFCFF4 /* small.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9CAB7C2857241B00DFCFF4 /* small.png */; };
+		FB9CAB802857241B00DFCFF4 /* big.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9CAB7D2857241B00DFCFF4 /* big.png */; };
 		FBBD6D2B2844D59300064E13 /* AddingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2A2844D59300064E13 /* AddingSheet.swift */; };
 		FBBD6D2D2844D69300064E13 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2C2844D69300064E13 /* ProgressBar.swift */; };
 		FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */; };
@@ -55,6 +58,8 @@
 		FBF67F062855FC9800807E3D /* listseng.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF67F042855FC9800807E3D /* listseng.json */; };
 		FBF67F072855FC9800807E3D /* listsita.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF67F052855FC9800807E3D /* listsita.json */; };
 		FBF67F0C2856488E00807E3D /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF67F0B2856488E00807E3D /* OnBoarding.swift */; };
+		FBF67F0E2856597400807E3D /* UIVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF67F0D2856597400807E3D /* UIVideoPlayer.swift */; };
+		FBF67F1228565CF400807E3D /* onboarding.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FBF67F1128565CF400807E3D /* onboarding.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +104,9 @@
 		FB8126C8283B8C7900139239 /* UiElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiElements.swift; sourceTree = "<group>"; };
 		FB8126CA283B8D1C00139239 /* Luggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luggage.swift; sourceTree = "<group>"; };
 		FB8126CC283B909900139239 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		FB9CAB7B2857241B00DFCFF4 /* medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medium.png; sourceTree = "<group>"; };
+		FB9CAB7C2857241B00DFCFF4 /* small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small.png; sourceTree = "<group>"; };
+		FB9CAB7D2857241B00DFCFF4 /* big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big.png; sourceTree = "<group>"; };
 		FBBD6D2A2844D59300064E13 /* AddingSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingSheet.swift; sourceTree = "<group>"; };
 		FBBD6D2C2844D69300064E13 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		FBBD6D2E2844D6A600064E13 /* LeavesCollectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeavesCollectedView.swift; sourceTree = "<group>"; };
@@ -107,6 +115,8 @@
 		FBF67F052855FC9800807E3D /* listsita.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listsita.json; sourceTree = "<group>"; };
 		FBF67F0828562E5300807E3D /* ProjectY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF67F0B2856488E00807E3D /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		FBF67F0D2856597400807E3D /* UIVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVideoPlayer.swift; sourceTree = "<group>"; };
+		FBF67F1128565CF400807E3D /* onboarding.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onboarding.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +159,9 @@
 				FB377D172840E28A00792995 /* YourTrips.swift */,
 				20A5009F2851DDA00085251E /* Transportation.swift */,
 				FBBD6D2C2844D69300064E13 /* ProgressBar.swift */,
+				FB9CAB7D2857241B00DFCFF4 /* big.png */,
+				FB9CAB7B2857241B00DFCFF4 /* medium.png */,
+				FB9CAB7C2857241B00DFCFF4 /* small.png */,
 				206185B72844B52C00526018 /* Lists.swift */,
 				FBF67F042855FC9800807E3D /* listseng.json */,
 				FBF67F052855FC9800807E3D /* listsita.json */,
@@ -212,6 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				FBF67F0B2856488E00807E3D /* OnBoarding.swift */,
+				FBF67F0D2856597400807E3D /* UIVideoPlayer.swift */,
+				FBF67F1128565CF400807E3D /* onboarding.mp4 */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -274,9 +289,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF67F1228565CF400807E3D /* onboarding.mp4 in Resources */,
+				FB9CAB7E2857241B00DFCFF4 /* medium.png in Resources */,
 				FB8126BE283B783100139239 /* Preview Assets.xcassets in Resources */,
+				FB9CAB7F2857241B00DFCFF4 /* small.png in Resources */,
 				2015748C28538B6E005F3DFD /* Vid7.mp4 in Resources */,
 				FBF67F062855FC9800807E3D /* listseng.json in Resources */,
+				FB9CAB802857241B00DFCFF4 /* big.png in Resources */,
 				2015748228538005005F3DFD /* Vid2.mp4 in Resources */,
 				FBF67F072855FC9800807E3D /* listsita.json in Resources */,
 				201574862853821A005F3DFD /* Vid4.mp4 in Resources */,
@@ -301,6 +320,7 @@
 				FBBD6D2F2844D6A600064E13 /* LeavesCollectedView.swift in Sources */,
 				20A500A02851DDA00085251E /* Transportation.swift in Sources */,
 				C1E5330D284F3D98001F57B4 /* Tips.swift in Sources */,
+				FBF67F0E2856597400807E3D /* UIVideoPlayer.swift in Sources */,
 				C1E5332D284FFBFA001F57B4 /* MDPModel.swift in Sources */,
 				FB8126B9283B782E00139239 /* ContentView.swift in Sources */,
 				20CB3388284E0F3A00836ED1 /* (null) in Sources */,

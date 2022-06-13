@@ -19,6 +19,8 @@ struct SheetView: View {
                 Spacer()
                 Button(action: {
                     presentationMode.wrappedValue.dismiss()
+                    YourTrips.modalDismissedCount += 1
+                    //YourTrips.fetchImage()
                 }, label: {
                     Image(systemName: "xmark.circle").foregroundColor(.black)
                         .font(.title2)

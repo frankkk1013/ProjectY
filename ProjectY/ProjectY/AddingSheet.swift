@@ -28,6 +28,7 @@ struct AddingSheet: View {
                 Spacer()
                 Button(action: {
                     presentationMode.wrappedValue.dismiss()
+                    YourTrips.modalDismissedCount += 1
                 }, label: {
                     Image(systemName: "xmark.circle").foregroundColor(.black)
                         .font(.title2)
@@ -164,12 +165,34 @@ struct AddingSheet: View {
 //
 //                        }
                         
-                        
-                        trips.CreateTrip(newValueTrip: Trip(city: settings.pref[0].elements.first(where: {!$0.starts(with: "Optional")})!, lists: listToAdd , tripDetails: TripDetails(pref: settings.pref), sustainableLeaf: ""), currentModifiedLists: list.lists)
 //                        print(defaultLists)
 //                        print(listToAdd)
+                        var city = settings.pref[0].elements.first(where: {!$0.starts(with: "Optional")})!
+                        var urlImage = ""
                         
-                        presentationMode.wrappedValue.dismiss()
+                        
+                        let url = URL(string: "https://api.unsplash.com/search/photos?page=1&query="+city+"&client_id=iV5JZ0Ml0fraKEgherDyraikAxr4nw6ii4wjxlRnZPY")!
+                        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+                        guard let data = data else { return }
+                            
+                        do {
+
+                            let jsonResult = try JSONDecoder().decode(APIRESPONSE.self, from: data)
+                            DispatchQueue.main.async {
+
+                                urlImage = jsonResult.results[0].urls.full
+                                trips.CreateTrip(newValueTrip: Trip(city: city, lists: listToAdd , tripDetails: TripDetails(pref: settings.pref), sustainableLeaf: "", url: urlImage), currentModifiedLists: list.lists)
+                                
+                                presentationMode.wrappedValue.dismiss()
+                            }
+                           
+                        } catch let parseErr {
+                          print("JSON Parsing Error", parseErr)
+                        }
+                      }
+                        task.resume()
+                        
+                        
                         
                     }
                     
