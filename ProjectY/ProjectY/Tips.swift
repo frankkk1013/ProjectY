@@ -40,7 +40,8 @@ struct Tips: View {
                 }
                 .frame(maxWidth: .infinity)
             }
-            .navigationBarHidden(true)
+            
+            .navigationTitle("Tips")
         }
         
         //        VStack{

@@ -14,13 +14,56 @@ struct LeavesCollectedView: View {
     @StateObject var trips: UseTrip
 
     var body: some View {
-//        NavigationView{
+        NavigationView{
             VStack{
-                
-                MyProgressBar(progressValue: $progressValue)
-                    .frame(width: 150.0, height: 150.0)
-                    .padding(30.0)
+                if Int(average)! >= 0 && Int(average)! <= 25{
+                    
+                    MyProgressBar(progressValue: $progressValue, image: "small")
+                        .frame(width: 150.0, height: 150.0).onAppear{
+                            
+                        }
+                        .padding(30.0)
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
 
+                }
+                if Int(average)! > 25 && Int(average)! <= 75{
+                    MyProgressBar(progressValue: $progressValue, image: "medium")
+                        .frame(width: 150.0, height: 150.0)
+                        .padding(30.0)
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+
+                }
+                if Int(average)! > 75 && Int(average)! <= 1000{
+                    MyProgressBar(progressValue: $progressValue, image: "big")
+                        .frame(width: 150.0, height: 150.0)
+                        .padding(30.0)
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+                        .padding()
+
+                }
+                
+                
+               
                 
                 
 //                    Circle().fill(
@@ -50,14 +93,8 @@ struct LeavesCollectedView: View {
 //                        .padding(.all)
 
 
-                    .padding()
-                    .padding()
-                    .padding()
-                    .padding()
-                    .padding()
-                    .padding()
-                    .padding()
-                    .padding()
+                   
+                    
                 
                 
                 Text("Sustainability Average")
@@ -75,7 +112,7 @@ struct LeavesCollectedView: View {
                     Text(average)
                         .padding(.leading)
                     
-                }.navigationTitle("Sustainability status")
+                }.navigationTitle("Leaves")
                     .onAppear{
                         var sum = 0
                         var count = 0
@@ -118,7 +155,7 @@ struct LeavesCollectedView: View {
 //
 //                        .background{
 //                            NavigationLink("", isActive: $next, destination: { LeavesChronology()})
-//                        }
+                        }
         }
     }
 }

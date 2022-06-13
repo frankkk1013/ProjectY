@@ -44,7 +44,7 @@ struct HomeView: View {
                         self.showResults = false
                         self.nameIsFocused = false
                         if (searchText != "" || searchText != "Where do you want to go?" ){
-                            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText)
+                            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText.replacingOccurrences(of: " ", with: ""))
                         }
                         
                        
@@ -102,7 +102,7 @@ struct HomeView: View {
         }.onAppear{
             self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements = []
         }.onDisappear{
-            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText)
+            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText.replacingOccurrences(of: " ", with: ""))
 //           print(dateRange)
             self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append("\(dateRange)")
         }

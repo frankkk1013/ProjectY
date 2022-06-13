@@ -170,6 +170,7 @@ struct AddingSheet: View {
                         var city = settings.pref[0].elements.first(where: {!$0.starts(with: "Optional")})!
                         var urlImage = ""
                         
+                        
                         let url = URL(string: "https://api.unsplash.com/search/photos?page=1&query="+city+"&client_id=iV5JZ0Ml0fraKEgherDyraikAxr4nw6ii4wjxlRnZPY")!
                         let task = URLSession.shared.dataTask(with: url) { data, response, error in
                         guard let data = data else { return }

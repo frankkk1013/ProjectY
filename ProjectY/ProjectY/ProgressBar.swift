@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MyProgressBar: View {
     @Binding var progressValue: Float
+    @State var image: String
     var body: some View {
         ZStack{
             Circle()
@@ -27,8 +28,8 @@ struct MyProgressBar: View {
 //                        Color.primary
                 Color(#colorLiteral(red: 0.8752234578, green: 0.9352452159, blue: 0.8954163194, alpha: 1))
             )
-                
-                .frame(width: 310, height:310) .overlay(Image("tree").resizable()
+            
+            .frame(width: 310, height:310) .overlay(Image(uiImage: UIImage(named: image)!).resizable()
                 .frame(width: 200, height: 200)
                 .aspectRatio(contentMode: .fill))
                 
