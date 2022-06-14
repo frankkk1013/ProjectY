@@ -11,7 +11,7 @@ import Foundation
 struct ItemModel: Identifiable {
     let id: String
     let title: String
-    let isCompleted: Bool
+    var isCompleted: Bool
     var sustainable: String
     var description: String
     

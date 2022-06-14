@@ -32,7 +32,7 @@ struct ToDoListV: Codable{
     var completePercent: String
 }
 
-struct Row: Codable, Identifiable{
+struct Row: Codable, Identifiable,  Equatable{
     let id = UUID()
     var category: String
     var title: String
@@ -40,6 +40,10 @@ struct Row: Codable, Identifiable{
     var description: String
     var season: String
     var checked: String
+    
+    static func ==(lhs: Row, rhs: Row) -> Bool {
+        return lhs.checked == rhs.checked 
+    }
 }
 
 struct ToDoList: Codable, Identifiable{

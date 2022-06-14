@@ -206,29 +206,32 @@ struct AddingSheet: View {
             }.environmentObject(settings)
                 .tabViewStyle(PageTabViewStyle())
                 .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+                
             HStack{
                 
                 
                 
                 Button {
                     
-                    if pageName != "Luggage" || pageName != "HomeView"{
-                        if !settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty
-                        {
-                            selectedTab += 1
+                    withAnimation{
+                        if pageName != "Luggage" || pageName != "HomeView"{
+                            if !settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty
+                            {
+                                selectedTab += 1
+                                
+                                
+                            }
                             
+                        }else{
+                            if (settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.count >= 2)
+                            {
+                                selectedTab += 1
+                                
+                            }
                             
                         }
-                        
-                    }else{
-                        if (settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.count >= 2)
-                        {
-                            selectedTab += 1
-                            
-                        }
-                        
+                        print(settings.pref)
                     }
-                    print(settings.pref)
                     
                     
                 } label: {
@@ -254,11 +257,14 @@ struct AddingSheet: View {
             }
             
             
+            
         }.onAppear{
             self.readFile()
             
 //            print(defaultLists)
         }
+        .padding()
+       
     }
     
     private func readFile() {
