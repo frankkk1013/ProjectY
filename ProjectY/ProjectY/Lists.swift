@@ -53,10 +53,10 @@ struct Lists: View {
             
             
             self.trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows = list.rows
-            withAnimation{
+//            withAnimation{
                 self.listViewModel.refresh(rows: self.list.rows)
                 
-            }
+//            }
             
             
             
