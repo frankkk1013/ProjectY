@@ -43,7 +43,7 @@ struct Lists: View {
                              = "true"
 
                         }
-                        trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows = list.rows
+                        self.trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows = list.rows
                         print(list.rows)
                         
                        
@@ -107,7 +107,8 @@ struct Lists: View {
     }
     
     private func updatePersistence(trip: Trip){
-        print(self.trips.handleUpdate(newValueTrip: trip))
+        
+        self.trips.handleUpdate(newValueTrip: trip)
         
     }
     

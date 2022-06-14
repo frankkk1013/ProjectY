@@ -12,7 +12,7 @@ struct AddingSheet: View {
     
     @State var selectedTab: Int = 0
     @State var defaultLists: [ToDoList] = []
-    @EnvironmentObject var settings: Settings
+    @StateObject var settings: Settings = Settings()
     @State var pageName: String = "HomeView"
     var prova: ToDoList = ToDoList(name: "String", rows: [Row(category: "Hotel", title: "shampoo", sustainable: "false", description: "hello", season: "winter", checked: "false"),
                                                           Row(category: "Hotel", title: "shampoo", sustainable: "false", description: "hello", season: "winter", checked: "false")], completePercent: "10")
@@ -212,7 +212,7 @@ struct AddingSheet: View {
                 
                 Button {
                     
-                    if pageName != "Luggage"{
+                    if pageName != "Luggage" || pageName != "HomeView"{
                         if !settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty
                         {
                             selectedTab += 1
@@ -237,7 +237,7 @@ struct AddingSheet: View {
                         .padding()
                         .foregroundColor(.white)
                         .background(
-                            Color(pageName == "Luggage"
+                            Color((pageName == "Luggage" || pageName == "HomeView")
                                   ?
                                   (settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.count >= 2 ?  "GreenSquare" : "Square")
                                   : ((settings.pref[settings.pref.firstIndex(where: {$0.name == pageName} )!].elements.isEmpty) ? "Square" : "GreenSquare")).cornerRadius(12))
@@ -256,6 +256,7 @@ struct AddingSheet: View {
             
         }.onAppear{
             self.readFile()
+            
 //            print(defaultLists)
         }
     }

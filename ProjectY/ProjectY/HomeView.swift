@@ -43,7 +43,7 @@ struct HomeView: View {
                     Button(action: {
                         self.showResults = false
                         self.nameIsFocused = false
-                        if (searchText != "" || searchText != "Where do you want to go?" ){
+                        if (searchText != "" && searchText != "Where do you want to go?" ){
                             self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText.replacingOccurrences(of: " ", with: ""))
                         }
                         
@@ -100,11 +100,26 @@ struct HomeView: View {
             
             
         }.onAppear{
-            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements = []
+//            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements = []
+           
+            
+            
         }.onDisappear{
-            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText.replacingOccurrences(of: " ", with: ""))
-//           print(dateRange)
-            self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append("\(dateRange)")
+            if (searchText != "" && searchText != "Where do you want to go?" ){
+                self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText.replacingOccurrences(of: " ", with: ""))
+
+            }else{
+                searchText = "City"
+                self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText.replacingOccurrences(of: " ", with: ""))
+
+            }
+            if self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.isEmpty{
+                
+    //           print(dateRange)
+                self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append("\(dateRange)")
+                
+            }
+            
         }
         //                        .onChange(of: viewModel.cityText){ newValue in
         //                            self.showResults = true

@@ -47,12 +47,12 @@ struct VideoCard: View {
             //                .padding()
             
             
-//            Image(systemName: "play.fill")
-//                .foregroundColor(.white)
-//                .font(.title)
-//                .padding()
-//                .background(.ultraThinMaterial)
-//                .cornerRadius(50)
+            Image(systemName: "play.fill")
+                .foregroundColor(.white)
+                .font(.title)
+                .padding()
+                .background(.ultraThinMaterial)
+                .cornerRadius(50)
         }
     }
 }

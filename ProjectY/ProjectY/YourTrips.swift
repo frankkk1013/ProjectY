@@ -108,7 +108,7 @@ struct YourTrips: View {
         
         
         .fullScreenCover(isPresented: $isPresented, content: AddingSheet.init)
-        .environmentObject(settings)
+//        .environmentObject(Settings())
        
         
       
