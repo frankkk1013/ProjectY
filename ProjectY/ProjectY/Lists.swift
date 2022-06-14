@@ -34,12 +34,12 @@ struct Lists: View {
                 ListRowView(item: item)
                     .onTapGesture {
                         if item.isCompleted{
-                            list.rows[list.rows.firstIndex(where: {$0.title == item.title})!].checked
+                            self.list.rows[list.rows.firstIndex(where: {$0.title == item.title})!].checked
                              = "false"
 
 
                         }else{
-                            list.rows[list.rows.firstIndex(where: {$0.title == item.title})!].checked
+                            self.list.rows[list.rows.firstIndex(where: {$0.title == item.title})!].checked
                              = "true"
 
                         }
@@ -50,10 +50,10 @@ struct Lists: View {
 ////                                .rows[trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows.firstIndex(where: {$0.title == item.title})!].
 //                        trips.handleUpdate(newValueTrip: trip)
                        
-                        withAnimation(.linear) {
+//                        withAnimation(.linear) {
                             
                            
-                            listViewModel.updateItem(item: item)
+                            self.listViewModel.updateItem(item: item)
                             
                             
 
@@ -61,7 +61,7 @@ struct Lists: View {
                             
                     
                                                                                                                         
-                        }
+//                        }
                     }
                     
             }.onDelete(perform: delete)
@@ -83,10 +83,12 @@ struct Lists: View {
         },label: {
             Text("Add")
         }).textFieldAlert(isPresented: $presentAlert, title: "Insert your new item", text: "", placeholder: "", action: {newText in
+            
             if !(newText?.isEmpty ?? false){
-                list.rows.append(Row(category: "any", title: newText!, sustainable: "", description: "", season: "", checked: "false"))
-                trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows = list.rows
-                listViewModel.refresh(rows: list.rows)
+                //on cancel crash
+                self.list.rows.append(Row(category: "any", title: newText!, sustainable: "", description: "", season: "", checked: "false"))
+                self.trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows = list.rows
+                self.listViewModel.refresh(rows: list.rows)
             }
             
         }),
@@ -98,15 +100,16 @@ struct Lists: View {
         .navigationTitle(title)
 
         .onAppear{
-            list = trips.listOfTrips[trips.listOfTrips.firstIndex(where: { $0.city == trip.city })!].lists.first(where: {$0.name == title})!
-            listViewModel.setItems(rows: list.rows)
+            self.list = trips.listOfTrips[trips.listOfTrips.firstIndex(where: { $0.city == trip.city })!].lists.first(where: {$0.name == title})!
+            self.listViewModel.setItems(rows: list.rows)
         }
         .onDisappear{
-            updatePersistence(trip: trip)
+            updatePersistence(trip: self.trip)
         }
     }
     
     private func updatePersistence(trip: Trip){
+        self.trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows = list.rows
         
         self.trips.handleUpdate(newValueTrip: trip)
         
@@ -115,8 +118,10 @@ struct Lists: View {
     func delete(at offsets: IndexSet){
         if let first = offsets.first{
             
+            
             self.trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows.remove(at: first)
-            listViewModel.refresh(rows: self.trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows)
+            self.listViewModel.refresh(rows: self.trip.lists[trip.lists.firstIndex(where: {$0.name == list.name})!].rows)
+            
             
             
             

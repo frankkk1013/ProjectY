@@ -112,7 +112,7 @@ struct Trasportation: View {
                     radio_4.isSelected = false
                     radio_5.isSelected = true
                     radio_6.isSelected = false
-                    color = [true, false, false, false, true, false]
+                    color = [false, false, false, false, true, false]
                     print(settings.pref)
                    
                 

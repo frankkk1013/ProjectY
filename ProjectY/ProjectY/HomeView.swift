@@ -72,6 +72,7 @@ struct HomeView: View {
                     }.onTapGesture {
                         viewModel.cityText = item.title
                         self.searchText = item.title
+                        self.settings.pref[settings.pref.firstIndex(where: {$0.name == "HomeView"} )!].elements.append(searchText.replacingOccurrences(of: " ", with: ""))
                         
                         self.showResults.toggle()
                     }
