@@ -99,7 +99,7 @@ struct YourTrips: View {
                     isPresented.toggle()
                     
                 },label: {
-                    Text("Add")
+                    Image(systemName: "plus")
                 }),
                 trailing: EditButton()
                 )
