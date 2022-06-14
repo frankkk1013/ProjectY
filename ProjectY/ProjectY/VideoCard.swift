@@ -15,7 +15,7 @@ struct VideoCard: View {
             ZStack(alignment: .bottomLeading) {
                 
                 
-                Image("cover")
+                Image("pattern")
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 170, height: 250)
                     .cornerRadius(15)
