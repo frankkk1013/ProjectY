@@ -54,12 +54,17 @@ struct YourTrips: View {
                 guard let data = data else { return }
                     
                 do {
-
+                    var urlImage = ""
                     let jsonResult = try JSONDecoder().decode(APIRESPONSE.self, from: data)
+                    
+                    if jsonResult.results.count>0 {
+                        urlImage = jsonResult.results[0].urls.full
+                    }else{
+                        urlImage =  "https://images.unsplash.com/photo-1470723710355-95304d8aece4?crop=entropy"
+                    }
+                    
                     DispatchQueue.main.async {
-                        let component = Component(result: jsonResult.results[0], destination: trip.city)
-                        self.data.append(component)
-                        trips.listOfTrips[index].url = jsonResult.results[0].urls.full
+                        trips.listOfTrips[index].url = urlImage
                     }
                    
                 } catch let parseErr {

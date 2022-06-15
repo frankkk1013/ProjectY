@@ -82,7 +82,6 @@ struct AddingSheet: View {
                     var flag: Bool = false
                    
                     
-                    
                     settings.pref.forEach{pref in
                         if pref.elements.count >= 2{
                             flag = true
@@ -92,7 +91,7 @@ struct AddingSheet: View {
                         }
                         
                     }
-                    
+                    flag = true
                     if selectedTab == 5 && flag  {
                         // creare oggetto trip, con liste consigliate e salvare
                         settings.pref.forEach { pref in
@@ -179,8 +178,14 @@ struct AddingSheet: View {
 
                             let jsonResult = try JSONDecoder().decode(APIRESPONSE.self, from: data)
                             DispatchQueue.main.async {
-
-                                urlImage = jsonResult.results[0].urls.full
+                                                                
+                                
+                                if jsonResult.results.count>0 {
+                                    urlImage = jsonResult.results[0].urls.full
+                                }else{
+                                    urlImage =  "https://images.unsplash.com/photo-1470723710355-95304d8aece4?crop=entropy"
+                                }
+                                
                                 trips.CreateTrip(newValueTrip: Trip(city: city, lists: listToAdd , tripDetails: TripDetails(pref: settings.pref), sustainableLeaf: "", url: urlImage), currentModifiedLists: list.lists)
                                 
                                 presentationMode.wrappedValue.dismiss()
